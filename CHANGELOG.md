@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.0.1...v1.0.2) (2026-04-30)
+
+
+### Miscellaneous Chores
+
+* **release:** remove component prefix from release tags ([dea341e](https://github.com/provably-fair-betting/verifierform-stake/commit/dea341e96514fa5692782709c200666f644c3ac9))
+* update badges [skip ci] ([5b95833](https://github.com/provably-fair-betting/verifierform-stake/commit/5b95833a853dbea212b41f43b7f8769b8c066457))
+
 ## [1.0.1](https://github.com/provably-fair-betting/verifierform-stake/compare/verifierform-stake-v1.0.0...verifierform-stake-v1.0.1) (2026-04-30)
 
 
