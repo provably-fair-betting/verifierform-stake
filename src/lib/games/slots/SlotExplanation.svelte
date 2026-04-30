@@ -57,8 +57,8 @@
       <p>
         For every round, <span class="font-semibold">5 floats</span>
         are generated—one for each reel—to determine the central position of that reel. The visible slot
-        shows the symbol at the central position plus the symbols immediately above and below it. If
-        the central position is at a boundary (top or bottom), it
+        shows the symbol at the central position plus the symbols immediately above and below it. If the
+        central position is at a boundary (top or bottom), it
         <span class="font-semibold">cycles to the opposite end</span>
         of the reel.
       </p>

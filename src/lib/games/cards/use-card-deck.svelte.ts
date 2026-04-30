@@ -15,7 +15,10 @@ import type { Item } from '$lib/types';
  * @param count - Number of cards to draw (default 52)
  * @returns Seed, shuffled card items (with floats), and calculating state
  */
-export function useCardDeck(getFormValues: () => Record<string, unknown>, count: number = 52) {
+export function useCardDeck(
+  getFormValues: () => Record<string, unknown>,
+  getCount: () => number = () => 52
+) {
   const seed = $derived({
     clientSeed: getFormValues().clientseed as string,
     serverSeed: getFormValues().serverseed as string,
@@ -28,7 +31,7 @@ export function useCardDeck(getFormValues: () => Record<string, unknown>, count:
       () => seed,
       (seed) => {
         const floatGenerator = FloatGenerator(seed);
-        return shuffle(floatGenerator, deck, count) as Item<
+        return shuffle(floatGenerator, deck, getCount()) as Item<
           ReturnType<typeof generateCardDeck>[number]
         >[];
       },

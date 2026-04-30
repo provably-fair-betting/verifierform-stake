@@ -25,7 +25,7 @@
   } = $props();
 
   const isActiveRow = $derived(activeReelType === reelType);
-  const rowLabel = reelType === BlueSamuraiReelType.INNER ? 'inner' : 'outer';
+  const rowLabel = $derived(reelType === BlueSamuraiReelType.INNER ? 'inner' : 'outer');
 </script>
 
 <!-- Probability row -->

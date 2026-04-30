@@ -19,8 +19,8 @@
       >
         <p class="font-medium">
           <span class="text-blue-600 dark:text-blue-400">One float is generated per spin.</span>
-          Click the steps below to see how the roulette number was determined using Stake's provably
-          fair algorithm.
+          Click the steps below to see how the roulette number was determined using Stake's provably fair
+          algorithm.
         </p>
       </ContentBlock>
 

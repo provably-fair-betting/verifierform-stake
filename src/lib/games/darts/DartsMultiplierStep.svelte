@@ -26,7 +26,12 @@
     contentBlockClassName?: string;
   } = $props();
 
-  const calc = useDartsMultiplierCalc(rotation, normalisedDistance, colorHex, difficulty);
+  const calc = useDartsMultiplierCalc(
+    () => rotation,
+    () => normalisedDistance,
+    () => colorHex,
+    () => difficulty
+  );
   const colorLabel = $derived(DARTS_COLOR_LABELS[colorHex] ?? colorHex);
 </script>
 

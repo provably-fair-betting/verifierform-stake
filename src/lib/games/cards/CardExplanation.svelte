@@ -24,7 +24,10 @@
 
   let resultIndex = $state(0);
 
-  const cardDeck = useCardDeck(() => formValues, count);
+  const cardDeck = useCardDeck(
+    () => formValues,
+    () => count
+  );
 </script>
 
 <div class="mt-8 border-0 text-center dark:text-white">

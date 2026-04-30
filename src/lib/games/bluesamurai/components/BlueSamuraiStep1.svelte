@@ -62,8 +62,8 @@
         <span class="font-mono font-semibold text-amber-700 dark:text-amber-400">
           {float.toFixed(8)}
         </span>
-        ) is still consumed from the sequence to keep the provably fair chain intact, but the symbol
-        is fixed regardless of what the float would normally map to.
+        ) is still consumed from the sequence to keep the provably fair chain intact, but the symbol is
+        fixed regardless of what the float would normally map to.
       </p>
       <p class="mt-2 text-gray-500 dark:text-gray-400">
         The float-to-symbol lookup (Step 2) is shown below for transparency, but its result does not

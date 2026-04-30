@@ -2,7 +2,7 @@ import { useCardDeck } from '../use-card-deck.svelte';
 
 /** Baccarat cards composable - deals 6 cards and splits for player, banker, decider */
 export function useBaccaratCards(getFormValues: () => Record<string, unknown>) {
-  const cardDeck = useCardDeck(getFormValues, 6);
+  const cardDeck = useCardDeck(getFormValues, () => 6);
 
   const result = $derived.by(() => {
     if (!cardDeck.items) return null;

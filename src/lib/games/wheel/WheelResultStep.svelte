@@ -8,7 +8,11 @@
   const { stepNumber, seed, float }: { stepNumber: number; seed: WheelSeed; float: number } =
     $props();
 
-  const result = useWheelResult(seed, float, paylines);
+  const result = useWheelResult(
+    () => seed,
+    () => float,
+    paylines
+  );
   const payline = $derived(result.payline);
   const chosenIndex = $derived(result.chosenIndex);
   const chosen = $derived(result.chosen);

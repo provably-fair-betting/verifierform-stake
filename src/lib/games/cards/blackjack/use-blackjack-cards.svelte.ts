@@ -2,7 +2,7 @@ import { useCardDeck } from '../use-card-deck.svelte';
 
 /** Blackjack cards composable - deals 52 cards and splits into dealer, player, remaining */
 export function useBlackjackCards(getFormValues: () => Record<string, unknown>) {
-  const cardDeck = useCardDeck(getFormValues, 52);
+  const cardDeck = useCardDeck(getFormValues, () => 52);
 
   const result = $derived.by(() => {
     if (!cardDeck.items) return null;

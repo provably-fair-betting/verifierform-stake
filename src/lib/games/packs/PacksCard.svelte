@@ -4,7 +4,8 @@
   // Build-time glob to get final asset URLs (hashed)
   const all = import.meta.glob('$lib/games/packs/cards/c*.svg', {
     eager: true,
-    as: 'url',
+    query: '?url',
+    import: 'default',
   }) as Record<string, string>;
 
   // Normalize to filename → url

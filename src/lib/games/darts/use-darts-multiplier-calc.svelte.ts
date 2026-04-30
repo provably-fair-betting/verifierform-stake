@@ -3,22 +3,22 @@ import type { DartsDifficulty } from '$lib/types';
 
 /** Darts multiplier step calculations */
 export function useDartsMultiplierCalc(
-  rotation: number,
-  normalisedDistance: number,
-  colorHex: string,
-  difficulty: DartsDifficulty
+  getRotation: () => number,
+  getNormalisedDistance: () => number,
+  getColorHex: () => string,
+  getDifficulty: () => DartsDifficulty
 ) {
-  const r = $derived(normalisedDistance * 1000);
-  const deg = $derived((((rotation % 1) + 1) % 1) * 360);
+  const r = $derived(getNormalisedDistance() * 1000);
+  const deg = $derived((((getRotation() % 1) + 1) % 1) * 360);
   const wedgeBin = $derived(Math.floor(deg / 20));
 
   const isWedgeZone = $derived(
-    colorHex === '#fb6120' || colorHex === '#fb053f' || colorHex === '#fcc101'
+    getColorHex() === '#fb6120' || getColorHex() === '#fb053f' || getColorHex() === '#fcc101'
   );
 
-  const wedgeBinColors = $derived(WEDGE_BIN_COLORS[difficulty]);
-  const thresholdRows = $derived(getThresholdRows(difficulty, colorHex));
-  const matchedRowIndex = $derived(getMatchedRowIndex(difficulty, r));
+  const wedgeBinColors = $derived(WEDGE_BIN_COLORS[getDifficulty()]);
+  const thresholdRows = $derived(getThresholdRows(getDifficulty(), getColorHex()));
+  const matchedRowIndex = $derived(getMatchedRowIndex(getDifficulty(), r));
 
   return {
     get r() {
