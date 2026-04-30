@@ -20,7 +20,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Authenticate private GitHub packages
-        run: git config --global url."https://x-access-token:${{ secrets.VERIFIERFORM_LIB_PAT }}@github.com/".insteadOf "https://github.com/"
+        run: |
+          git config --global url."https://x-access-token:${{ secrets.VERIFIERFORM_LIB_PAT }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${{ secrets.VERIFIERFORM_LIB_PAT }}@github.com/".insteadOf "git@github.com:"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
