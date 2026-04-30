@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rune5</title>
+    <g id="rune5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill-rule="nonzero">
+            <g id="Layer_1" transform="translate(32.260000, 34.980000)">
+                <polygon id="Path" fill="#C90E2E" points="33.03 7.10542736e-15 21.29 2.5 -7.10542736e-15 36.26 23.79 60.04 34.65 60.04 65.4800001 32.88 64.01 22.46"></polygon>
+                <polygon id="Path" fill="#A60C26" points="33.77 55.2 34.65 60.04 65.4800001 32.88 57.11 34.06 35.68 49.62"></polygon>
+                <polygon id="Path" fill="#FF738B" points="33.03 7.10542736e-15 32.74 6.31 33.03 13.83 22.9 11.89 21.29 2.5"></polygon>
+                <polygon id="Path" fill="#FF5472" points="33.03 7.10542736e-15 32.74 6.31 51.72 28.69 57.11 25.84 64.01 22.46"></polygon>
+                <polygon id="Path" fill="#FC274C" points="32.74 6.31 30.98 8.96000001 22.9 11.89 13.95 28.77 6.46 33.47 14.39 42.13 17.47 41.25 17.77 44.19 25.4 56.22 33.77 55.2 35.68 49.62 37.73 51.53 57.11 34.06 57.11 25.84 50.5 24.96 49.77 19.67"></polygon>
+                <path d="M32.89,37.22 L38.27,40.85 L35.84,44.21 L20.22,33.83 L23,30.5 L29.13,34.67 L31.56,31.55 L25.46,27.47 L32.46,18.88 L36.14,21.42 L31.49,26.94 L37.49,31.02 L32.89,37.22 Z M43.35,24.34 L40.11,22.12 L37.45,25.47 L40.67,27.77 L43.35,24.34 Z" id="Shape" fill="#A60C26"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+import { FloatGenerator } from '$lib/domain/crypto/float-generator';
+import { debouncer } from '$lib/composables/core/debounce.svelte';
+import { simulateRounds } from '$lib/games/slots/slots';
+
+/**
+ * Generic slot result composable for ScarabSpins and TomeOfLife
+ *
+ * Both games share the same logic, using the slots simulator.
+ */
+export function useSlotResult(getFormValues: () => Record<string, unknown>) {
+  const seed = $derived({
+    clientSeed: getFormValues().clientseed as string,
+    serverSeed: getFormValues().serverseed as string,
+    nonce: getFormValues().nonce as number,
+  });
+
+  const result = $derived.by(
+    debouncer(
+      () => seed,
+      (seed) => {
+        const floatGenerator = FloatGenerator(seed);
+        return simulateRounds(floatGenerator);
+      },
+      350
+    )
+  );
+
+  return {
+    get seed() {
+      return seed;
+    },
+    get rounds() {
+      return result.value;
+    },
+    get isCalculating() {
+      return result.debouncing;
+    },
+  };
+}

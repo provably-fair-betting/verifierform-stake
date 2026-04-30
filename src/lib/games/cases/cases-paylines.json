@@ -1,0 +1,62 @@
+{
+  "easy": [
+    { "min": 0.99000001, "multiplier": 23 },
+    { "min": 0.97000001, "multiplier": 10 },
+    { "min": 0.93000001, "multiplier": 3 },
+    { "min": 0.86000001, "multiplier": 2 },
+    { "min": 0.76000001, "multiplier": 1.09 },
+    { "min": 0.41000001, "multiplier": 0.4 },
+    { "min": 0, "multiplier": 0.1 }
+  ],
+  "medium": [
+    { "min": 0.99900001, "multiplier": 115 },
+    { "min": 0.99750001, "multiplier": 41 },
+    { "min": 0.99350001, "multiplier": 15 },
+    { "min": 0.98500001, "multiplier": 10 },
+    { "min": 0.97000001, "multiplier": 7.5 },
+    { "min": 0.94000001, "multiplier": 3.5 },
+    { "min": 0.88000001, "multiplier": 2 },
+    { "min": 0.75000001, "multiplier": 1.5 },
+    { "min": 0.57000001, "multiplier": 0.4 },
+    { "min": 0.30000001, "multiplier": 0.2 },
+    { "min": 0, "multiplier": 0 }
+  ],
+  "hard": [
+    { "min": 0.99995001, "multiplier": 1000 },
+    { "min": 0.99985001, "multiplier": 495 },
+    { "min": 0.99970001, "multiplier": 250 },
+    { "min": 0.99940001, "multiplier": 100 },
+    { "min": 0.99900001, "multiplier": 50 },
+    { "min": 0.99700001, "multiplier": 35 },
+    { "min": 0.99400001, "multiplier": 15 },
+    { "min": 0.99000001, "multiplier": 10 },
+    { "min": 0.97000001, "multiplier": 8 },
+    { "min": 0.92000001, "multiplier": 3 },
+    { "min": 0.82000001, "multiplier": 1.5 },
+    { "min": 0.72000001, "multiplier": 0.8 },
+    { "min": 0.60000001, "multiplier": 0.4 },
+    { "min": 0.35000001, "multiplier": 0.2 },
+    { "min": 0, "multiplier": 0 }
+  ],
+  "expert": [
+    { "min": 0.99999801, "multiplier": 10000 },
+    { "min": 0.99999201, "multiplier": 3500 },
+    { "min": 0.99998001, "multiplier": 1500 },
+    { "min": 0.99995001, "multiplier": 850 },
+    { "min": 0.99990001, "multiplier": 460 },
+    { "min": 0.99980001, "multiplier": 250 },
+    { "min": 0.99960001, "multiplier": 100 },
+    { "min": 0.99930001, "multiplier": 75 },
+    { "min": 0.99890001, "multiplier": 50 },
+    { "min": 0.99690001, "multiplier": 20 },
+    { "min": 0.99190001, "multiplier": 15 },
+    { "min": 0.98390001, "multiplier": 10 },
+    { "min": 0.96390001, "multiplier": 7 },
+    { "min": 0.93390001, "multiplier": 5 },
+    { "min": 0.85390001, "multiplier": 1.5 },
+    { "min": 0.70390001, "multiplier": 0.7 },
+    { "min": 0.55390001, "multiplier": 0.3 },
+    { "min": 0.35390001, "multiplier": 0.15 },
+    { "min": 0, "multiplier": 0 }
+  ]
+}

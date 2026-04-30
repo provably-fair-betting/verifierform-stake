@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="130px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rune4</title>
+    <g id="rune4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill-rule="nonzero">
+            <g id="Layer_1" transform="translate(32.500000, 41.810000)">
+                <polygon id="Path" fill="#FEC02F" points="56.48 7.10542736e-15 65.0000001 11.32 55.38 37.86 41.75 46.38 3.9 41.87 0 37.61 0.730000001 25.32 8.40000001 19.36 18.18 3.49 23.86 7.10542736e-15"></polygon>
+                <polygon id="Path" fill="#FDAF1E" points="41.75 46.38 41.99 41.39 43.7 38.59 46.13 40.05 55.38 37.86"></polygon>
+                <polygon id="Path" fill="#FFF0B8" points="23.86 7.10542736e-15 22.88 6.46 18.18 3.49"></polygon>
+                <polygon id="Path" fill="#FFDB5E" points="23.86 7.10542736e-15 22.88 6.46 61.1 16.19 65.0000001 11.32 56.48 7.10542736e-15"></polygon>
+                <polygon id="Path" fill="#FED02F" points="50.51 6.33 54.29 3.9 53.68 7.79000001 61.1 16.19 46.13 40.05 43.7 38.59 41.99 41.39 10.23 38.22 5.36 35.06 6.09 25.93 12.42 22.64 16.56 22.64 14.61 20.45 22.88 6.46"></polygon>
+                <path d="M40.31,18.83 L36.38,23.83 L39.71,25.69 L48.71,14.16 L52.03,16.16 L37.63,35.55 L34.11,33.25 L37.67,28.56 L31.12,24.92 L34.43,20.63 L31.12,18.77 L20.34,31.62 L16.67,29.62 L30.05,13.5 L40.31,18.83 Z M29.15,27.35 L26.66,30.52 L30.05,32.45 L32.5,29.25 L29.15,27.35 Z" id="Shape" fill="#FDAF1E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

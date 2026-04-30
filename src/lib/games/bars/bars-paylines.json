@@ -1,0 +1,40 @@
+{
+  "easy": [
+    { "min": 0.98000001, "multiplier": 9 },
+    { "min": 0.93000001, "multiplier": 3 },
+    { "min": 0.85000001, "multiplier": 1.5 },
+    { "min": 0.70000001, "multiplier": 1.2 },
+    { "min": 0.35000001, "multiplier": 0.6 },
+    { "min": 0, "multiplier": 0.4 }
+  ],
+  "medium": [
+    { "min": 0.99500001, "multiplier": 33 },
+    { "min": 0.98000001, "multiplier": 6 },
+    { "min": 0.95000001, "multiplier": 3 },
+    { "min": 0.85000001, "multiplier": 1.4 },
+    { "min": 0.70000001, "multiplier": 1.2 },
+    { "min": 0.35000001, "multiplier": 0.6 },
+    { "min": 0, "multiplier": 0.3 }
+  ],
+  "hard": [
+    { "min": 0.99980001, "multiplier": 705 },
+    { "min": 0.99800001, "multiplier": 75 },
+    { "min": 0.99000001, "multiplier": 12 },
+    { "min": 0.96000001, "multiplier": 6 },
+    { "min": 0.90000001, "multiplier": 2.4 },
+    { "min": 0.78000001, "multiplier": 1.2 },
+    { "min": 0.47000001, "multiplier": 0.3 },
+    { "min": 0, "multiplier": 0.1 }
+  ],
+  "expert": [
+    { "min": 0.99995001, "multiplier": 3000 },
+    { "min": 0.99980001, "multiplier": 1200 },
+    { "min": 0.99900001, "multiplier": 150 },
+    { "min": 0.99500001, "multiplier": 30 },
+    { "min": 0.98500001, "multiplier": 9 },
+    { "min": 0.96000001, "multiplier": 6 },
+    { "min": 0.90000001, "multiplier": 1.5 },
+    { "min": 0.50000001, "multiplier": 0.2 },
+    { "min": 0, "multiplier": 0 }
+  ]
+}

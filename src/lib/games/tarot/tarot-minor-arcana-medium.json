@@ -1,0 +1,22 @@
+[
+  {
+    "min": 0.93000001,
+    "multiplier": 4
+  },
+  {
+    "min": 0.84000001,
+    "multiplier": 2
+  },
+  {
+    "min": 0.69000001,
+    "multiplier": 0.6
+  },
+  {
+    "min": 0.19000001,
+    "multiplier": 0.3
+  },
+  {
+    "min": 0.0,
+    "multiplier": 0
+  }
+]

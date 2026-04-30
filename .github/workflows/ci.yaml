@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+      # packages: read   # only needed if you ever pull from a private registry
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Authenticate private GitHub packages
+        run: git config --global url."https://x-access-token:${{ secrets.VERIFIERFORM_LIB_PAT }}@github.com/".insteadOf "https://github.com/"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Unit Tests with Coverage
+        run: npm run test:unit -- --coverage.enabled --coverage.reporter=json-summary
+
+      - name: Run E2E Tests
+        run: npm run test:e2e
+
+      # Generate coverage badges (paths aligned with upload steps)
+      - name: Generate Lines Coverage Badge
+        uses: wjervis7/vitest-badge-action@v1.0.0
+        with:
+          result-type: lines
+          summary-path: coverage/coverage-summary.json
+          badge-path: coverage/lines-badge.svg
+          badge-text: 'Lines Coverage'
+          vitest-config-path: vite.config.ts
+          gist-token: ${{ secrets.GIST_TOKEN }}
+          gist-url: https://gist.github.com/Kyran121/3297558a26163acee4e360d24d9ea776
+
+      - name: Generate Branches Coverage Badge
+        uses: wjervis7/vitest-badge-action@v1.0.0
+        with:
+          result-type: branches
+          summary-path: coverage/coverage-summary.json
+          badge-path: coverage/branches-badge.svg
+          badge-text: 'Branches Coverage'
+          vitest-config-path: vite.config.ts
+          gist-token: ${{ secrets.GIST_TOKEN }}
+          gist-url: https://gist.github.com/Kyran121/3297558a26163acee4e360d24d9ea776
+
+      - name: Upload Lines Coverage Badge Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-badge-lines
+          path: coverage/lines-badge.svg
+
+      - name: Upload Branches Coverage Badge Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-badge-branches
+          path: coverage/branches-badge.svg
