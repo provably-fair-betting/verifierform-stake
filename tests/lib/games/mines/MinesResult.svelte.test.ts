@@ -43,7 +43,8 @@ describe('MinesResult', () => {
 
       const screen = render(MinesResult, { formValues });
       vi.advanceTimersByTime(350);
-      expect(await screen.findByText(result)).toBeInTheDocument();
+      const el = await screen.findByTestId('mines-result');
+      expect(el).toHaveTextContent(result);
     }
   );
 });

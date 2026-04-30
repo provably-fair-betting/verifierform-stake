@@ -5,7 +5,9 @@
 
   const { formValues }: { formValues: Record<string, unknown> } = $props();
   const keno = useKenoNumbers(() => formValues);
-  const chosenNumbers = $derived(keno.items?.map((item) => item.chosen) ?? null);
+  const chosenNumbers = $derived(
+    keno.items?.map((item) => item.chosen).sort((a, b) => a - b) ?? null
+  );
 </script>
 
 {#if keno.isCalculating}

@@ -6,7 +6,9 @@
 
   const { formValues }: { formValues: Record<string, unknown> } = $props();
   const mines = useMinesPositions(() => formValues);
-  const chosenMines = $derived(mines.items?.map((item) => item.chosen) ?? null);
+  const chosenMines = $derived(
+    mines.items?.map((item) => item.chosen).sort((a, b) => a - b) ?? null
+  );
 </script>
 
 {#if mines.isCalculating}

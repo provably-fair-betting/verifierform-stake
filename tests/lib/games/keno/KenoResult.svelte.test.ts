@@ -42,7 +42,8 @@ describe('KenoResult', () => {
 
       const screen = render(KenoResult, { formValues });
       vi.advanceTimersByTime(350);
-      expect(await screen.findByText(result)).toBeInTheDocument();
+      const el = await screen.findByTestId('keno-result');
+      expect(el).toHaveTextContent(result);
     }
   );
 });

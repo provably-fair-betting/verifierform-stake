@@ -22,7 +22,7 @@
   <Loader />
 {:else}
   <p data-testid="moles-result" class="hidden">
-    {JSON.stringify(moles.rounds!)}
+    {JSON.stringify(moles.rounds!.map((round) => round.map((item) => item.chosen)))}
   </p>
 
   <ContentBlock className="p-4">
