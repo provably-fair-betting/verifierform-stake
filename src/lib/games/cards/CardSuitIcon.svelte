@@ -11,12 +11,12 @@
 
   const { suit, small, dark }: { suit: CardSuit; small?: boolean; dark?: boolean } = $props();
 
-  const suitToIcon: Record<CardSuit, string> = {
+  const suitToIcon = $derived<Record<CardSuit, string>>({
     club: dark ? grayClubIcon : clubIcon,
     spade: dark ? graySpadeIcon : spadeIcon,
     diamond: dark ? grayDiamondIcon : diamondIcon,
     heart: dark ? grayHeartIcon : heartIcon,
-  };
+  });
 </script>
 
 <img
