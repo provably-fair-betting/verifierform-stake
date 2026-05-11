@@ -15,7 +15,7 @@
     "test:unit": "vitest --ui",
     "test": "npm run test:unit -- --run",
     "sync:paylines": "node scripts/sync-paylines.js",
-    "sync:testdata": "stake-testdata --output-dir ./tests/lib/games/testcases"
+    "sync:testdata": "node scripts/sync-testdata.js"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
