@@ -11,7 +11,7 @@
   <Loader />
 {:else}
   <p data-testid="drill-result" class="hidden text-center text-base">
-    {JSON.stringify(drill.drills!)}
+    {JSON.stringify(drill.drills!.map((d) => d.multiplier))}
   </p>
 
   <div class="text-center">

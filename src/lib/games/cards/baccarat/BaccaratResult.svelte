@@ -13,15 +13,15 @@
   <p data-testid="baccarat-player-result" class="hidden text-center text-base">
     {baccarat
       .result!.initialPlayer.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(', ')}
+      .join(',')}
   </p>
   <p data-testid="baccarat-dealer-result" class="hidden text-center text-base">
     {baccarat
       .result!.initialBanker.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(', ')}
+      .join(',')}
   </p>
   <p data-testid="baccarat-decider-result" class="hidden text-center text-base">
-    {baccarat.result!.decider.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(', ')}
+    {baccarat.result!.decider.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(',')}
   </p>
 
   <div class="mt-5 mb-6">

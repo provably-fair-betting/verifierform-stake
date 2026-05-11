@@ -1,62 +1,182 @@
 {
   "minor": {
     "easy": [
-      { "min": 0.90000001, "multiplier": 2 },
-      { "min": 0.80000001, "multiplier": 1.5 },
-      { "min": 0.70000001, "multiplier": 1.1 },
-      { "min": 0.10000001, "multiplier": 0.4 },
-      { "min": 0.0, "multiplier": 0 }
+      {
+        "min": 0.90000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0.80000001,
+        "multiplier": 1.5
+      },
+      {
+        "min": 0.70000001,
+        "multiplier": 1.1
+      },
+      {
+        "min": 0.10000001,
+        "multiplier": 0.4
+      },
+      {
+        "min": 0,
+        "multiplier": 0
+      }
     ],
     "medium": [
-      { "min": 0.93000001, "multiplier": 4 },
-      { "min": 0.84000001, "multiplier": 2 },
-      { "min": 0.69000001, "multiplier": 0.6 },
-      { "min": 0.19000001, "multiplier": 0.3 },
-      { "min": 0.0, "multiplier": 0 }
+      {
+        "min": 0.93000001,
+        "multiplier": 4
+      },
+      {
+        "min": 0.84000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0.69000001,
+        "multiplier": 0.6
+      },
+      {
+        "min": 0.19000001,
+        "multiplier": 0.3
+      },
+      {
+        "min": 0,
+        "multiplier": 0
+      }
     ],
     "hard": [
-      { "min": 0.95000001, "multiplier": 7 },
-      { "min": 0.86000001, "multiplier": 2 },
-      { "min": 0.66000001, "multiplier": 0.55 },
-      { "min": 0.26000001, "multiplier": 0.15 },
-      { "min": 0.0, "multiplier": 0 }
+      {
+        "min": 0.95000001,
+        "multiplier": 7
+      },
+      {
+        "min": 0.86000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0.66000001,
+        "multiplier": 0.55
+      },
+      {
+        "min": 0.26000001,
+        "multiplier": 0.15
+      },
+      {
+        "min": 0,
+        "multiplier": 0
+      }
     ],
     "expert": [
-      { "min": 0.97000001, "multiplier": 10 },
-      { "min": 0.87000001, "multiplier": 3 },
-      { "min": 0.67000001, "multiplier": 0.35 },
-      { "min": 0.47000001, "multiplier": 0.15 },
-      { "min": 0.0, "multiplier": 0 }
+      {
+        "min": 0.97000001,
+        "multiplier": 10
+      },
+      {
+        "min": 0.87000001,
+        "multiplier": 3
+      },
+      {
+        "min": 0.67000001,
+        "multiplier": 0.35
+      },
+      {
+        "min": 0.47000001,
+        "multiplier": 0.15
+      },
+      {
+        "min": 0,
+        "multiplier": 0
+      }
     ]
   },
   "major": {
     "easy": [
-      { "min": 0.93000001, "multiplier": 5 },
-      { "min": 0.83000001, "multiplier": 4 },
-      { "min": 0.73000001, "multiplier": 3 },
-      { "min": 0.51000001, "multiplier": 2 },
-      { "min": 0.0, "multiplier": 1 }
+      {
+        "min": 0.93000001,
+        "multiplier": 5
+      },
+      {
+        "min": 0.83000001,
+        "multiplier": 4
+      },
+      {
+        "min": 0.73000001,
+        "multiplier": 3
+      },
+      {
+        "min": 0.51000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0,
+        "multiplier": 1
+      }
     ],
     "medium": [
-      { "min": 0.97000001, "multiplier": 10 },
-      { "min": 0.91000001, "multiplier": 5 },
-      { "min": 0.78000001, "multiplier": 3 },
-      { "min": 0.55000001, "multiplier": 2 },
-      { "min": 0.0, "multiplier": 1 }
+      {
+        "min": 0.97000001,
+        "multiplier": 10
+      },
+      {
+        "min": 0.91000001,
+        "multiplier": 5
+      },
+      {
+        "min": 0.78000001,
+        "multiplier": 3
+      },
+      {
+        "min": 0.55000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0,
+        "multiplier": 1
+      }
     ],
     "hard": [
-      { "min": 0.99000001, "multiplier": 24 },
-      { "min": 0.96000001, "multiplier": 8 },
-      { "min": 0.86000001, "multiplier": 4 },
-      { "min": 0.60000001, "multiplier": 2 },
-      { "min": 0.0, "multiplier": 1 }
+      {
+        "min": 0.99000001,
+        "multiplier": 24
+      },
+      {
+        "min": 0.96000001,
+        "multiplier": 8
+      },
+      {
+        "min": 0.86000001,
+        "multiplier": 4
+      },
+      {
+        "min": 0.60000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0,
+        "multiplier": 1
+      }
     ],
     "expert": [
-      { "min": 0.99500001, "multiplier": 50 },
-      { "min": 0.98000001, "multiplier": 10 },
-      { "min": 0.90000001, "multiplier": 5 },
-      { "min": 0.60000001, "multiplier": 2 },
-      { "min": 0.0, "multiplier": 1 }
+      {
+        "min": 0.99500001,
+        "multiplier": 50
+      },
+      {
+        "min": 0.98000001,
+        "multiplier": 10
+      },
+      {
+        "min": 0.90000001,
+        "multiplier": 5
+      },
+      {
+        "min": 0.60000001,
+        "multiplier": 2
+      },
+      {
+        "min": 0,
+        "multiplier": 1
+      }
     ]
   }
 }

@@ -1,0 +1,82 @@
+[
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "result": 23.22
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "result": 17.84
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "result": 76.77
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "result": 1.32
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "result": 57.68
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "result": 78.87
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "result": 51.68
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "result": 46
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {},
+    "result": 92.27
+  },
+  {
+    "clientSeed": "6bf42afdf7e5f6ca64c16736c750b24b",
+    "serverSeed": "f9aa75c7fb39ea34fb6bd43b99357479",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {},
+    "result": 73.52
+  }
+]

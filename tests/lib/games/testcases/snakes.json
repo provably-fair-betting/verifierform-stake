@@ -1,0 +1,162 @@
+[
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "easy"
+    },
+    "rollTotals": [
+      9,
+      6,
+      9,
+      4,
+      8
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "medium"
+    },
+    "rollTotals": [
+      7,
+      9,
+      7,
+      7,
+      11
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "hard"
+    },
+    "rollTotals": [
+      8,
+      7,
+      8,
+      4,
+      12
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "expert"
+    },
+    "rollTotals": [
+      8,
+      7,
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "master"
+    },
+    "rollTotals": [
+      9,
+      5,
+      10,
+      8,
+      8
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "easy"
+    },
+    "rollTotals": [
+      12,
+      5,
+      7,
+      7,
+      11
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "medium"
+    },
+    "rollTotals": [
+      4,
+      5,
+      4,
+      9,
+      6
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "hard"
+    },
+    "rollTotals": [
+      6,
+      9,
+      9,
+      8,
+      12
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "expert"
+    },
+    "rollTotals": [
+      3,
+      8,
+      7,
+      11,
+      9
+    ]
+  },
+  {
+    "clientSeed": "a8530c7a3bb928ac086d7ade9b07de9b",
+    "serverSeed": "6f2359d994c63b1e32f357379aa2e372",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "snakesDifficulty": "master"
+    },
+    "rollTotals": [
+      5,
+      9,
+      5,
+      10,
+      11
+    ]
+  }
+]

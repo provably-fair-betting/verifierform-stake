@@ -1,0 +1,102 @@
+[
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "easy"
+    },
+    "result": 2.45
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "medium"
+    },
+    "result": 3.07
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "hard"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "expert"
+    },
+    "result": 1.96
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "easy"
+    },
+    "result": 1.15
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "medium"
+    },
+    "result": 1.15
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "hard"
+    },
+    "result": 5.06
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "expert"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "easy"
+    },
+    "result": 2.8
+  },
+  {
+    "clientSeed": "beb2f0d281049dd680fa1577861655cb",
+    "serverSeed": "b8f031e0928677105e302f4979d58911",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "chickenDifficulty": "medium"
+    },
+    "result": 1.64
+  }
+]

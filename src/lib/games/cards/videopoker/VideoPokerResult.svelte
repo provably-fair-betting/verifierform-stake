@@ -13,10 +13,10 @@
   {@const initial = videoPoker.items!.slice(0, 5)}
   {@const coming = videoPoker.items!.slice(5)}
   <p data-testid="videopoker-initial-result" class="hidden text-center text-base">
-    {initial.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(', ')}
+    {initial.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(',')}
   </p>
   <p data-testid="videopoker-coming-result" class="hidden text-center text-base">
-    {coming.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(', ')}
+    {coming.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(',')}
   </p>
 
   <div class="mt-5 mb-6">

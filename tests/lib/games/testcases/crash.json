@@ -1,0 +1,82 @@
+[
+  {
+    "inputs": {
+      "hash": "9dd9a4ce539a7d11a36a96c71f3d939c46d972b2e56254bc85ea2c0681541dca",
+      "seed": "23eb7069c6fc5b1369b92f5321af9f63"
+    },
+    "selects": {},
+    "result": 7.74
+  },
+  {
+    "inputs": {
+      "hash": "aae5fe25c5103743d9b00b086798e306ab5a5194bf2a48c53417f8f1d1bb0a6d",
+      "seed": "090b2a2d6ade5d4eff2773a12a495c1d"
+    },
+    "selects": {},
+    "result": 2.56
+  },
+  {
+    "inputs": {
+      "hash": "c126cb95da0dd092620106e90e576e4c9de91b16e2eabf89441ec4884f738835",
+      "seed": "52df6793bd1e3665d855e009a78afeb7"
+    },
+    "selects": {},
+    "result": 1.25
+  },
+  {
+    "inputs": {
+      "hash": "abc365d75c4a76f4ccd092a5cb809b48ad94feb573a038d2ef16dc369250c668",
+      "seed": "7bd07e5f9d94972c88aa74f828ef45d4"
+    },
+    "selects": {},
+    "result": 1.12
+  },
+  {
+    "inputs": {
+      "hash": "1407ab406a5c5d04cc4bb1ec43dfe5505845e0e1f9df160a1f735c74850c785d",
+      "seed": "63d2757144051301a3968931d88659cb"
+    },
+    "selects": {},
+    "result": 3.03
+  },
+  {
+    "inputs": {
+      "hash": "180771e4a9b95cd0172e3eefe1979b93423fbbcdfc044cb1ff45e3b5c4d88860",
+      "seed": "6ffb9b8224c8c61385d9ee9b7ea8f60f"
+    },
+    "selects": {},
+    "result": 3.28
+  },
+  {
+    "inputs": {
+      "hash": "793b021844efd1353d8e78f1234b4a8109faa22aaf3d46a42f6413eb690d77b5",
+      "seed": "636d691310cfce3d87ace4065442dd59"
+    },
+    "selects": {},
+    "result": 1.79
+  },
+  {
+    "inputs": {
+      "hash": "f99397c87c21c1aabc4a1ffcd1ab7ccc22132b4224f680f0b4bcf3f089dbed33",
+      "seed": "bd31c215ecbeef90fb0b8e35f3ee5fb1"
+    },
+    "selects": {},
+    "result": 3.45
+  },
+  {
+    "inputs": {
+      "hash": "f970f5f840050aa6773175c223984e6d972d326d86c97344c4d8623b2e74d84c",
+      "seed": "a3e788ab1b56d4ef8918aa62909d65be"
+    },
+    "selects": {},
+    "result": 1.65
+  },
+  {
+    "inputs": {
+      "hash": "27cfb9a940b65a76d71aecc5debc271cfb2f93fae7e7c0054e8fc9c3470de322",
+      "seed": "fcaf17348204877687fc631545649cd9"
+    },
+    "selects": {},
+    "result": 1.38
+  }
+]

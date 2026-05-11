@@ -1,13 +1,13 @@
 import { z } from 'zod';
 import CrashExplanation from '$lib/games/multiplayer/crash/CrashExplanation.svelte';
 import CrashResult from '$lib/games/multiplayer/crash/CrashResult.svelte';
-import { CRASH_SEED } from '../multiplayer.config';
 import type { GameDefinition } from 'verifierform-lib';
 
 export const gameDefinition: GameDefinition = {
   name: 'Crash',
   schema: z.object({
     gamehash: z.string(),
+    blockhash: z.string(),
   }),
   controls: [
     {
@@ -19,8 +19,8 @@ export const gameDefinition: GameDefinition = {
     {
       id: 'blockhash',
       label: 'Block Hash',
-      type: 'static',
-      value: CRASH_SEED,
+      type: 'text',
+      required: true,
     },
   ],
   result: CrashResult,

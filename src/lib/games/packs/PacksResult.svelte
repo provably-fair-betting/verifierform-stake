@@ -11,14 +11,15 @@
 {#if packs.isCalculating}
   <Loader />
 {:else}
+  {@const cardIds = cards?.map(card => card.cardId).sort((a, b) => a - b)}
   {@const totalMulti = cards!.reduce((a, b) => a + b!.multiplier, 0)}
 
   <p data-testid="packs-result" class="hidden text-center text-base">
-    {totalMulti.toFixed(2)}x
+    {cardIds}
   </p>
 
   <div class="text-center">
-    <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">Three cards drawn from pack</p>
+    <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">Five cards drawn from pack</p>
     <p class="mb-4 text-xs text-gray-400 dark:text-gray-500">
       Total multiplier: <span class="font-semibold text-blue-600 dark:text-blue-400">
         {totalMulti.toFixed(2)}x

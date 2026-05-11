@@ -1,0 +1,132 @@
+[
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "easy"
+    },
+    "rotation": 0.709,
+    "distance": 0.91,
+    "pixelColor": "#0e202c",
+    "multi": 0.5
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "medium"
+    },
+    "rotation": 0.103,
+    "distance": 0.593,
+    "pixelColor": "#fb6120",
+    "multi": 3.1
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "hard"
+    },
+    "rotation": 0.12,
+    "distance": 0.474,
+    "pixelColor": "#fcc101",
+    "multi": 2.5
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "expert"
+    },
+    "rotation": 0.641,
+    "distance": 0.728,
+    "pixelColor": "#0e202c",
+    "multi": 0.1
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "easy"
+    },
+    "rotation": 0.925,
+    "distance": 0.499,
+    "pixelColor": "#213843",
+    "multi": 0.8
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "medium"
+    },
+    "rotation": 0.102,
+    "distance": 0.56,
+    "pixelColor": "#fb6120",
+    "multi": 3.1
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "hard"
+    },
+    "rotation": 0.817,
+    "distance": 0.947,
+    "pixelColor": "#0e202c",
+    "multi": 0.2
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "expert"
+    },
+    "rotation": 0.213,
+    "distance": 0.162,
+    "pixelColor": "#0e202c",
+    "multi": 0.1
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "easy"
+    },
+    "rotation": 0.834,
+    "distance": 0.14,
+    "pixelColor": "#0e202c",
+    "multi": 0.5
+  },
+  {
+    "clientSeed": "4543e84c4eb767373f78a35a6dee2787",
+    "serverSeed": "e1865fe1e308c311d932bb00b2ff3e4b",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "dartsDifficulty": "medium"
+    },
+    "rotation": 0.428,
+    "distance": 0.673,
+    "pixelColor": "#0e202c",
+    "multi": 0.4
+  }
+]

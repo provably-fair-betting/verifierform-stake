@@ -1,0 +1,142 @@
+[
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "easy"
+    },
+    "selectedMultipliers": [
+      1.5,
+      1,
+      0.4
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "medium"
+    },
+    "selectedMultipliers": [
+      0.3,
+      1,
+      2
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "hard"
+    },
+    "selectedMultipliers": [
+      0.15,
+      2,
+      0.15
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "expert"
+    },
+    "selectedMultipliers": [
+      0.15,
+      1,
+      0
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "easy"
+    },
+    "selectedMultipliers": [
+      0.4,
+      1,
+      0.4
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "medium"
+    },
+    "selectedMultipliers": [
+      0.3,
+      1,
+      0.3
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "hard"
+    },
+    "selectedMultipliers": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "expert"
+    },
+    "selectedMultipliers": [
+      0,
+      1,
+      0.35
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "easy"
+    },
+    "selectedMultipliers": [
+      0.4,
+      2,
+      0.4
+    ]
+  },
+  {
+    "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
+    "serverSeed": "0f256f45dab125edf2c213798905c25a",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "tarotDifficulty": "medium"
+    },
+    "selectedMultipliers": [
+      0,
+      5,
+      0.3
+    ]
+  }
+]

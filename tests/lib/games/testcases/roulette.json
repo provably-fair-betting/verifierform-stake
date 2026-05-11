@@ -1,0 +1,82 @@
+[
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "result": 33
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "result": 6
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "result": 22
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "result": 33
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "result": 16
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "result": 9
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "result": 11
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "result": 16
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {},
+    "result": 9
+  },
+  {
+    "clientSeed": "94ffb08138facf8cffa9c376d703aaed",
+    "serverSeed": "f7b51b19a4563681f2c1e00ef747884a",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {},
+    "result": 20
+  }
+]
