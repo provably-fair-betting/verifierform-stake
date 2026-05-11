@@ -15,7 +15,7 @@
     "test:unit": "vitest --ui",
     "test": "npm run test:unit -- --run && npm run test:e2e",
     "test:e2e": "playwright test",
-    "sync:paylines": "stake-paylines --output-dir ./src/lib/paylines",
+    "sync:paylines": "node scripts/sync-paylines.js",
     "sync:testdata": "stake-testdata --output-dir ./tests/lib/games/testcases"
   },
   "devDependencies": {
