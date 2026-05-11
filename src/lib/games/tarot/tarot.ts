@@ -1,4 +1,4 @@
-import paylines from '$lib/games/tarot/tarot-paylines.json';
+import paylines from '$lib/paylines/tarot-paylines.json';
 import type { TarotCard, TarotDifficulty, TarotArcanaType } from './types';
 
 export function findCard(

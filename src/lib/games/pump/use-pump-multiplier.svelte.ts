@@ -4,7 +4,7 @@ import type { PumpSeed, PumpDifficulty } from './types';
 import type { FisherYatesItem } from '$lib/types';
 import { fisherYates } from '$lib/domain/games/shared/fisher-yates';
 import { PUMP_DIFFICULTY_TO_SLICE } from './pump.config';
-import paylines from '$lib/games/pump/pump-paylines.json';
+import paylines from '$lib/paylines/pump-paylines.json';
 
 /**
  * Pump multiplier composable

@@ -4,7 +4,7 @@ import type { ChickenSeed, ChickenDifficulty } from './types';
 import type { FisherYatesItem } from '$lib/types';
 import { fisherYates } from '$lib/domain/games/shared/fisher-yates';
 import { CHICKEN_DIFFICULTY_TO_SLICE } from './chicken.config';
-import paylines from '$lib/games/chicken/chicken-paylines.json';
+import paylines from '$lib/paylines/chicken-paylines.json';
 
 /**
  * Chicken multiplier composable

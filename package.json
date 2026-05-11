@@ -15,6 +15,7 @@
     "test:unit": "vitest --ui",
     "test": "npm run test:unit -- --run && npm run test:e2e",
     "test:e2e": "playwright test",
+    "sync:paylines": "stake-paylines --output-dir ./src/lib/paylines",
     "sync:testdata": "stake-testdata --output-dir ./tests/lib/games/testcases"
   },
   "devDependencies": {
@@ -54,6 +55,7 @@
     "puppeteer-real-browser": "^1.3.12",
     "rebrowser-puppeteer-core": "^23.10.3",
     "tsx": "^4.19.2",
+    "verifierform-stake-paylines": "github:provably-fair-betting/verifierform-stake-paylines#v1.1.2",
     "verifierform-stake-testdata": "github:provably-fair-betting/verifierform-stake-testdata#v1.0.0"
   },
   "pnpm": {

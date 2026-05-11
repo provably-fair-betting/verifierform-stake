@@ -2,7 +2,7 @@ import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import type { SnakesSeed, SnakesDifficulty } from './types';
 import type { Item } from '$lib/types';
-import paylines from '$lib/games/snakes/snakes-paylines.json';
+import paylines from '$lib/paylines/snakes-paylines.json';
 import { SNAKES_MULTIPLIER_SHIFT_MAP } from './snakes.config';
 import { shuffle } from '$lib/domain/games/shared/shuffle';
 

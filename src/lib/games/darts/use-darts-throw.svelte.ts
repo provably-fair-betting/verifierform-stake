@@ -2,7 +2,7 @@ import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import type { DartsSeed, DartsDifficulty, DartsColor } from './types';
 import { colorForDart, multiForDart } from '$lib/games/darts/darts';
-import paylines from '$lib/games/darts/darts-paylines.json';
+import paylines from '$lib/paylines/darts-paylines.json';
 
 export interface DartsResult {
   rotation: number;
