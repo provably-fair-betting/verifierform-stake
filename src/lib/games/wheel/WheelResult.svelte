@@ -17,7 +17,7 @@
       >
         <div class="flex flex-col items-center gap-1">
           <span class="text-xs font-medium text-green-600 dark:text-green-400">Payout</span>
-          <span class="text-2xl font-bold text-green-800 dark:text-green-300">{wheel.payout}x</span>
+          <span data-testid="wheel-result" class="text-2xl font-bold text-green-800 dark:text-green-300">{wheel.payout}x</span>
         </div>
       </div>
     </div>

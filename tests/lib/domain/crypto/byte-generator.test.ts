@@ -1,7 +1,7 @@
 import ByteGenerator from '$lib/domain/crypto/byte-generator';
 import { describe, it, expect } from 'vitest';
 
-describe('StakeByteGenerator', () => {
+describe('byte-generator', () => {
   it('generate bytes correctly for a given seed', () => {
     const byteGenerator = ByteGenerator({
       clientSeed: 'iyAyNGKPsa',

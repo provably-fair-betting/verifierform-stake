@@ -4,7 +4,7 @@ import { colorForDart, multiForDart } from '$lib/games/darts/darts';
 import type { DartsDifficulty } from '$lib/games/darts/types';
 import testCases from '../testcases/darts.json';
 
-describe('darts calculation', () => {
+describe('DartsResult', () => {
   it.each(testCases)(
     'nonce=$nonce clientSeed=$clientSeed serverSeed=$serverSeed difficulty=$selects.dartsDifficulty',
     ({ clientSeed, serverSeed, nonce, selects, rotation, distance, pixelColor, multi }) => {

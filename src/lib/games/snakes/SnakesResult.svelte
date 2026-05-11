@@ -16,6 +16,10 @@
   {@const best = snakes.result!.best}
   {@const isBusted = best === 0}
 
+  <p data-testid="snakes-data" class="hidden">
+    {JSON.stringify(steps.map((s) => s.die[0] + s.die[1]))}
+  </p>
+
   <ContentBlock className="p-4">
     <div class="flex items-center justify-center">
       <div

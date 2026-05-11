@@ -1,7 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { describe, it, expect } from 'vitest';
 
-describe('StakeFloatGenerator', () => {
+describe('float-generator', () => {
   it('generate floats correctly for a given seed', () => {
     const floatGenerator = FloatGenerator({
       clientSeed: 'iyAyNGKPsa',

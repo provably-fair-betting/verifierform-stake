@@ -2,7 +2,7 @@ import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { fisherYates } from '$lib/domain/games/shared/fisher-yates';
 import { describe, test, expect } from 'vitest';
 
-describe('fisherYates', () => {
+describe('fisher-yates', () => {
   test('keno', () => {
     const floatGenerator = FloatGenerator({
       clientSeed: 'ec75fca98de6f2d9',
