@@ -43,10 +43,12 @@ export default defineConfig({
       enabled: true,
       all: true,
       reporter: ['html', 'json-summary'],
-      include: [
-        'src/lib/domain/**',
-        'src/lib/games/**/*Result.svelte',
-      ],
+      include: ['**/src/lib/**'],
+      exclude: [
+        '**/src/*/icons/**',
+        'src/lib/games/**',
+        '!src/lib/games/**/*Result.svelte',
+      ]
     },
   },
 });
