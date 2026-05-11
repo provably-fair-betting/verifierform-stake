@@ -46,6 +46,7 @@ export default defineConfig({
       include: ['**/src/lib/**'],
       exclude: [
         '**/src/*/icons/**',
+        'src/lib/composables/**',
         'src/lib/games/**',
         '!src/lib/games/**/*Result.svelte',
       ]
