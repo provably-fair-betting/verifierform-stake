@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ScarabSpinsTomeOfLifeIcon } from '$lib/types';
+  import type { ScarabSpinsTomeOfLifeIcon } from '../types';
 
   import one from '$lib/games/slots/scarabspins/icons/one.svg';
   import two from '$lib/games/slots/scarabspins/icons/two.svg';

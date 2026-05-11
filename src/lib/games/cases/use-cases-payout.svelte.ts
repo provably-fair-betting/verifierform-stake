@@ -1,7 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { CasesSeed, CasesDifficulty } from '$lib/types';
-import paylines from '$lib/games/cases/cases-paylines.json';
+import type { CasesSeed, CasesDifficulty } from './types';
+import paylines from '$lib/paylines/cases-paylines.json';
 import { getPayout } from '$lib/domain/games/shared/payout';
 
 /**

@@ -1,5 +1,5 @@
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { SlideSeed } from '$lib/types';
+import type { SlideSeed } from './types';
 import { hmac as createHmac } from '@stablelib/hmac';
 import { encode as toUInt8Array } from '@stablelib/utf8';
 import { encode as toHex } from '@stablelib/hex';

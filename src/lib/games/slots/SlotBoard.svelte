@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Component } from 'svelte';
-  import { ScarabSpinsTomeOfLifeIcon, type ScarabSpinsTomeOfLifeRound } from '$lib/types';
+  import { ScarabSpinsTomeOfLifeIcon, type ScarabSpinsTomeOfLifeRound } from './types';
   import reels from '$lib/games/slots/slot-reels.json';
   import Indicator from '$lib/games/layout/Indicator.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';

@@ -12,7 +12,7 @@
   <Loader />
 {:else}
   <p data-testid="hilo-result" class="hidden text-center text-base">
-    {hilo.items!.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(', ')}
+    {hilo.items!.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(',')}
   </p>
 
   <div class="mt-5 mb-6">

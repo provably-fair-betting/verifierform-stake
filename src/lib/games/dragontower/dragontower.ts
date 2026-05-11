@@ -1,4 +1,4 @@
-import type { DragonTowerDifficulty } from '$lib/types';
+import type { DragonTowerDifficulty } from './types';
 
 export const DRAGON_TOWER_COL_CLASS: Record<DragonTowerDifficulty, string> = {
   easy: 'grid-cols-4',

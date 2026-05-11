@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useDartsThrow } from './use-darts-throw.svelte';
-  import type { DartsDifficulty } from '$lib/types';
+  import type { DartsDifficulty } from './types';
   import { DARTS_COLOR_LABELS, getDartsCssRotation } from '$lib/games/darts/darts';
   import Loader from '$lib/games/Loader.svelte';
   import ContentBlock from '$lib/games/layout/ContentBlock.svelte';

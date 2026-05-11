@@ -1,4 +1,4 @@
-import type { ChickenDifficulty } from '$lib/types';
+import type { ChickenDifficulty } from './types';
 
 /**
  * Chicken Game Configuration

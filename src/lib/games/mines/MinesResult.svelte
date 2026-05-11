@@ -15,7 +15,7 @@
   <Loader />
 {:else}
   <p data-testid="mines-result" class="hidden">
-    {chosenMines!.join(', ')}
+    {chosenMines!.join(',')}
   </p>
 
   <ContentBlock className="p-4">

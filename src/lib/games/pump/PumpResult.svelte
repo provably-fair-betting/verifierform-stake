@@ -27,5 +27,6 @@
 {#if pump.isCalculating}
   <Loader />
 {:else}
+  <p data-testid="pump-result" class="hidden">{maxMulti?.toFixed(2)}x</p>
   <PaylineResultDisplay {maxMulti} {deathMulti} deathLabel="Pop point" />
 {/if}

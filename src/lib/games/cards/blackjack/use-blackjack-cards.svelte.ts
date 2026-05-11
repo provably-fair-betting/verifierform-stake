@@ -8,8 +8,8 @@ export function useBlackjackCards(getFormValues: () => Record<string, unknown>) 
     if (!cardDeck.items) return null;
     const itemsCopy = [...cardDeck.items];
     return {
-      initialDealer: itemsCopy.splice(0, 2),
       initialPlayer: itemsCopy.splice(0, 2),
+      initialDealer: itemsCopy.splice(0, 2),
       remaining: itemsCopy,
     };
   });

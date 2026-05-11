@@ -1,4 +1,4 @@
-import type { DragonTowerDifficulty, DragonTowerDifficultyConfig } from '$lib/types';
+import type { DragonTowerDifficulty, DragonTowerDifficultyConfig } from './types';
 
 /**
  * Dragon Tower Game Configuration

@@ -1,4 +1,4 @@
-import type { PumpDifficulty } from '$lib/types';
+import type { PumpDifficulty } from './types';
 
 /**
  * Pump Game Configuration

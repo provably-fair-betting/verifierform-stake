@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { type Card } from '$lib/types';
+  import { type Card } from '$lib/games/cards/types';
   import CardSuitIcon from '$lib/games/cards/CardSuitIcon.svelte';
   import ScrollableContainer from '$lib/games/layout/ScrollableContainer.svelte';
   let {

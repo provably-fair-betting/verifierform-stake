@@ -1,5 +1,5 @@
 import { WEDGE_BIN_COLORS, getThresholdRows, getMatchedRowIndex } from '$lib/games/darts/darts';
-import type { DartsDifficulty } from '$lib/types';
+import type { DartsDifficulty } from './types';
 
 /** Darts multiplier step calculations */
 export function useDartsMultiplierCalc(

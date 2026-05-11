@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { TarotArcanaType as ArcanaType } from '$lib/types';
+  import { TarotArcanaType as ArcanaType } from './types';
   import Loader from '$lib/games/Loader.svelte';
   import TarotsCard from './TarotsCard.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';

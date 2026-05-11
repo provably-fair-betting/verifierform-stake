@@ -1,0 +1,3677 @@
+[
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          11,
+          23,
+          24,
+          9,
+          15
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "nine",
+            "center": "ten",
+            "below": "scatter",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "ten",
+            "center": "king",
+            "below": "two",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "queen",
+            "center": "nine",
+            "below": "four",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "four",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          }
+        ],
+        "scatterCount": 2,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          22,
+          10,
+          8,
+          22,
+          7
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "five",
+            "below": "king",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "nine",
+            "center": "queen",
+            "below": "three",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "wild",
+            "center": "queen",
+            "below": "ten",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "three",
+            "center": "jack",
+            "below": "four",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          2,
+          26,
+          6,
+          0,
+          15
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "jack",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          },
+          {
+            "above": "king",
+            "center": "jack",
+            "below": "wild",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          18,
+          19,
+          4,
+          18,
+          26
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ace",
+            "center": "two",
+            "below": "king",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "ace",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "king",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          },
+          {
+            "above": "queen",
+            "center": "scatter",
+            "below": "ten",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "nine",
+            "center": "wild",
+            "below": "jack",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          }
+        ],
+        "scatterCount": 2,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          4,
+          16,
+          23,
+          8,
+          0
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "three",
+            "center": "jack",
+            "below": "ace",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          },
+          {
+            "above": "two",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "two",
+            "center": "queen",
+            "below": "nine",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "ten",
+            "center": "four",
+            "below": "jack",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "nine",
+            "center": "three",
+            "below": "ten",
+            "indices": {
+              "above": 40,
+              "center": 0,
+              "below": 1
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          16,
+          25,
+          9,
+          7,
+          9
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "wild",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "queen",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "one",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "nine",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          24,
+          25,
+          27,
+          19,
+          37
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "queen",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "king",
+            "center": "five",
+            "below": "nine",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "ten",
+            "below": "king",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "one",
+            "indices": {
+              "above": 36,
+              "center": 37,
+              "below": 38
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "category": "simple",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          0,
+          3,
+          0,
+          2,
+          9
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "queen",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "nine",
+            "center": "five",
+            "below": "ace",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "nine",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 1
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 22,
+    "inputs": {},
+    "selects": {},
+    "category": "retrigger",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          14,
+          20,
+          0,
+          24,
+          13
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "jack",
+            "below": "wild",
+            "indices": {
+              "above": 13,
+              "center": 14,
+              "below": 15
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "ace",
+            "below": "four",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "ace",
+            "center": "jack",
+            "below": "scatter",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          }
+        ],
+        "scatterCount": 3,
+        "triggersBonus": true,
+        "totalRounds": 16
+      },
+      {
+        "round": 1,
+        "centerIndices": [
+          10,
+          12,
+          21,
+          13,
+          34
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "two",
+            "center": "nine",
+            "below": "ten",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "three",
+            "center": "king",
+            "below": "one",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          },
+          {
+            "above": "nine",
+            "center": "ten",
+            "below": "two",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "five",
+            "center": "jack",
+            "below": "ten",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "queen",
+            "indices": {
+              "above": 33,
+              "center": 34,
+              "below": 35
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 2,
+        "centerIndices": [
+          0,
+          5,
+          22,
+          6,
+          4
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "queen",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "ten",
+            "center": "two",
+            "below": "queen",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "two",
+            "center": "king",
+            "below": "ten",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 3,
+        "centerIndices": [
+          13,
+          20,
+          7,
+          18,
+          2
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "scatter",
+            "center": "queen",
+            "below": "jack",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "ace",
+            "below": "four",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "queen",
+            "center": "scatter",
+            "below": "ten",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "ten",
+            "center": "jack",
+            "below": "two",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          }
+        ],
+        "scatterCount": 3,
+        "triggersBonus": true,
+        "totalRounds": 31
+      },
+      {
+        "round": 4,
+        "centerIndices": [
+          5,
+          3,
+          7,
+          5,
+          23
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "jack",
+            "center": "ace",
+            "below": "four",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          },
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "one",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "five",
+            "center": "queen",
+            "below": "three",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 5,
+        "centerIndices": [
+          3,
+          15,
+          3,
+          4,
+          11
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "jack",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "ten",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "five",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          },
+          {
+            "above": "ace",
+            "center": "two",
+            "below": "jack",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          },
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "ace",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 6,
+        "centerIndices": [
+          22,
+          28,
+          24,
+          17,
+          4
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "five",
+            "below": "king",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "five",
+            "center": "jack",
+            "below": "four",
+            "indices": {
+              "above": 27,
+              "center": 28,
+              "below": 29
+            }
+          },
+          {
+            "above": "queen",
+            "center": "nine",
+            "below": "four",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "ace",
+            "center": "queen",
+            "below": "scatter",
+            "indices": {
+              "above": 16,
+              "center": 17,
+              "below": 18
+            }
+          },
+          {
+            "above": "two",
+            "center": "king",
+            "below": "ten",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 7,
+        "centerIndices": [
+          4,
+          11,
+          9,
+          11,
+          2
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "three",
+            "center": "jack",
+            "below": "ace",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          },
+          {
+            "above": "queen",
+            "center": "three",
+            "below": "king",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "ten",
+            "center": "jack",
+            "below": "two",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 8,
+        "centerIndices": [
+          2,
+          18,
+          25,
+          7,
+          37
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "one",
+            "center": "nine",
+            "below": "scatter",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "nine",
+            "center": "four",
+            "below": "king",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "one",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "one",
+            "indices": {
+              "above": 36,
+              "center": 37,
+              "below": 38
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 9,
+        "centerIndices": [
+          16,
+          0,
+          19,
+          14,
+          12
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "wild",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "four",
+            "center": "queen",
+            "below": "jack",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "king",
+            "center": "one",
+            "below": "nine",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "jack",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 13,
+              "center": 14,
+              "below": 15
+            }
+          },
+          {
+            "above": "five",
+            "center": "ace",
+            "below": "jack",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 10,
+        "centerIndices": [
+          4,
+          5,
+          6,
+          29,
+          24
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "three",
+            "center": "jack",
+            "below": "ace",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "king",
+            "center": "jack",
+            "below": "wild",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "queen",
+            "center": "three",
+            "below": "nine",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 11,
+        "centerIndices": [
+          21,
+          16,
+          6,
+          29,
+          5
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "one",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "two",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "king",
+            "center": "jack",
+            "below": "wild",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "king",
+            "center": "ten",
+            "below": "wild",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 12,
+        "centerIndices": [
+          28,
+          24,
+          9,
+          27,
+          36
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "nine",
+            "center": "three",
+            "below": "ten",
+            "indices": {
+              "above": 27,
+              "center": 28,
+              "below": 29
+            }
+          },
+          {
+            "above": "king",
+            "center": "two",
+            "below": "jack",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "two",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "queen",
+            "center": "four",
+            "below": "nine",
+            "indices": {
+              "above": 35,
+              "center": 36,
+              "below": 37
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 13,
+        "centerIndices": [
+          24,
+          19,
+          2,
+          21,
+          25
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "ace",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "nine",
+            "center": "five",
+            "below": "ten",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "king",
+            "center": "three",
+            "below": "jack",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "three",
+            "center": "nine",
+            "below": "wild",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 14,
+        "centerIndices": [
+          25,
+          15,
+          9,
+          16,
+          22
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "four",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "ten",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "queen",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "four",
+            "center": "ace",
+            "below": "queen",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "queen",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 15,
+        "centerIndices": [
+          22,
+          8,
+          1,
+          9,
+          15
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "five",
+            "below": "king",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "jack",
+            "center": "five",
+            "below": "nine",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "king",
+            "center": "nine",
+            "below": "five",
+            "indices": {
+              "above": 0,
+              "center": 1,
+              "below": 2
+            }
+          },
+          {
+            "above": "four",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 16,
+        "centerIndices": [
+          25,
+          5,
+          25,
+          8,
+          33
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "four",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "nine",
+            "center": "four",
+            "below": "king",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "ten",
+            "center": "four",
+            "below": "jack",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "jack",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 32,
+              "center": 33,
+              "below": 34
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 17,
+        "centerIndices": [
+          12,
+          1,
+          15,
+          1,
+          18
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "scatter",
+            "below": "queen",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          },
+          {
+            "above": "queen",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 0,
+              "center": 1,
+              "below": 2
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "king",
+            "center": "nine",
+            "below": "five",
+            "indices": {
+              "above": 0,
+              "center": 1,
+              "below": 2
+            }
+          },
+          {
+            "above": "four",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 18,
+        "centerIndices": [
+          22,
+          24,
+          10,
+          24,
+          15
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "five",
+            "below": "king",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "king",
+            "center": "two",
+            "below": "jack",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "nine",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 19,
+        "centerIndices": [
+          0,
+          7,
+          25,
+          11,
+          26
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "queen",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "queen",
+            "center": "jack",
+            "below": "five",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "nine",
+            "center": "four",
+            "below": "king",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "nine",
+            "center": "wild",
+            "below": "jack",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 20,
+        "centerIndices": [
+          26,
+          21,
+          15,
+          19,
+          3
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "one",
+            "below": "nine",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          },
+          {
+            "above": "ace",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "ten",
+            "below": "king",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "king",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 21,
+        "centerIndices": [
+          13,
+          13,
+          13,
+          24,
+          25
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "scatter",
+            "center": "queen",
+            "below": "jack",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "king",
+            "center": "one",
+            "below": "jack",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ace",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "three",
+            "center": "nine",
+            "below": "wild",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 22,
+        "centerIndices": [
+          24,
+          25,
+          10,
+          6,
+          35
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "queen",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "nine",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "four",
+            "indices": {
+              "above": 34,
+              "center": 35,
+              "below": 36
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 23,
+        "centerIndices": [
+          8,
+          17,
+          13,
+          9,
+          39
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "queen",
+            "below": "two",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "ten",
+            "center": "one",
+            "below": "nine",
+            "indices": {
+              "above": 16,
+              "center": 17,
+              "below": 18
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ace",
+            "indices": {
+              "above": 12,
+              "center": 13,
+              "below": 14
+            }
+          },
+          {
+            "above": "four",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "one",
+            "center": "ace",
+            "below": "nine",
+            "indices": {
+              "above": 38,
+              "center": 39,
+              "below": 40
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 24,
+        "centerIndices": [
+          9,
+          2,
+          10,
+          9,
+          29
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "two",
+            "below": "nine",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "jack",
+            "center": "three",
+            "below": "queen",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "ten",
+            "center": "three",
+            "below": "nine",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "four",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "two",
+            "center": "queen",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 30
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 25,
+        "centerIndices": [
+          5,
+          15,
+          15,
+          24,
+          4
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "jack",
+            "center": "ace",
+            "below": "four",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "ten",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "four",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "two",
+            "center": "king",
+            "below": "ten",
+            "indices": {
+              "above": 3,
+              "center": 4,
+              "below": 5
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 26,
+        "centerIndices": [
+          17,
+          26,
+          29,
+          1,
+          16
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "queen",
+            "center": "ace",
+            "below": "two",
+            "indices": {
+              "above": 16,
+              "center": 17,
+              "below": 18
+            }
+          },
+          {
+            "above": "jack",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "king",
+            "center": "nine",
+            "below": "five",
+            "indices": {
+              "above": 0,
+              "center": 1,
+              "below": 2
+            }
+          },
+          {
+            "above": "nine",
+            "center": "ace",
+            "below": "four",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 27,
+        "centerIndices": [
+          24,
+          28,
+          7,
+          6,
+          22
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "five",
+            "center": "jack",
+            "below": "four",
+            "indices": {
+              "above": 27,
+              "center": 28,
+              "below": 29
+            }
+          },
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "ten",
+            "center": "five",
+            "below": "queen",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 28,
+        "centerIndices": [
+          12,
+          19,
+          11,
+          25,
+          7
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "scatter",
+            "below": "queen",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "ace",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "three",
+            "center": "nine",
+            "below": "jack",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "nine",
+            "center": "ace",
+            "below": "two",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          }
+        ],
+        "scatterCount": 2,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 29,
+        "centerIndices": [
+          24,
+          8,
+          23,
+          15,
+          7
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "jack",
+            "center": "five",
+            "below": "nine",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "two",
+            "center": "queen",
+            "below": "nine",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "ten",
+            "center": "four",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 6,
+              "center": 7,
+              "below": 8
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      },
+      {
+        "round": 30,
+        "centerIndices": [
+          20,
+          15,
+          20,
+          27,
+          8
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "one",
+            "below": "queen",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "ten",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "one",
+            "center": "nine",
+            "below": "ten",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "two",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "king",
+            "center": "nine",
+            "below": "one",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 31
+      }
+    ]
+  },
+  {
+    "clientSeed": "d99174a86f29ac19c0b512e04b99461b",
+    "serverSeed": "a1c0b94f9a5e5ab9c0f08f2982537bd8",
+    "nonce": 442,
+    "inputs": {},
+    "selects": {},
+    "category": "bonus",
+    "rounds": [
+      {
+        "round": 0,
+        "centerIndices": [
+          12,
+          23,
+          28,
+          0,
+          15
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "scatter",
+            "below": "queen",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          },
+          {
+            "above": "ten",
+            "center": "king",
+            "below": "two",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "five",
+            "center": "nine",
+            "below": "scatter",
+            "indices": {
+              "above": 27,
+              "center": 28,
+              "below": 29
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "scatter",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          }
+        ],
+        "scatterCount": 3,
+        "triggersBonus": true,
+        "totalRounds": 16
+      },
+      {
+        "round": 1,
+        "centerIndices": [
+          19,
+          16,
+          29,
+          20,
+          23
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "two",
+            "center": "king",
+            "below": "one",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "two",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "ten",
+            "center": "king",
+            "below": "three",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "five",
+            "center": "queen",
+            "below": "three",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 2,
+        "centerIndices": [
+          20,
+          18,
+          23,
+          3,
+          24
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "one",
+            "below": "queen",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "one",
+            "center": "nine",
+            "below": "scatter",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "two",
+            "center": "queen",
+            "below": "nine",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "five",
+            "center": "ace",
+            "below": "two",
+            "indices": {
+              "above": 2,
+              "center": 3,
+              "below": 4
+            }
+          },
+          {
+            "above": "queen",
+            "center": "three",
+            "below": "nine",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 3,
+        "centerIndices": [
+          19,
+          9,
+          5,
+          10,
+          9
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "two",
+            "center": "king",
+            "below": "one",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "five",
+            "center": "nine",
+            "below": "queen",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          },
+          {
+            "above": "three",
+            "center": "king",
+            "below": "jack",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "jack",
+            "center": "three",
+            "below": "queen",
+            "indices": {
+              "above": 9,
+              "center": 10,
+              "below": 11
+            }
+          },
+          {
+            "above": "nine",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 4,
+        "centerIndices": [
+          15,
+          14,
+          24,
+          2,
+          21
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "one",
+            "center": "jack",
+            "below": "two",
+            "indices": {
+              "above": 13,
+              "center": 14,
+              "below": 15
+            }
+          },
+          {
+            "above": "queen",
+            "center": "nine",
+            "below": "four",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "nine",
+            "center": "five",
+            "below": "ace",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "four",
+            "center": "ten",
+            "below": "five",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 5,
+        "centerIndices": [
+          8,
+          2,
+          29,
+          5,
+          39
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "queen",
+            "below": "two",
+            "indices": {
+              "above": 7,
+              "center": 8,
+              "below": 9
+            }
+          },
+          {
+            "above": "jack",
+            "center": "three",
+            "below": "queen",
+            "indices": {
+              "above": 1,
+              "center": 2,
+              "below": 3
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "one",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "one",
+            "center": "ace",
+            "below": "nine",
+            "indices": {
+              "above": 38,
+              "center": 39,
+              "below": 40
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 6,
+        "centerIndices": [
+          16,
+          18,
+          16,
+          6,
+          26
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "wild",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "one",
+            "center": "nine",
+            "below": "scatter",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "ten",
+            "center": "four",
+            "below": "ace",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "jack",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "nine",
+            "center": "wild",
+            "below": "jack",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 7,
+        "centerIndices": [
+          20,
+          16,
+          29,
+          23,
+          21
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "one",
+            "below": "queen",
+            "indices": {
+              "above": 19,
+              "center": 20,
+              "below": 21
+            }
+          },
+          {
+            "above": "two",
+            "center": "ten",
+            "below": "one",
+            "indices": {
+              "above": 15,
+              "center": 16,
+              "below": 17
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "king",
+            "indices": {
+              "above": 28,
+              "center": 29,
+              "below": 0
+            }
+          },
+          {
+            "above": "jack",
+            "center": "four",
+            "below": "nine",
+            "indices": {
+              "above": 22,
+              "center": 23,
+              "below": 24
+            }
+          },
+          {
+            "above": "four",
+            "center": "ten",
+            "below": "five",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 8,
+        "centerIndices": [
+          24,
+          1,
+          15,
+          0,
+          36
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "king",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "queen",
+            "center": "jack",
+            "below": "three",
+            "indices": {
+              "above": 0,
+              "center": 1,
+              "below": 2
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "wild",
+            "center": "king",
+            "below": "nine",
+            "indices": {
+              "above": 29,
+              "center": 0,
+              "below": 1
+            }
+          },
+          {
+            "above": "queen",
+            "center": "four",
+            "below": "nine",
+            "indices": {
+              "above": 35,
+              "center": 36,
+              "below": 37
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 9,
+        "centerIndices": [
+          18,
+          24,
+          26,
+          14,
+          26
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ace",
+            "center": "two",
+            "below": "king",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "king",
+            "center": "two",
+            "below": "jack",
+            "indices": {
+              "above": 23,
+              "center": 24,
+              "below": 25
+            }
+          },
+          {
+            "above": "four",
+            "center": "king",
+            "below": "five",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          },
+          {
+            "above": "jack",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 13,
+              "center": 14,
+              "below": 15
+            }
+          },
+          {
+            "above": "nine",
+            "center": "wild",
+            "below": "jack",
+            "indices": {
+              "above": 25,
+              "center": 26,
+              "below": 27
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 10,
+        "centerIndices": [
+          12,
+          22,
+          27,
+          5,
+          32
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ten",
+            "center": "scatter",
+            "below": "queen",
+            "indices": {
+              "above": 11,
+              "center": 12,
+              "below": 13
+            }
+          },
+          {
+            "above": "four",
+            "center": "ten",
+            "below": "king",
+            "indices": {
+              "above": 21,
+              "center": 22,
+              "below": 23
+            }
+          },
+          {
+            "above": "king",
+            "center": "five",
+            "below": "nine",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "two",
+            "center": "jack",
+            "below": "one",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "five",
+            "center": "jack",
+            "below": "ten",
+            "indices": {
+              "above": 31,
+              "center": 32,
+              "below": 33
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 11,
+        "centerIndices": [
+          21,
+          5,
+          15,
+          18,
+          36
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "one",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "ace",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "queen",
+            "center": "scatter",
+            "below": "ten",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "queen",
+            "center": "four",
+            "below": "nine",
+            "indices": {
+              "above": 35,
+              "center": 36,
+              "below": 37
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 12,
+        "centerIndices": [
+          6,
+          19,
+          15,
+          27,
+          9
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "ace",
+            "center": "four",
+            "below": "ten",
+            "indices": {
+              "above": 5,
+              "center": 6,
+              "below": 7
+            }
+          },
+          {
+            "above": "nine",
+            "center": "scatter",
+            "below": "ace",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "ace",
+            "center": "ten",
+            "below": "four",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "two",
+            "center": "nine",
+            "below": "ace",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "nine",
+            "center": "one",
+            "below": "ten",
+            "indices": {
+              "above": 8,
+              "center": 9,
+              "below": 10
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 13,
+        "centerIndices": [
+          15,
+          18,
+          27,
+          11,
+          33
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "one",
+            "center": "nine",
+            "below": "scatter",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "king",
+            "center": "five",
+            "below": "nine",
+            "indices": {
+              "above": 26,
+              "center": 27,
+              "below": 28
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "jack",
+            "center": "ten",
+            "below": "three",
+            "indices": {
+              "above": 32,
+              "center": 33,
+              "below": 34
+            }
+          }
+        ],
+        "scatterCount": 1,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 14,
+        "centerIndices": [
+          19,
+          15,
+          18,
+          25,
+          5
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "two",
+            "center": "king",
+            "below": "one",
+            "indices": {
+              "above": 18,
+              "center": 19,
+              "below": 20
+            }
+          },
+          {
+            "above": "jack",
+            "center": "two",
+            "below": "ten",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "ace",
+            "center": "king",
+            "below": "one",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          },
+          {
+            "above": "nine",
+            "center": "ace",
+            "below": "two",
+            "indices": {
+              "above": 24,
+              "center": 25,
+              "below": 26
+            }
+          },
+          {
+            "above": "king",
+            "center": "ten",
+            "below": "wild",
+            "indices": {
+              "above": 4,
+              "center": 5,
+              "below": 6
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      },
+      {
+        "round": 15,
+        "centerIndices": [
+          15,
+          28,
+          21,
+          11,
+          18
+        ],
+        "visibleSymbolsByReel": [
+          {
+            "above": "jack",
+            "center": "wild",
+            "below": "queen",
+            "indices": {
+              "above": 14,
+              "center": 15,
+              "below": 16
+            }
+          },
+          {
+            "above": "five",
+            "center": "jack",
+            "below": "four",
+            "indices": {
+              "above": 27,
+              "center": 28,
+              "below": 29
+            }
+          },
+          {
+            "above": "nine",
+            "center": "ten",
+            "below": "two",
+            "indices": {
+              "above": 20,
+              "center": 21,
+              "below": 22
+            }
+          },
+          {
+            "above": "three",
+            "center": "queen",
+            "below": "five",
+            "indices": {
+              "above": 10,
+              "center": 11,
+              "below": 12
+            }
+          },
+          {
+            "above": "four",
+            "center": "queen",
+            "below": "ace",
+            "indices": {
+              "above": 17,
+              "center": 18,
+              "below": 19
+            }
+          }
+        ],
+        "scatterCount": 0,
+        "triggersBonus": false,
+        "totalRounds": 16
+      }
+    ]
+  }
+]

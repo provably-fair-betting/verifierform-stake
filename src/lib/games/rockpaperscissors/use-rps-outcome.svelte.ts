@@ -1,6 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import { RockPaperScissorsOutcome, type Item } from '$lib/types';
+import { RockPaperScissorsOutcome } from './types';
+import type { Item } from '$lib/types';
 import { shuffle } from '$lib/domain/games/shared/shuffle';
 
 const outcomes = Object.values(RockPaperScissorsOutcome);

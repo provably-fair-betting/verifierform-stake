@@ -1,0 +1,102 @@
+[
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "easy"
+    },
+    "result": 1.53
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "medium"
+    },
+    "result": 1.27
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "hard"
+    },
+    "result": 6.08
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "expert"
+    },
+    "result": 17.34
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "easy"
+    },
+    "result": 1.17
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "medium"
+    },
+    "result": 1.7
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "hard"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "expert"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "easy"
+    },
+    "result": 1.07
+  },
+  {
+    "clientSeed": "b39cea8e183258455750e51667d3aec0",
+    "serverSeed": "d027ce5077bd62a2072de5521fcad8b7",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "pumpDifficulty": "medium"
+    },
+    "result": 13.66
+  }
+]

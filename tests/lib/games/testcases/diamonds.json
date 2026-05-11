@@ -1,0 +1,142 @@
+[
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "blue",
+      "yellow",
+      "green",
+      "pink",
+      "yellow"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "green",
+      "blue",
+      "purple",
+      "cyan",
+      "green"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "purple",
+      "red",
+      "green",
+      "pink",
+      "green"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "pink",
+      "pink",
+      "yellow",
+      "purple",
+      "cyan"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "blue",
+      "green",
+      "pink",
+      "red",
+      "green"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "red",
+      "red",
+      "pink",
+      "green",
+      "blue"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "red",
+      "blue",
+      "purple",
+      "cyan",
+      "cyan"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "blue",
+      "red",
+      "green",
+      "red",
+      "pink"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "cyan",
+      "yellow",
+      "green",
+      "pink",
+      "red"
+    ]
+  },
+  {
+    "clientSeed": "7dbf887dbe97259c5e48b76afa459c06",
+    "serverSeed": "5f6de4c2f18ecbbfc1919851cd0770b7",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {},
+    "gems": [
+      "blue",
+      "purple",
+      "yellow",
+      "green",
+      "yellow"
+    ]
+  }
+]

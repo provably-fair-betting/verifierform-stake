@@ -14,17 +14,17 @@
   <p data-testid="blackjack-dealer-result" class="hidden text-center text-base">
     {blackjack
       .result!.initialDealer.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(', ')}
+      .join(',')}
   </p>
   <p data-testid="blackjack-player-result" class="hidden text-center text-base">
     {blackjack
       .result!.initialPlayer.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(', ')}
+      .join(',')}
   </p>
   <p data-testid="blackjack-remaining-result" class="hidden text-center text-base">
     {blackjack
       .result!.remaining.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(', ')}
+      .join(',')}
   </p>
 
   <div class="mt-5 mb-6">

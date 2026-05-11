@@ -10,7 +10,7 @@ import type { GameDefinition } from 'verifierform-lib';
 export const gameDefinition: GameDefinition = {
   name: 'Plinko',
   schema: CLIENT_SEED_SERVER_SEED_NONCE_SCHEMA.extend({
-    risk: z.enum(['low', 'medium', 'high']),
+    risk: z.enum(['low', 'medium', 'high', 'expert']),
     rows: z.number().min(8).max(16),
   }),
   controls: [
@@ -19,7 +19,7 @@ export const gameDefinition: GameDefinition = {
       id: 'risk',
       label: 'Risk',
       type: 'select',
-      options: ['low', 'medium', 'high'],
+      options: ['low', 'medium', 'high', 'expert'],
     },
     {
       id: 'rows',

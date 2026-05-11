@@ -1,6 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { MinesSeed, FisherYatesItem } from '$lib/types';
+import type { MinesSeed } from './types';
+import type { FisherYatesItem } from '$lib/types';
 import { fisherYates } from '$lib/domain/games/shared/fisher-yates';
 
 /**

@@ -1,0 +1,192 @@
+[
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "Q-spade",
+      "10-diamond"
+    ],
+    "dealerCards": [
+      "5-spade",
+      "J-heart"
+    ],
+    "deciderCards": [
+      "9-heart",
+      "K-spade"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "7-diamond",
+      "6-diamond"
+    ],
+    "dealerCards": [
+      "8-club",
+      "5-club"
+    ],
+    "deciderCards": [
+      "5-diamond",
+      "10-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "6-club",
+      "3-club"
+    ],
+    "dealerCards": [
+      "8-heart",
+      "K-spade"
+    ],
+    "deciderCards": [
+      "5-spade",
+      "8-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "4-spade",
+      "Q-spade"
+    ],
+    "dealerCards": [
+      "10-diamond",
+      "8-diamond"
+    ],
+    "deciderCards": [
+      "10-diamond",
+      "2-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "8-club",
+      "8-diamond"
+    ],
+    "dealerCards": [
+      "7-club",
+      "A-club"
+    ],
+    "deciderCards": [
+      "3-club",
+      "9-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "A-spade",
+      "A-spade"
+    ],
+    "dealerCards": [
+      "8-diamond",
+      "4-spade"
+    ],
+    "deciderCards": [
+      "2-heart",
+      "10-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "9-spade",
+      "7-spade"
+    ],
+    "dealerCards": [
+      "8-club",
+      "8-diamond"
+    ],
+    "deciderCards": [
+      "10-heart",
+      "Q-heart"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "4-club",
+      "8-heart"
+    ],
+    "dealerCards": [
+      "10-diamond",
+      "Q-diamond"
+    ],
+    "deciderCards": [
+      "4-heart",
+      "2-diamond"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "J-heart",
+      "8-club"
+    ],
+    "dealerCards": [
+      "2-heart",
+      "K-spade"
+    ],
+    "deciderCards": [
+      "2-diamond",
+      "2-heart"
+    ]
+  },
+  {
+    "clientSeed": "9d1a65292e3273961d48aa30ce87d0e2",
+    "serverSeed": "3c382bcdaa7a266bb839405f8a5c0440",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {},
+    "playerCards": [
+      "7-diamond",
+      "J-diamond"
+    ],
+    "dealerCards": [
+      "4-club",
+      "8-diamond"
+    ],
+    "deciderCards": [
+      "2-club",
+      "8-spade"
+    ]
+  }
+]

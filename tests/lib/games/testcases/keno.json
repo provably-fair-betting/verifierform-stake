@@ -1,0 +1,192 @@
+[
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      1,
+      7,
+      9,
+      12,
+      14,
+      16,
+      21,
+      23,
+      30,
+      39
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      1,
+      6,
+      11,
+      12,
+      13,
+      22,
+      24,
+      29,
+      34,
+      35
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      1,
+      8,
+      13,
+      17,
+      20,
+      28,
+      32,
+      34,
+      35,
+      36
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      2,
+      3,
+      7,
+      16,
+      18,
+      24,
+      27,
+      31,
+      37,
+      39
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      6,
+      14,
+      15,
+      17,
+      19,
+      22,
+      25,
+      28,
+      31,
+      39
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      4,
+      6,
+      9,
+      14,
+      15,
+      17,
+      19,
+      26,
+      32,
+      38
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      3,
+      10,
+      11,
+      14,
+      17,
+      25,
+      27,
+      28,
+      30,
+      31
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      17,
+      23,
+      30,
+      31,
+      40
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      5,
+      8,
+      12,
+      22,
+      25,
+      26,
+      28,
+      30,
+      37,
+      40
+    ]
+  },
+  {
+    "clientSeed": "971f4d5c49eb1111385e9309d105227f",
+    "serverSeed": "ae1581dc89398cb8fdb84f0a2c64e816",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {},
+    "numbers": [
+      6,
+      7,
+      10,
+      13,
+      16,
+      17,
+      25,
+      30,
+      31,
+      34
+    ]
+  }
+]

@@ -10,6 +10,7 @@
 {#if plinko.isCalculating}
   <Loader />
 {:else}
+  <p data-testid="plinko-result" class="hidden">{plinko.payout}x</p>
   <ContentBlock className="p-4">
     <!-- Result display -->
     <div class="flex items-center justify-center">

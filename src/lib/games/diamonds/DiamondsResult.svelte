@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useDiamondsGems } from './use-diamonds-gems.svelte';
-  import { Gem } from '$lib/types';
+  import { Gem } from './types';
   import { GEM_COLORS } from '$lib/games/diamonds/diamonds';
   import Loader from '$lib/games/Loader.svelte';
 

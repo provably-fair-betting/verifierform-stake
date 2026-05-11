@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BlueSamuraiIcon as BlueSamuraiIconT, BlueSamuraiReelType } from '$lib/types';
+  import { BlueSamuraiIcon as BlueSamuraiIconT, BlueSamuraiReelType } from '../types';
   import BlueSamuraiIcon from '$lib/games/bluesamurai/components/BlueSamuraiIcon.svelte';
   import BlueSamuraiProbabilityRow from '$lib/games/bluesamurai/components/BlueSamuraiProbabilityRow.svelte';
   import ScrollableContainer from '$lib/games/layout/ScrollableContainer.svelte';

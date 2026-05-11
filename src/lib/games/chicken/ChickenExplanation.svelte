@@ -1,6 +1,6 @@
 <script lang="ts">
   import { CHICKEN_DIFFICULTY_TO_SLICE } from './chicken.config';
-  import type { ChickenSeed } from '$lib/types';
+  import type { ChickenSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import Loader from '$lib/games/Loader.svelte';
   import ResultTabs from '$lib/games/layout/ResultTabs.svelte';

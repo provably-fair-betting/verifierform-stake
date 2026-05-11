@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useFlipOutcome } from './use-flip-outcome.svelte';
-  import { CoinFlip } from '$lib/types';
+  import { CoinFlip } from './types';
   import Loader from '$lib/games/Loader.svelte';
 
   const { formValues }: { formValues: Record<string, unknown> } = $props();

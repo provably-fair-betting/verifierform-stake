@@ -1,4 +1,4 @@
-import { CardSuit, type Card } from '$lib/types';
+import { CardSuit, type Card } from './types';
 
 export type CardColor = {
   bg: string;

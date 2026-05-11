@@ -27,5 +27,6 @@
 {#if chicken.isCalculating}
   <Loader />
 {:else}
+  <p data-testid="chicken-result" class="hidden">{maxMulti?.toFixed(2)}x</p>
   <PaylineResultDisplay {maxMulti} {deathMulti} />
 {/if}

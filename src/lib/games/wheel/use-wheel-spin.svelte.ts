@@ -1,7 +1,8 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { WheelSeed, Risk } from '$lib/types';
-import paylines from '$lib/games/wheel/wheel-paylines.json';
+import type { WheelSeed } from './types';
+import type { Risk } from '$lib/types';
+import paylines from '$lib/paylines/wheel-paylines.json';
 
 /**
  * Wheel spin composable

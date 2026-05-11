@@ -1,8 +1,7 @@
 <script lang="ts">
   import ContentBlock from '../layout/ContentBlock.svelte';
   import { getCards } from '$lib/games/tarot/tarot';
-  import { TarotDifficulty, TarotArcanaType } from '$lib/types';
-  import type { TarotCard } from '$lib/types';
+  import { TarotDifficulty, TarotArcanaType, type TarotCard } from './types';
 
   const { difficulty }: { difficulty: TarotDifficulty } = $props();
 

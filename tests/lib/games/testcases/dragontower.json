@@ -1,0 +1,436 @@
+[
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "easy"
+    },
+    "eggPositionsByRound": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        1,
+        3,
+        0
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "medium"
+    },
+    "eggPositionsByRound": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "hard"
+    },
+    "eggPositionsByRound": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "expert"
+    },
+    "eggPositionsByRound": [
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "master"
+    },
+    "eggPositionsByRound": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "easy"
+    },
+    "eggPositionsByRound": [
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        3,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "medium"
+    },
+    "eggPositionsByRound": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "hard"
+    },
+    "eggPositionsByRound": [
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "expert"
+    },
+    "eggPositionsByRound": [
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  {
+    "clientSeed": "2a73709723181740d73e64233275c29c",
+    "serverSeed": "f0344667883e7628a041d8e500e6d203",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "dragonTowerDifficulty": "master"
+    },
+    "eggPositionsByRound": [
+      [
+        0
+      ],
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  }
+]

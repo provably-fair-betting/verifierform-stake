@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BlueSamuraiReelType } from '$lib/types';
+  import { BlueSamuraiReelType } from '../types';
   import probabilities from '$lib/games/bluesamurai/bluesamurai-probabilities.json';
   import {
     getProbabilityColClass,

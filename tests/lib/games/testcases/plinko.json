@@ -1,0 +1,398 @@
+[
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "8"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "9"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "10"
+    },
+    "result": 1.4
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "11"
+    },
+    "result": 1.3
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "12"
+    },
+    "result": 0.5
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "13"
+    },
+    "result": 0.9
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "14"
+    },
+    "result": 1.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "15"
+    },
+    "result": 0.7
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "low",
+      "plinkoRow": "16"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "8"
+    },
+    "result": 3
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 10,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "9"
+    },
+    "result": 4
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 11,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "10"
+    },
+    "result": 0.4
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 12,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "11"
+    },
+    "result": 0.5
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 13,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "12"
+    },
+    "result": 0.6
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 14,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "13"
+    },
+    "result": 6
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 15,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "14"
+    },
+    "result": 1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 16,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "15"
+    },
+    "result": 0.3
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 17,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "medium",
+      "plinkoRow": "16"
+    },
+    "result": 0.5
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 18,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "8"
+    },
+    "result": 1.5
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 19,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "9"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 20,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "10"
+    },
+    "result": 3
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 21,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "11"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 22,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "12"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 23,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "13"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 24,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "14"
+    },
+    "result": 1.9
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 25,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "15"
+    },
+    "result": 0.5
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 26,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "high",
+      "plinkoRow": "16"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 27,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "8"
+    },
+    "result": 0.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 28,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "9"
+    },
+    "result": 0.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 29,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "10"
+    },
+    "result": 0.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 30,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "11"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 31,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "12"
+    },
+    "result": 0.4
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 32,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "13"
+    },
+    "result": 0.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 33,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "14"
+    },
+    "result": 0.2
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 34,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "15"
+    },
+    "result": 0.1
+  },
+  {
+    "clientSeed": "0beeaafc2e5364be411d4b7279923662",
+    "serverSeed": "0c8f48139d81447799a5310edb9e5aac",
+    "nonce": 35,
+    "inputs": {},
+    "selects": {
+      "plinkoRisk": "expert",
+      "plinkoRow": "16"
+    },
+    "result": 0.1
+  }
+]

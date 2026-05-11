@@ -10,6 +10,10 @@
 {#if bars.isCalculating}
   <Loader />
 {:else}
+  <p data-testid="bars-result" class="hidden">
+    {JSON.stringify(bars.result!.results.map((r) => r.multi))}
+  </p>
+
   <div class="mt-5 mb-5 rounded-lg dark:bg-gray-900 dark:text-white">
     <!-- Total Payout Display -->
     {#if bars.result!.hasSelection}

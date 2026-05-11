@@ -1,6 +1,6 @@
 <script lang="ts">
   import paylines from '$lib/games/cases/cases-paylines.json';
-  import type { CasesSeed } from '$lib/types';
+  import type { CasesSeed } from './types';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
   import PayoutTable from '../layout/PayoutTable.svelte';

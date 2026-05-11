@@ -1,6 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import { CoinFlip, type Item } from '$lib/types';
+import { CoinFlip } from './types';
+import type { Item } from '$lib/types';
 
 /**
  * Coin flip outcome composable

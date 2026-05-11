@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Card, Item } from '$lib/types';
+  import type { Card } from './types';
+  import type { Item } from '$lib/types';
   import CardDeckGrid from '$lib/games/cards/CardDeckGrid.svelte';
   import CardSuitIcon from '$lib/games/cards/CardSuitIcon.svelte';
   import { generateCardDeck, CARD_COLOR_BLUE, type CardColor } from '$lib/games/cards/cards';

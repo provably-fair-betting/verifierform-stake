@@ -1,5 +1,5 @@
 import cards from '$lib/games/packs/packs-payline.json';
-import type { PacksCard } from '$lib/types';
+import type { PacksCard } from './types';
 
 export function findCard(value: number): PacksCard | null {
   for (const entry of cards) {

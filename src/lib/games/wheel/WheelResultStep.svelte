@@ -1,6 +1,6 @@
 <script lang="ts">
   import paylines from '$lib/games/wheel/wheel-paylines.json';
-  import type { WheelSeed } from '$lib/types';
+  import type { WheelSeed } from './types';
   import { useWheelResult } from './use-wheel-result.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';

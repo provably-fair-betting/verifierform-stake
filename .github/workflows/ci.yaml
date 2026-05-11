@@ -35,14 +35,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
-
       - name: Run Unit Tests with Coverage
         run: pnpm run test:unit -- --coverage.enabled --coverage.reporter=json-summary
-
-      - name: Run E2E Tests
-        run: pnpm run test:e2e
 
       - name: Generate coverage badges
         if: github.event_name == 'push'

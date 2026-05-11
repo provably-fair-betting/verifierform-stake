@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Gem } from '$lib/types';
+  import { Gem } from './types';
   import { getGemTabClass, getGemTabSelectedClass } from '$lib/games/diamonds/diamonds';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import DiamondsResultStep from '$lib/games/diamonds/DiamondsResultStep.svelte';

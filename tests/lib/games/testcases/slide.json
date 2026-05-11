@@ -1,0 +1,82 @@
+[
+  {
+    "inputs": {
+      "hash": "a60e04bcba668c720ce7d3b70183653181d438a99aa64bb042bdeb23aa9e63bd",
+      "seed": "015dcda675eb8ec18254ab6f18fd8f47"
+    },
+    "selects": {},
+    "result": 1.39
+  },
+  {
+    "inputs": {
+      "hash": "83ce345bb93fa4503c95949bb6e7347cceda82208a90e37fd681b2b29a2838a0",
+      "seed": "5f7e190ee1e54894d7acf73886717035"
+    },
+    "selects": {},
+    "result": 66.24
+  },
+  {
+    "inputs": {
+      "hash": "1ce6cc5bf007e6be9b891f3f7ac98f375fd6e82d7600a423f4444eaa844d21af",
+      "seed": "47d89c216b87b6826b2252d2656ec8d8"
+    },
+    "selects": {},
+    "result": 3.18
+  },
+  {
+    "inputs": {
+      "hash": "3eb8bdd6e87facac263263f09e3ce8ece186b99146bac77f29742a37efa2e3eb",
+      "seed": "7f6716a7d4154dce15ee2c766ebb1e2e"
+    },
+    "selects": {},
+    "result": 1.64
+  },
+  {
+    "inputs": {
+      "hash": "983ef50180faf9ed2280cacaa72058f43abec9b9f6876ee2e9848750dc3e7634",
+      "seed": "fc84964e93e480f9482f67b457ec3493"
+    },
+    "selects": {},
+    "result": 1.95
+  },
+  {
+    "inputs": {
+      "hash": "6e54eb5604d3071101f7e8609ec1392e14b8c9bd5afb44e570f9d4c630b51b32",
+      "seed": "3717734671ab150f3232f0c56d27c9bf"
+    },
+    "selects": {},
+    "result": 1.04
+  },
+  {
+    "inputs": {
+      "hash": "4a1cad7cd2ef6aaa76287248967893647b56b03a9870d8ba1b006fcaead813ff",
+      "seed": "69898ea43ece4d150a44c8fcf1d851f6"
+    },
+    "selects": {},
+    "result": 2.24
+  },
+  {
+    "inputs": {
+      "hash": "cb133b91eef2f1f7959b0159f94cc224f8a635e61f8e10c724d8279c938d44cd",
+      "seed": "d239a9a1308d3bf0cf5544e05780834b"
+    },
+    "selects": {},
+    "result": 3.32
+  },
+  {
+    "inputs": {
+      "hash": "915a0b6575eb6d4c7ef1611b7c934324c03cde802a3672e0a2f95c573f24458e",
+      "seed": "38d768070bad5aff1d7ba6311dfc5b83"
+    },
+    "selects": {},
+    "result": 16.35
+  },
+  {
+    "inputs": {
+      "hash": "f57c4f2142bb16a2dad25da8e2ecb9684fc7c1e109b98eeeb8bf44a8d21a2be6",
+      "seed": "bc5a64724a418a81bc81e4c8d7f9968a"
+    },
+    "selects": {},
+    "result": 1.92
+  }
+]

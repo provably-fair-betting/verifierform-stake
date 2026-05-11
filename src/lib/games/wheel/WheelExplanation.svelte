@@ -4,7 +4,7 @@
   import Loader from '$lib/games/Loader.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import { useWheelSpin } from './use-wheel-spin.svelte';
-  import type { WheelSeed } from '$lib/types';
+  import type { WheelSeed } from './types';
 
   const { formValues }: { formValues: Record<string, unknown> } = $props();
   const wheel = useWheelSpin(() => formValues);

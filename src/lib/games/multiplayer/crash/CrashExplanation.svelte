@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { CrashSeed } from '$lib/types';
+  import type { CrashSeed } from './types';
   import CrashIntGenerationStep from '$lib/games/multiplayer/crash/CrashIntGenerationStep.svelte';
   import CrashResultStep from '$lib/games/multiplayer/crash/CrashResultStep.svelte';
   import Loader from '$lib/games/Loader.svelte';

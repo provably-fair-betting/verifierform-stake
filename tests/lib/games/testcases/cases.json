@@ -1,0 +1,102 @@
+[
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 0,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "easy"
+    },
+    "result": "2"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 1,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "medium"
+    },
+    "result": "0"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 2,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "hard"
+    },
+    "result": "0.8"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 3,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "expert"
+    },
+    "result": "0.3"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 4,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "easy"
+    },
+    "result": "0.1"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 5,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "medium"
+    },
+    "result": "0"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 6,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "hard"
+    },
+    "result": "0.2"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 7,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "expert"
+    },
+    "result": "0.15"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 8,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "easy"
+    },
+    "result": "2"
+  },
+  {
+    "clientSeed": "15df5f1542e8e79ef16471326c26c471",
+    "serverSeed": "e89f72064b8e4fbb5dd7f28da282e2a5",
+    "nonce": 9,
+    "inputs": {},
+    "selects": {
+      "casesDifficulty": "medium"
+    },
+    "result": "15"
+  }
+]
