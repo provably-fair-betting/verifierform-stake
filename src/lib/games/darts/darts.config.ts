@@ -1,4 +1,4 @@
-import type { DartsDifficulty, DartsColor } from '$lib/types';
+import type { DartsDifficulty, DartsColor } from './types';
 
 /**
  * Darts Game Configuration

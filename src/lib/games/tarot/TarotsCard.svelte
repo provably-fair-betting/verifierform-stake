@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { TarotArcanaType } from '$lib/types';
+  import { TarotArcanaType } from './types';
 
   const { arcanaType, multiplier }: { arcanaType: TarotArcanaType; multiplier: number } = $props();
 

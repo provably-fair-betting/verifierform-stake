@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { BlueSamuraiRound, Seed } from '$lib/types';
+  import type { BlueSamuraiRound } from '../types';
+  import type { Seed } from '$lib/types';
   import type { BoardCell } from '$lib/games/bluesamurai/bluesamurai';
   import BlueSamuraiRoundNavigator from '$lib/games/bluesamurai/components/BlueSamuraiRoundNavigator.svelte';
   import BlueSamuraiSymbolPicker from '$lib/games/bluesamurai/components/BlueSamuraiSymbolPicker.svelte';

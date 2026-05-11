@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { type BlueSamuraiRound } from '$lib/types';
+  import { type BlueSamuraiRound } from '../types';
   import { type BoardCell, getRoundSelectedRing } from '$lib/games/bluesamurai/bluesamurai';
   import BlueSamuraiIcon from '$lib/games/bluesamurai/components/BlueSamuraiIcon.svelte';
 

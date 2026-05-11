@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { SlideSeed } from '$lib/types';
+  import type { SlideSeed } from './types';
   import SlideIntGenerationStep from '$lib/games/multiplayer/slide/SlideIntGenerationStep.svelte';
   import SlideResultStep from '$lib/games/multiplayer/slide/SlideResultStep.svelte';
   import Loader from '$lib/games/Loader.svelte';

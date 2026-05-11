@@ -1,6 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { DragonTowerSeed, DragonTowerDifficulty, FisherYatesItem } from '$lib/types';
+import type { DragonTowerSeed, DragonTowerDifficulty } from './types';
+import type { FisherYatesItem } from '$lib/types';
 import { fisherYates } from '$lib/domain/games/shared/fisher-yates';
 import { DRAGON_TOWER_LEVEL_MAP } from './dragon-tower.config';
 

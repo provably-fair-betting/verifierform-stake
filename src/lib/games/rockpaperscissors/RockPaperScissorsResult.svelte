@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useRpsOutcome } from './use-rps-outcome.svelte';
-  import { RockPaperScissorsOutcome } from '$lib/types';
+  import { RockPaperScissorsOutcome } from './types';
   import Loader from '$lib/games/Loader.svelte';
 
   const { formValues }: { formValues: Record<string, unknown> } = $props();

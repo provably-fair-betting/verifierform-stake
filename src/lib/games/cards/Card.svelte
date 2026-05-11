@@ -1,6 +1,6 @@
 <script lang="ts">
   import CardSuitIcon from '$lib/games/cards/CardSuitIcon.svelte';
-  import { CardSuit } from '$lib/types';
+  import { CardSuit } from './types';
 
   const { value, suit }: { value: string; suit: CardSuit } = $props();
 </script>

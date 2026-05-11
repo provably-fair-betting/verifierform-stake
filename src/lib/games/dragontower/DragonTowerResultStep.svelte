@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { DragonTowerDifficultyConfig, FisherYatesItem } from '$lib/types';
+  import type { DragonTowerDifficultyConfig } from './types';
+  import type { FisherYatesItem } from '$lib/types';
   import { useFisherYatesDisplay } from '$lib/composables/core';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';

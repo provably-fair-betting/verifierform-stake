@@ -1,6 +1,6 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { BarsSeed, BarsDifficulty } from '$lib/types';
+import type { BarsSeed, BarsDifficulty } from './types';
 import paylines from '$lib/games/bars/bars-paylines.json';
 import { getPayout } from '$lib/domain/games/shared/payout';
 

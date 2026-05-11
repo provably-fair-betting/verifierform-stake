@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { type BlueSamuraiRound } from '$lib/types';
+  import { type BlueSamuraiRound } from '../types';
   import {
     getRoundBadgeClass,
     getRoundLabel,

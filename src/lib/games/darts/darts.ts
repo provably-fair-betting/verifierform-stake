@@ -1,5 +1,5 @@
 import { DARTS_COLOR_TO_MULTI } from './darts.config';
-import { DartsColor, DartsDifficulty } from '$lib/types';
+import { DartsColor, DartsDifficulty } from './types';
 
 export const DARTS_COLOR_LABELS: Record<string, string> = {
   '#24e700': 'Green',

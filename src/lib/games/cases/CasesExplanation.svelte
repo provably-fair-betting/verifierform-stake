@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { CasesSeed } from '$lib/types';
+  import type { CasesSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import CasesResultStep from '$lib/games/cases/CasesResultStep.svelte';
   import Loader from '$lib/games/Loader.svelte';

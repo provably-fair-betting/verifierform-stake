@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { BlueSamuraiIcon } from '$lib/types';
+  import type { BlueSamuraiIcon } from '../types';
 
   import s1 from '$lib/games/bluesamurai/icons/s1.png';
   import s2 from '$lib/games/bluesamurai/icons/s2.png';

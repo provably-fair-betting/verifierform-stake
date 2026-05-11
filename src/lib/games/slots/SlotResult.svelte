@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { ScarabSpinsTomeOfLifeIcon } from '$lib/types';
+  import type { ScarabSpinsTomeOfLifeIcon } from './types';
   import ResultTabs from '$lib/games/layout/ResultTabs.svelte';
   import SlotBoard from '$lib/games/slots/SlotBoard.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';

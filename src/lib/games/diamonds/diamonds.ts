@@ -1,4 +1,4 @@
-import { Gem } from '$lib/types';
+import { Gem } from './types';
 
 export type GemColors = {
   bg: string;

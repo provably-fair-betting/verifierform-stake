@@ -1,4 +1,4 @@
-import type { WheelSeed } from '$lib/types';
+import type { WheelSeed } from './types';
 
 /** Wheel result calculations - payline lookup and chosen value */
 export function useWheelResult(

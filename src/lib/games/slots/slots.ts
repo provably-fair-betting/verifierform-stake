@@ -1,4 +1,4 @@
-import { ScarabSpinsTomeOfLifeIcon, type ScarabSpinsTomeOfLifeRound } from '$lib/types';
+import { ScarabSpinsTomeOfLifeIcon, type ScarabSpinsTomeOfLifeRound } from './types';
 import reels from '$lib/games/slots/slot-reels.json';
 
 export function simulateRounds(floatGenerator: Generator<number, number, number>) {

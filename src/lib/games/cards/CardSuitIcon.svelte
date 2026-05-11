@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CardSuit } from '$lib/types';
+  import { CardSuit } from './types';
   import clubIcon from '$lib/games/cards/icons/club-50x50.png';
   import spadeIcon from '$lib/games/cards/icons/spade-50x50.png';
   import heartIcon from '$lib/games/cards/icons/heart-50x50.png';

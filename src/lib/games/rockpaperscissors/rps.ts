@@ -1,4 +1,4 @@
-import { RockPaperScissorsOutcome } from '$lib/types';
+import { RockPaperScissorsOutcome } from './types';
 
 type RpsTabColors = {
   bg: string;

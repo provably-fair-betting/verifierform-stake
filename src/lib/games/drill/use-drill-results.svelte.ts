@@ -1,6 +1,6 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import type { DrillResult } from '$lib/types';
+import type { DrillResult } from './types';
 import { calculateDrillMultiplier } from '$lib/games/drill/drill';
 
 /**

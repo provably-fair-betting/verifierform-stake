@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Card } from '$lib/types';
+  import type { Card } from './types';
   import type { CardColor } from '$lib/games/cards/cards';
   import CardSuitIcon from '$lib/games/cards/CardSuitIcon.svelte';
 

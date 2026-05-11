@@ -1,7 +1,7 @@
 <script lang="ts">
   import { useDragonTowerLevels } from './use-dragon-tower-levels.svelte';
   import { useDragonTowerGrid } from './use-dragontower-grid.svelte';
-  import type { DragonTowerDifficulty } from '$lib/types';
+  import type { DragonTowerDifficulty } from './types';
   import { DRAGON_TOWER_COL_CLASS } from '$lib/games/dragontower/dragontower';
   import eggIconWhite from '$lib/games/dragontower/icons/egg-100x100-white.png';
   import eggIconGray from '$lib/games/dragontower/icons/egg-100x100-gray.png';

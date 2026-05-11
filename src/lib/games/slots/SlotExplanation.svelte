@@ -1,6 +1,6 @@
 <script lang="ts">
   import { useSlotResult } from './use-slot-result.svelte';
-  import { ScarabSpinsTomeOfLifeIcon } from '$lib/types';
+  import { ScarabSpinsTomeOfLifeIcon } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import ScrollableContainer from '$lib/games/layout/ScrollableContainer.svelte';
   import FloatToReelPositionStep from '$lib/games/slots/FloatToReelPositionStep.svelte';

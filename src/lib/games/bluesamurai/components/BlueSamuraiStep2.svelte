@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BlueSamuraiReelType } from '$lib/types';
+  import { BlueSamuraiReelType } from '../types';
   import BlueSamuraiFloatToSymbolTable from '$lib/games/bluesamurai/components/BlueSamuraiFloatToSymbolTable.svelte';
   import ContentBlock from '$lib/games/layout/ContentBlock.svelte';
 

@@ -1,4 +1,4 @@
-import { CoinFlip } from '$lib/types';
+import { CoinFlip } from './types';
 
 type FlipTabColors = {
   bg: string;

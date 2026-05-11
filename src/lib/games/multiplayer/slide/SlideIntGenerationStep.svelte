@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { SlideIntGenerationStepProps } from '$lib/types';
+  import type { SlideIntGenerationStepProps } from './types';
   import IntGenerationStep from '$lib/games/multiplayer/IntGenerationStep.svelte';
 
   const { stepNumber, seed, hmac }: SlideIntGenerationStepProps = $props();

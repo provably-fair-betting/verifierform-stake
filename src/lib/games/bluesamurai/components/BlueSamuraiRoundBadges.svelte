@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { BlueSamuraiRetriggerType, type BlueSamuraiRound } from '$lib/types';
+  import { BlueSamuraiRetriggerType, type BlueSamuraiRound } from '../types';
   import { getRoundRetriggerBadgeClass } from '$lib/games/bluesamurai/bluesamurai';
 
   const { round }: { round: BlueSamuraiRound } = $props();

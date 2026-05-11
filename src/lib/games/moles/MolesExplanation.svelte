@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { MolesSeed } from '$lib/types';
+  import type { MolesSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import MolesResultStep from '$lib/games/moles/MolesResultStep.svelte';
   import Loader from '$lib/games/Loader.svelte';

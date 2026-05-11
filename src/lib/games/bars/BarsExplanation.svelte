@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { BarsSeed } from '$lib/types';
+  import type { BarsSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import Loader from '$lib/games/Loader.svelte';
   import ResultTabs from '../layout/ResultTabs.svelte';

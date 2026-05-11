@@ -1,5 +1,5 @@
 import { buildFlatItems, buildBoardColumns } from '$lib/games/bluesamurai/bluesamurai';
-import type { BlueSamuraiRound } from '$lib/types';
+import type { BlueSamuraiRound } from './types';
 
 /** Blue Samurai explanation state management */
 export function useBlueSamuraiExplanation(getRounds: () => BlueSamuraiRound[] | null) {

@@ -5,7 +5,7 @@ import {
   BlueSamuraiRetriggerType,
   type BlueSamuraiRound,
   type BlueSamuraiSymbol,
-} from '$lib/types';
+} from './types';
 import { OrderedSet } from 'immutable';
 import bigDecimal from 'js-big-decimal';
 

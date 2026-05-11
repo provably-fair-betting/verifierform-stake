@@ -1,7 +1,7 @@
 <script lang="ts">
   import reels from '$lib/games/slots/slot-reels.json';
   import Indicator from '$lib/games/layout/Indicator.svelte';
-  import { ScarabSpinsTomeOfLifeIcon } from '$lib/types';
+  import { ScarabSpinsTomeOfLifeIcon } from './types';
   import { scrollToCenterVertically } from '$lib/util/scroll';
   import { type Component } from 'svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';

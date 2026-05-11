@@ -1,4 +1,4 @@
-import type { SnakesDifficulty } from '$lib/types';
+import type { SnakesDifficulty } from './types';
 
 /**
  * Snakes Game Configuration

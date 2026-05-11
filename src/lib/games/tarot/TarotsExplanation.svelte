@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { TarotSeed } from '$lib/types';
+  import type { TarotSeed } from './types';
   import Loader from '$lib/games/Loader.svelte';
   import ResultTabs from '../layout/ResultTabs.svelte';
   import ContentBlock from '../layout/ContentBlock.svelte';

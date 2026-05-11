@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { DartsSeed } from '$lib/types';
+  import type { DartsSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import DartsMultiplierStep from '$lib/games/darts/DartsMultiplierStep.svelte';
   import ContentBlock from '$lib/games/layout/ContentBlock.svelte';

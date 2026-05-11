@@ -1,6 +1,6 @@
 <script lang="ts">
   import { PUMP_DIFFICULTY_TO_SLICE } from './pump.config';
-  import type { PumpSeed } from '$lib/types';
+  import type { PumpSeed } from './types';
   import FloatGenerationStep from '$lib/games/FloatGenerationStep.svelte';
   import Loader from '$lib/games/Loader.svelte';
   import ResultTabs from '$lib/games/layout/ResultTabs.svelte';

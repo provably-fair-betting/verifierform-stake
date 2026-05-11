@@ -1,7 +1,7 @@
 <script lang="ts">
   import { useDartsMultiplierCalc } from './use-darts-multiplier-calc.svelte';
   import { DARTS_COLOR_LABELS } from '$lib/games/darts/darts';
-  import type { DartsDifficulty } from '$lib/types';
+  import type { DartsDifficulty } from './types';
   import ContentBlock from '$lib/games/layout/ContentBlock.svelte';
   import HighlightLink from '$lib/games/layout/HighlightLink.svelte';
   import HighlightText from '$lib/games/layout/HighlightText.svelte';

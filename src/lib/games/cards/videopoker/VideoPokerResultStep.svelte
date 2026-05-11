@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Card, FisherYatesItem } from '$lib/types';
+  import type { Card } from '../types';
+  import type { FisherYatesItem } from '$lib/types';
   import { useFisherYatesCardsDisplay } from './use-fisheryates-cards-display.svelte';
   import CardDeckGrid from '$lib/games/cards/CardDeckGrid.svelte';
   import CardSuitIcon from '$lib/games/cards/CardSuitIcon.svelte';

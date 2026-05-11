@@ -1,5 +1,6 @@
 <script lang="ts">
-  import type { Direction, Item } from '$lib/types';
+  import type { Direction } from './types';
+  import type { Item } from '$lib/types';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
   import HighlightText from '../layout/HighlightText.svelte';

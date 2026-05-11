@@ -3,7 +3,7 @@
   import ScrollableContainer from '../layout/ScrollableContainer.svelte';
   import TarotsCard from './TarotsCard.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
-  import type { TarotCard, TarotArcanaType, TarotDifficulty } from '$lib/types';
+  import type { TarotCard, TarotArcanaType, TarotDifficulty } from './types';
   import { getCards } from '$lib/games/tarot/tarot';
   import { useTableScrollReset } from '$lib/composables/core';
 

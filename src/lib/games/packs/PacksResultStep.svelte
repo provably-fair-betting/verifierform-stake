@@ -3,7 +3,7 @@
   import ScrollableContainer from '../layout/ScrollableContainer.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
   import PacksCard from './PacksCard.svelte';
-  import type { PacksCard as PacksCardT } from '$lib/types';
+  import type { PacksCard as PacksCardT } from './types';
   import cards from '$lib/games/packs/packs-payline.json';
   import { useTableScrollReset } from '$lib/composables/core';
 

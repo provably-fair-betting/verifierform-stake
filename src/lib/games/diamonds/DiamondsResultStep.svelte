@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { Gem, type Item } from '$lib/types';
+  import { Gem } from './types';
+  import type { Item } from '$lib/types';
   import { GEM_COLORS } from '$lib/games/diamonds/diamonds';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';

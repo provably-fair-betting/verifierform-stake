@@ -1,7 +1,7 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import { findCard } from '$lib/games/packs/packs';
-import type { PacksCard } from '$lib/types';
+import type { PacksCard } from './types';
 
 /** Packs cards composable - generates 5 random pack cards, preserving float for each */
 export function usePacksCards(getFormValues: () => Record<string, unknown>) {
