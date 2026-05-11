@@ -1,11 +1,28 @@
 import tailwindcss from '@tailwindcss/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { defineConfig, type Plugin } from 'vite';
 import devtoolsJson from 'vite-plugin-devtools-json';
 
+// SvelteKit's handleHotUpdate sends full-reload events for certain file changes.
+// In Vitest UI mode this causes the browser tab to refresh, dropping the Vitest
+// WebSocket and showing "disconnected". Suppress full-reload in VITEST context;
+// config-file changes that legitimately need server.restart() are unaffected.
+const suppressFullReloadInVitest: Plugin = {
+  name: 'suppress-full-reload-in-vitest',
+  apply: 'serve',
+  configureServer(server) {
+    if (!process.env.VITEST) return;
+    const originalSend = server.hot.send.bind(server.hot);
+    server.hot.send = (payload: any, ...args: any[]) => {
+      if ((payload as { type?: string })?.type === 'full-reload') return;
+      return originalSend(payload, ...args);
+    };
+  },
+};
+
 export default defineConfig({
-  plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
+  plugins: [tailwindcss(), sveltekit(), devtoolsJson(), suppressFullReloadInVitest],
   build: {
     sourcemap: true,
   },
