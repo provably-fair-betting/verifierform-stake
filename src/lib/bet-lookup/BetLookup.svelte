@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { slide } from 'svelte/transition';
   import { goto } from '$app/navigation';
   import { lookupBet, type BetLookupError } from './bet-lookup.js';
 
@@ -74,7 +75,8 @@
 
 {#if open}
   <div
-    class="mx-auto max-w-xl  border-b border-gray-200 bg-gray-50 px-4 py-3 dark:border-gray-700 dark:bg-gray-800/40"
+    transition:slide={{ duration: 200 }}
+    class="mx-auto max-w-xl border-b border-gray-100 bg-white px-4 py-3 dark:border-gray-700 dark:bg-gray-700/40"
   >
     <div class="mb-2 flex items-center gap-2">
       {@render searchIcon('h-4 w-4 shrink-0 text-gray-500 dark:text-gray-400')}
@@ -160,7 +162,7 @@
 {:else}
   <button
     onclick={() => (open = true)}
-    class="mx-auto mb-0 flex w-full max-w-xl items-center gap-2  border-b border-gray-200 bg-gray-100 px-4 py-2.5 text-sm text-gray-500 hover:text-gray-700 dark:border-gray-600 dark:bg-gray-700/60 dark:text-gray-400 dark:hover:text-gray-200"
+    class="mx-auto mb-4 flex w-full max-w-xl items-center gap-2 border-b border-gray-200 bg-white px-4 py-2.5 text-sm text-gray-500 hover:text-gray-700 dark:border-gray-700 dark:bg-gray-700/40 dark:text-gray-400 dark:hover:text-gray-200"
   >
     {@render searchIcon('h-3.5 w-3.5 shrink-0 text-purple-500 dark:text-purple-400')}
     Lookup by Bet ID
