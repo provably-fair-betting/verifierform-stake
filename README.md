@@ -76,7 +76,7 @@ PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm 
 | `PUBLIC_BET_LOOKUP_ENABLED` | Set to `true` to show the Bet Lookup bar |
 | `PUBLIC_BET_LOOKUP_URL` | Base URL of the bet-lookup API as seen from the browser |
 
-See `.env.example` for reference. For local dev, set via `.env.local`.
+See `.env.example` for reference.
 
 ---
 
