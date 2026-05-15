@@ -15,7 +15,9 @@
     "test:unit": "vitest --ui",
     "test": "npm run test:unit -- --run",
     "sync:paylines": "node scripts/sync-paylines.js",
-    "sync:testdata": "node scripts/sync-testdata.js"
+    "sync:testdata": "node scripts/sync-testdata.js",
+    "mock:api": "node scripts/mock-api.js",
+    "dev:lookup": "node scripts/mock-api.js & PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 vite dev"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
