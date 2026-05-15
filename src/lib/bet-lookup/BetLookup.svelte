@@ -8,10 +8,6 @@
   let error = $state<BetLookupError | null>(null);
   let successGame = $state<string | null>(null);
 
-  function show() {
-    open = true;
-  }
-
   function dismiss() {
     open = false;
     betId = '';
@@ -60,24 +56,28 @@
   }
 </script>
 
+{#snippet searchIcon(cls: string)}
+  <svg
+    class={cls}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+      clip-rule="evenodd"
+    />
+  </svg>
+{/snippet}
+
 {#if open}
   <div
-    class="mx-auto max-w-xl rounded-t-lg border-b border-gray-200 bg-gray-50 px-4 py-3 dark:border-gray-700 dark:bg-gray-800/40"
+    class="mx-auto max-w-xl  border-b border-gray-200 bg-gray-50 px-4 py-3 dark:border-gray-700 dark:bg-gray-800/40"
   >
     <div class="mb-2 flex items-center gap-2">
-      <svg
-        class="h-4 w-4 shrink-0 text-gray-500 dark:text-gray-400"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-          clip-rule="evenodd"
-        />
-      </svg>
+      {@render searchIcon('h-4 w-4 shrink-0 text-gray-500 dark:text-gray-400')}
       <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Bet Lookup</span>
       <span class="text-sm text-gray-500 dark:text-gray-400"
         >— paste a bet ID to auto-fill the verifier</span
@@ -158,25 +158,24 @@
     {/if}
   </div>
 {:else}
-  <div class="mx-auto mb-2 flex max-w-xl justify-end px-1">
-    <button
-      onclick={show}
-      class="inline-flex items-center gap-1.5 rounded px-2 py-1 text-sm text-purple-600 hover:bg-purple-50 hover:text-purple-700 dark:text-purple-400 dark:hover:bg-purple-900/20 dark:hover:text-purple-300"
+  <button
+    onclick={() => (open = true)}
+    class="mx-auto mb-0 flex w-full max-w-xl items-center gap-2  border-b border-gray-200 bg-gray-100 px-4 py-2.5 text-sm text-gray-500 hover:text-gray-700 dark:border-gray-600 dark:bg-gray-700/60 dark:text-gray-400 dark:hover:text-gray-200"
+  >
+    {@render searchIcon('h-3.5 w-3.5 shrink-0 text-purple-500 dark:text-purple-400')}
+    Lookup by Bet ID
+    <svg
+      class="ml-auto h-3.5 w-3.5 shrink-0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      aria-hidden="true"
     >
-      <svg
-        class="h-3.5 w-3.5"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        aria-hidden="true"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
-          clip-rule="evenodd"
-        />
-      </svg>
-      Lookup by Bet ID
-    </button>
-  </div>
+      <path
+        fill-rule="evenodd"
+        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </button>
 {/if}

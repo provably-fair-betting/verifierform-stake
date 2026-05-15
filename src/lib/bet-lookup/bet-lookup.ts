@@ -2,47 +2,34 @@ import { PUBLIC_BET_LOOKUP_ENABLED, PUBLIC_BET_LOOKUP_URL } from '$env/static/pu
 
 export const betLookupEnabled = PUBLIC_BET_LOOKUP_ENABLED === 'true';
 
-const GAME_ID_TO_NAME: Record<string, string> = {
-  dice: 'Dice',
-  flip: 'Flip',
-  diamonds: 'Diamonds',
-  primedice: 'PrimeDice',
-  bluesamurai: 'Blue Samurai',
-  keno: 'Keno',
-  packs: 'Packs',
-  rockpaperscissors: 'Rock Paper Scissors',
-  limbo: 'Limbo',
-  drill: 'Drill',
-  roulette: 'Roulette',
-  baccarat: 'Baccarat',
-  blackjack: 'Blackjack',
-  hilo: 'Hilo',
-  videopoker: 'Video Poker',
-  scarabspins: 'Scarab Spins',
-  tomeoflife: 'Tome Of Life',
-  crash: 'Crash',
-  slide: 'Slide',
+type GameEntry = { formId: string; name: string };
+
+// Stake slug → verifier form ID + display name.
+// Stake slugs are the CasinoBet.game values returned by the API.
+const CASINO_GAMES: Record<string, GameEntry> = {
+  dice:              { formId: 'dice',             name: 'Dice' },
+  flip:              { formId: 'flip',             name: 'Flip' },
+  diamonds:          { formId: 'diamonds',         name: 'Diamonds' },
+  primediceX:        { formId: 'primedice',        name: 'PrimeDice' },
+  slotsSamurai:      { formId: 'bluesamurai',      name: 'Blue Samurai' },
+  keno:              { formId: 'keno',             name: 'Keno' },
+  packs:             { formId: 'packs',            name: 'Packs' },
+  rockPaperScissors: { formId: 'rockpaperscissors',name: 'Rock Paper Scissors' },
+  limbo:             { formId: 'limbo',            name: 'Limbo' },
+  drill:             { formId: 'drill',            name: 'Drill' },
+  roulette:          { formId: 'roulette',         name: 'Roulette' },
+  baccarat:          { formId: 'baccarat',         name: 'Baccarat' },
+  blackjack:         { formId: 'blackjack',        name: 'Blackjack' },
+  hilo:              { formId: 'hilo',             name: 'Hilo' },
+  videoPoker:        { formId: 'videopoker',       name: 'Video Poker' },
+  slots:             { formId: 'scarabspins',      name: 'Scarab Spins' },
+  slotsTomeOfLife:   { formId: 'tomeoflife',       name: 'Tome Of Life' },
 };
 
-// Maps Stake API game slugs (CasinoBet.game field) to verifier form game IDs
-const GAME_SLUG_TO_FORM_ID: Record<string, string> = {
-  dice: 'dice',
-  flip: 'flip',
-  diamonds: 'diamonds',
-  primediceX: 'primedice',
-  slotsSamurai: 'bluesamurai',
-  keno: 'keno',
-  packs: 'packs',
-  rockPaperScissors: 'rockpaperscissors',
-  limbo: 'limbo',
-  drill: 'drill',
-  roulette: 'roulette',
-  baccarat: 'baccarat',
-  blackjack: 'blackjack',
-  hilo: 'hilo',
-  videoPoker: 'videopoker',
-  slots: 'scarabspins',
-  slotsTomeOfLife: 'tomeoflife',
+// Multiplayer games are resolved by betType, not by slug.
+const MULTIPLAYER_GAMES: Record<string, GameEntry> = {
+  MultiplayerCrashBet: { formId: 'crash', name: 'Crash' },
+  MultiplayerSlideBet: { formId: 'slide', name: 'Slide' },
 };
 
 export type BetLookupError =
@@ -88,22 +75,19 @@ export async function lookupBet(betId: string): Promise<BetLookupResult> {
     return { ok: false, error: { type: 'service_unavailable' } };
   }
 
-  return buildResult(body.data!);
+  if (!body.data) return { ok: false, error: { type: 'service_unavailable' } };
+  return buildResult(body.data);
+}
+
+function resolveGame(bet: NormalizedBet): GameEntry | null {
+  if (bet.betType !== 'CasinoBet') return MULTIPLAYER_GAMES[bet.betType] ?? null;
+  return CASINO_GAMES[bet.game] ?? null;
 }
 
 function buildResult(bet: NormalizedBet): BetLookupResult {
-  const gameId = resolveGameId(bet);
-  if (!gameId) {
-    return { ok: false, error: { type: 'unsupported_game', game: bet.game } };
-  }
-  const gameName = GAME_ID_TO_NAME[gameId] ?? gameId;
-  return { ok: true, data: { params: buildParams(bet, gameId), gameName } };
-}
-
-function resolveGameId(bet: NormalizedBet): string | null {
-  if (bet.betType === 'MultiplayerCrashBet') return 'crash';
-  if (bet.betType === 'MultiplayerSlideBet') return 'slide';
-  return GAME_SLUG_TO_FORM_ID[bet.game] ?? null;
+  const game = resolveGame(bet);
+  if (!game) return { ok: false, error: { type: 'unsupported_game', game: bet.game } };
+  return { ok: true, data: { params: buildParams(bet, game.formId), gameName: game.name } };
 }
 
 function buildParams(bet: NormalizedBet, gameId: string): URLSearchParams {
@@ -122,7 +106,7 @@ function buildParams(bet: NormalizedBet, gameId: string): URLSearchParams {
     const { gameHash, serverSeed } = bet.inputs as { gameHash: string; serverSeed: string };
     entries.gamehash = gameHash ?? '';
     entries.blockhash = serverSeed ?? '';
-  } else {
+  } else if (bet.betType === 'MultiplayerSlideBet') {
     const { gameHash, serverSeed } = bet.inputs as { gameHash: string; serverSeed: string };
     entries.slidehash = gameHash ?? '';
     entries.blockhash = serverSeed ?? '';

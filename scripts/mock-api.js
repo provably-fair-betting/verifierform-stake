@@ -2,11 +2,11 @@
  * Mock stake-bet-lookup API server for local development.
  * Mimics POST /api/bet-lookup with realistic fixtures from the test suite.
  *
- * Usage:
- *   pnpm mock:api
+ * Usage (convenience — starts this server and vite dev together):
+ *   pnpm dev:lookup
  *
- * Then run the dev server with bet lookup enabled:
- *   PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm dev
+ * Or run standalone and start vite dev manually in a second terminal:
+ *   pnpm mock:api
  */
 
 import { createServer } from 'node:http';
