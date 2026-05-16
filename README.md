@@ -82,10 +82,10 @@ See `.env.example` for reference.
 
 ## Using as a package
 
-Install from the private registry and build with your own env vars:
+Install from GitHub and build with your own env vars:
 
 ```sh
-pnpm add @provably-fair-betting/verifierform-stake
+pnpm add github:provably-fair-betting/verifierform-stake
 PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=https://api.example.com pnpm build
 ```
 
