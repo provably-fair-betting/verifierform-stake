@@ -59,7 +59,7 @@ export default defineConfig({
     coverage: {
       enabled: true,
       all: true,
-      reporter: ['html', 'json-summary'],
+      reporter: ['html', 'json-summary', 'lcov'],
       include: [
         'src/lib/domain/**',
         'src/lib/games/**/*Result.svelte',
