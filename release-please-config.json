@@ -9,7 +9,6 @@
     { "type": "perf", "section": "Performance Improvements" },
     { "type": "refactor", "section": "Code Refactoring" },
     { "type": "test", "section": "Tests" },
-    { "type": "ci", "section": "Continuous Integration" },
     { "type": "chore", "section": "Miscellaneous Chores" }
   ],
   "packages": {
