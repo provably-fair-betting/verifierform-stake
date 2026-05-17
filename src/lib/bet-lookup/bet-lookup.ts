@@ -69,7 +69,7 @@ export async function lookupBet(betId: string): Promise<BetLookupResult> {
   let body: { success: boolean; data?: NormalizedBet; error?: string };
 
   try {
-    response = await fetch(`${PUBLIC_BET_LOOKUP_URL}/api/bet-lookup`, {
+    response = await fetch(new URL('/api/bet-lookup', PUBLIC_BET_LOOKUP_URL).href, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ betId }),
