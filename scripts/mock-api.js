@@ -289,7 +289,9 @@ const server = createServer((req, res) => {
     }
 
     const delay = fixture.delayMs ?? 0;
-    console.log(`  ${req.method} /api/bet-lookup  betId=${betId}  →  ${fixture.status}${delay ? `  (delayed ${delay}ms)` : ''}`);
+    console.log(
+      `  ${req.method} /api/bet-lookup  betId=${betId}  →  ${fixture.status}${delay ? `  (delayed ${delay}ms)` : ''}`
+    );
     setTimeout(() => send(res, fixture.status, fixture.body), delay);
   });
 });

@@ -70,11 +70,21 @@ export async function lookupBet(betId: string): Promise<BetLookupResult> {
   if (!response.ok) {
     return {
       ok: false,
-      error: { type: 'api_error', message: body.error ?? 'An unexpected error occurred. Please try again later.' },
+      error: {
+        type: 'api_error',
+        message: body.error ?? 'An unexpected error occurred. Please try again later.',
+      },
     };
   }
 
-  if (!body.data) return { ok: false, error: { type: 'api_error', message: 'An unexpected error occurred. Please try again later.' } };
+  if (!body.data)
+    return {
+      ok: false,
+      error: {
+        type: 'api_error',
+        message: 'An unexpected error occurred. Please try again later.',
+      },
+    };
   return buildResult(body.data);
 }
 
