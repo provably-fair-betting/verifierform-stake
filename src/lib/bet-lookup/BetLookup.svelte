@@ -82,9 +82,9 @@
     <div class="mb-2 flex items-center gap-2">
       {@render searchIcon('h-4 w-4 shrink-0 text-gray-500 dark:text-gray-400')}
       <span class="text-sm font-semibold text-gray-700 dark:text-gray-200">Bet Lookup</span>
-      <span class="text-sm text-gray-500 dark:text-gray-400"
-        >— paste a bet ID to auto-fill the verifier</span
-      >
+      <span class="text-sm text-gray-500 dark:text-gray-400">
+        — paste a bet ID to auto-fill the verifier
+      </span>
       <button
         onclick={dismiss}
         class="ml-auto rounded p-0.5 text-gray-400 hover:bg-gray-200 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
@@ -127,7 +127,14 @@
             viewBox="0 0 24 24"
             aria-hidden="true"
           >
-            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="4"
+            />
             <path
               class="opacity-75"
               fill="currentColor"

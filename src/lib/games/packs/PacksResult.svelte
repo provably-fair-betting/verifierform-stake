@@ -11,7 +11,7 @@
 {#if packs.isCalculating}
   <Loader />
 {:else}
-  {@const cardIds = cards?.map(card => card.cardId).sort((a, b) => a - b)}
+  {@const cardIds = cards?.map((card) => card.cardId).sort((a, b) => a - b)}
   {@const totalMulti = cards!.reduce((a, b) => a + b!.multiplier, 0)}
 
   <p data-testid="packs-result" class="hidden text-center text-base">

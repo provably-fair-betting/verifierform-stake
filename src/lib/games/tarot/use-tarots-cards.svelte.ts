@@ -1,6 +1,12 @@
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
-import { TarotArcanaType as ArcanaType, type TarotSeed, type TarotDifficulty, type TarotCard, type TarotArcanaType } from './types';
+import {
+  TarotArcanaType as ArcanaType,
+  type TarotSeed,
+  type TarotDifficulty,
+  type TarotCard,
+  type TarotArcanaType,
+} from './types';
 import { findCard } from '$lib/games/tarot/tarot';
 
 /** Tarot cards composable - generates 3 cards (minor, major, minor), preserving float for each */

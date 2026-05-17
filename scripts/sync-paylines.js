@@ -22,5 +22,8 @@ if (existsSync(outputDir)) {
   console.log('');
 }
 
-const result = spawnSync('stake-paylines', ['--output-dir', outputDir], { stdio: 'inherit', shell: true });
+const result = spawnSync('stake-paylines', ['--output-dir', outputDir], {
+  stdio: 'inherit',
+  shell: true,
+});
 process.exitCode = result.status ?? 1;

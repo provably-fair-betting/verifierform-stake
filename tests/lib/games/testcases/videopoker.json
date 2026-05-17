@@ -5,20 +5,8 @@
     "nonce": 0,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "5-spade",
-      "A-spade",
-      "J-spade",
-      "Q-spade",
-      "J-heart"
-    ],
-    "comingHand": [
-      "8-diamond",
-      "5-heart",
-      "J-diamond",
-      "K-spade",
-      "8-heart"
-    ]
+    "initialHand": ["5-spade", "A-spade", "J-spade", "Q-spade", "J-heart"],
+    "comingHand": ["8-diamond", "5-heart", "J-diamond", "K-spade", "8-heart"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -26,20 +14,8 @@
     "nonce": 1,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "4-club",
-      "5-club",
-      "7-club",
-      "Q-spade",
-      "8-club"
-    ],
-    "comingHand": [
-      "6-diamond",
-      "A-heart",
-      "J-club",
-      "Q-heart",
-      "J-spade"
-    ]
+    "initialHand": ["4-club", "5-club", "7-club", "Q-spade", "8-club"],
+    "comingHand": ["6-diamond", "A-heart", "J-club", "Q-heart", "J-spade"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -47,20 +23,8 @@
     "nonce": 2,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "9-diamond",
-      "6-club",
-      "9-spade",
-      "Q-club",
-      "2-heart"
-    ],
-    "comingHand": [
-      "7-heart",
-      "6-spade",
-      "J-club",
-      "6-diamond",
-      "Q-diamond"
-    ]
+    "initialHand": ["9-diamond", "6-club", "9-spade", "Q-club", "2-heart"],
+    "comingHand": ["7-heart", "6-spade", "J-club", "6-diamond", "Q-diamond"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -68,20 +32,8 @@
     "nonce": 3,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "8-spade",
-      "2-spade",
-      "4-spade",
-      "5-club",
-      "7-spade"
-    ],
-    "comingHand": [
-      "6-diamond",
-      "3-heart",
-      "4-heart",
-      "10-diamond",
-      "J-heart"
-    ]
+    "initialHand": ["8-spade", "2-spade", "4-spade", "5-club", "7-spade"],
+    "comingHand": ["6-diamond", "3-heart", "4-heart", "10-diamond", "J-heart"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -89,20 +41,8 @@
     "nonce": 4,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "8-heart",
-      "Q-club",
-      "3-club",
-      "7-diamond",
-      "Q-heart"
-    ],
-    "comingHand": [
-      "K-heart",
-      "5-heart",
-      "9-club",
-      "2-club",
-      "3-heart"
-    ]
+    "initialHand": ["8-heart", "Q-club", "3-club", "7-diamond", "Q-heart"],
+    "comingHand": ["K-heart", "5-heart", "9-club", "2-club", "3-heart"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -110,20 +50,8 @@
     "nonce": 5,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "8-diamond",
-      "6-club",
-      "6-spade",
-      "Q-heart",
-      "10-club"
-    ],
-    "comingHand": [
-      "Q-club",
-      "A-club",
-      "4-heart",
-      "7-spade",
-      "10-heart"
-    ]
+    "initialHand": ["8-diamond", "6-club", "6-spade", "Q-heart", "10-club"],
+    "comingHand": ["Q-club", "A-club", "4-heart", "7-spade", "10-heart"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -131,20 +59,8 @@
     "nonce": 6,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "5-spade",
-      "9-spade",
-      "4-diamond",
-      "Q-heart",
-      "5-heart"
-    ],
-    "comingHand": [
-      "K-spade",
-      "J-heart",
-      "5-club",
-      "Q-spade",
-      "10-diamond"
-    ]
+    "initialHand": ["5-spade", "9-spade", "4-diamond", "Q-heart", "5-heart"],
+    "comingHand": ["K-spade", "J-heart", "5-club", "Q-spade", "10-diamond"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -152,20 +68,8 @@
     "nonce": 7,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "3-diamond",
-      "A-diamond",
-      "Q-heart",
-      "9-diamond",
-      "9-spade"
-    ],
-    "comingHand": [
-      "J-spade",
-      "2-club",
-      "8-club",
-      "A-spade",
-      "2-diamond"
-    ]
+    "initialHand": ["3-diamond", "A-diamond", "Q-heart", "9-diamond", "9-spade"],
+    "comingHand": ["J-spade", "2-club", "8-club", "A-spade", "2-diamond"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -173,20 +77,8 @@
     "nonce": 8,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "A-spade",
-      "10-diamond",
-      "3-spade",
-      "9-diamond",
-      "4-diamond"
-    ],
-    "comingHand": [
-      "6-club",
-      "Q-diamond",
-      "K-diamond",
-      "4-spade",
-      "5-club"
-    ]
+    "initialHand": ["A-spade", "10-diamond", "3-spade", "9-diamond", "4-diamond"],
+    "comingHand": ["6-club", "Q-diamond", "K-diamond", "4-spade", "5-club"]
   },
   {
     "clientSeed": "6ec29c0c4180fd3f802534e6c98810ff",
@@ -194,19 +86,7 @@
     "nonce": 9,
     "inputs": {},
     "selects": {},
-    "initialHand": [
-      "J-spade",
-      "J-club",
-      "8-heart",
-      "3-club",
-      "4-spade"
-    ],
-    "comingHand": [
-      "8-spade",
-      "4-heart",
-      "3-spade",
-      "7-diamond",
-      "2-diamond"
-    ]
+    "initialHand": ["J-spade", "J-club", "8-heart", "3-club", "4-spade"],
+    "comingHand": ["8-spade", "4-heart", "3-spade", "7-diamond", "2-diamond"]
   }
 ]

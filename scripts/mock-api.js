@@ -112,7 +112,7 @@ const FIXTURES = {
       success: true,
       data: {
         betType: 'CasinoBet',
-        game: 'slots',                           // Stake slug for Scarab Spins
+        game: 'slots', // Stake slug for Scarab Spins
         inputs: {
           clientSeed: 'd99174a86f29ac19c0b512e04b99461b',
           serverSeed: 'a1c0b94f9a5e5ab9c0f08f2982537bd8',
@@ -129,7 +129,7 @@ const FIXTURES = {
       success: true,
       data: {
         betType: 'CasinoBet',
-        game: 'slotsTomeOfLife',                 // Stake slug for Tome Of Life
+        game: 'slotsTomeOfLife', // Stake slug for Tome Of Life
         inputs: {
           clientSeed: 'd99174a86f29ac19c0b512e04b99461b',
           serverSeed: 'a1c0b94f9a5e5ab9c0f08f2982537bd8',
@@ -178,7 +178,7 @@ const FIXTURES = {
       success: true,
       data: {
         betType: 'CasinoBet',
-        game: 'mines',                           // not supported by lookup
+        game: 'mines', // not supported by lookup
         inputs: {
           clientSeed: '86ff027f15c48241af7f54a726690ee7',
           serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
@@ -262,7 +262,10 @@ const server = createServer((req, res) => {
 
     const fixture = FIXTURES[betId];
     if (!fixture) {
-      send(res, 404, { success: false, error: 'Bet not found. Please check the ID and try again.' });
+      send(res, 404, {
+        success: false,
+        error: 'Bet not found. Please check the ID and try again.',
+      });
       return;
     }
 

@@ -42,10 +42,14 @@ describe('BlueSamuraiResult', () => {
         expect(round.specialRound).toBe(rounds[i].specialRound);
         expect(round.bonusSpin).toBe(rounds[i].bonusSpin);
         expect(round.totalBonusRounds).toBe(rounds[i].totalBonusRounds);
-        expect(round.symbols.map((s) => s.float).filter((f) => f !== undefined)).toEqual(rounds[i].floatColumns.flat());
+        expect(round.symbols.map((s) => s.float).filter((f) => f !== undefined)).toEqual(
+          rounds[i].floatColumns.flat()
+        );
         const sort = (a: number[]) => [...a].sort((x, y) => x - y);
         expect(sort(round.stuckSamurais ?? [])).toEqual(sort(rounds[i].lockedSamuraiIndices));
-        expect(sort(round.newlyLockedSamurais ?? [])).toEqual(sort(rounds[i].newlyLockedSamuraiIndices));
+        expect(sort(round.newlyLockedSamurais ?? [])).toEqual(
+          sort(rounds[i].newlyLockedSamuraiIndices)
+        );
       });
     }
   );

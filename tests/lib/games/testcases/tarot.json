@@ -7,11 +7,7 @@
     "selects": {
       "tarotDifficulty": "easy"
     },
-    "selectedMultipliers": [
-      1.5,
-      1,
-      0.4
-    ]
+    "selectedMultipliers": [1.5, 1, 0.4]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -21,11 +17,7 @@
     "selects": {
       "tarotDifficulty": "medium"
     },
-    "selectedMultipliers": [
-      0.3,
-      1,
-      2
-    ]
+    "selectedMultipliers": [0.3, 1, 2]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -35,11 +27,7 @@
     "selects": {
       "tarotDifficulty": "hard"
     },
-    "selectedMultipliers": [
-      0.15,
-      2,
-      0.15
-    ]
+    "selectedMultipliers": [0.15, 2, 0.15]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -49,11 +37,7 @@
     "selects": {
       "tarotDifficulty": "expert"
     },
-    "selectedMultipliers": [
-      0.15,
-      1,
-      0
-    ]
+    "selectedMultipliers": [0.15, 1, 0]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -63,11 +47,7 @@
     "selects": {
       "tarotDifficulty": "easy"
     },
-    "selectedMultipliers": [
-      0.4,
-      1,
-      0.4
-    ]
+    "selectedMultipliers": [0.4, 1, 0.4]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -77,11 +57,7 @@
     "selects": {
       "tarotDifficulty": "medium"
     },
-    "selectedMultipliers": [
-      0.3,
-      1,
-      0.3
-    ]
+    "selectedMultipliers": [0.3, 1, 0.3]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -91,11 +67,7 @@
     "selects": {
       "tarotDifficulty": "hard"
     },
-    "selectedMultipliers": [
-      2,
-      1,
-      0
-    ]
+    "selectedMultipliers": [2, 1, 0]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -105,11 +77,7 @@
     "selects": {
       "tarotDifficulty": "expert"
     },
-    "selectedMultipliers": [
-      0,
-      1,
-      0.35
-    ]
+    "selectedMultipliers": [0, 1, 0.35]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -119,11 +87,7 @@
     "selects": {
       "tarotDifficulty": "easy"
     },
-    "selectedMultipliers": [
-      0.4,
-      2,
-      0.4
-    ]
+    "selectedMultipliers": [0.4, 2, 0.4]
   },
   {
     "clientSeed": "7a34199d71831c82045177b0fc47b8ea",
@@ -133,10 +97,6 @@
     "selects": {
       "tarotDifficulty": "medium"
     },
-    "selectedMultipliers": [
-      0,
-      5,
-      0.3
-    ]
+    "selectedMultipliers": [0, 5, 0.3]
   }
 ]

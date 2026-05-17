@@ -5,14 +5,8 @@
     "nonce": 0,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "4-heart",
-      "Q-heart"
-    ],
-    "dealerCards": [
-      "4-club",
-      "2-club"
-    ],
+    "playerCards": ["4-heart", "Q-heart"],
+    "dealerCards": ["4-club", "2-club"],
     "remainingCards": [
       "Q-spade",
       "5-heart",
@@ -70,14 +64,8 @@
     "nonce": 1,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "K-spade",
-      "7-spade"
-    ],
-    "dealerCards": [
-      "3-spade",
-      "K-spade"
-    ],
+    "playerCards": ["K-spade", "7-spade"],
+    "dealerCards": ["3-spade", "K-spade"],
     "remainingCards": [
       "Q-spade",
       "6-club",
@@ -135,14 +123,8 @@
     "nonce": 2,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "6-club",
-      "Q-heart"
-    ],
-    "dealerCards": [
-      "Q-diamond",
-      "3-spade"
-    ],
+    "playerCards": ["6-club", "Q-heart"],
+    "dealerCards": ["Q-diamond", "3-spade"],
     "remainingCards": [
       "10-diamond",
       "8-spade",
@@ -200,14 +182,8 @@
     "nonce": 3,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "5-diamond",
-      "A-club"
-    ],
-    "dealerCards": [
-      "10-diamond",
-      "10-diamond"
-    ],
+    "playerCards": ["5-diamond", "A-club"],
+    "dealerCards": ["10-diamond", "10-diamond"],
     "remainingCards": [
       "4-club",
       "5-heart",
@@ -265,14 +241,8 @@
     "nonce": 4,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "8-spade",
-      "6-club"
-    ],
-    "dealerCards": [
-      "2-spade",
-      "K-heart"
-    ],
+    "playerCards": ["8-spade", "6-club"],
+    "dealerCards": ["2-spade", "K-heart"],
     "remainingCards": [
       "4-club",
       "A-spade",
@@ -330,14 +300,8 @@
     "nonce": 5,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "4-heart",
-      "5-spade"
-    ],
-    "dealerCards": [
-      "8-diamond",
-      "7-club"
-    ],
+    "playerCards": ["4-heart", "5-spade"],
+    "dealerCards": ["8-diamond", "7-club"],
     "remainingCards": [
       "4-heart",
       "Q-spade",
@@ -395,14 +359,8 @@
     "nonce": 6,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "A-heart",
-      "7-spade"
-    ],
-    "dealerCards": [
-      "3-heart",
-      "6-club"
-    ],
+    "playerCards": ["A-heart", "7-spade"],
+    "dealerCards": ["3-heart", "6-club"],
     "remainingCards": [
       "3-spade",
       "7-heart",
@@ -460,14 +418,8 @@
     "nonce": 7,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "J-diamond",
-      "A-club"
-    ],
-    "dealerCards": [
-      "K-diamond",
-      "9-diamond"
-    ],
+    "playerCards": ["J-diamond", "A-club"],
+    "dealerCards": ["K-diamond", "9-diamond"],
     "remainingCards": [
       "9-spade",
       "4-diamond",
@@ -525,14 +477,8 @@
     "nonce": 8,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "6-club",
-      "A-spade"
-    ],
-    "dealerCards": [
-      "10-diamond",
-      "K-heart"
-    ],
+    "playerCards": ["6-club", "A-spade"],
+    "dealerCards": ["10-diamond", "K-heart"],
     "remainingCards": [
       "8-club",
       "A-heart",
@@ -590,14 +536,8 @@
     "nonce": 9,
     "inputs": {},
     "selects": {},
-    "playerCards": [
-      "4-club",
-      "K-spade"
-    ],
-    "dealerCards": [
-      "4-heart",
-      "7-heart"
-    ],
+    "playerCards": ["4-club", "K-spade"],
+    "dealerCards": ["4-heart", "7-heart"],
     "remainingCards": [
       "3-diamond",
       "7-club",

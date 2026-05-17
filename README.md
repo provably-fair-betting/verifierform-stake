@@ -16,12 +16,12 @@ Bet Lookup requires the [stake-bet-lookup](https://github.com/provably-fair-bett
 
 Lookup works for games whose outcome depends only on the seed pair — games requiring additional inputs (Mines count, Plinko rows, etc.) are not supported.
 
-| Category | Games |
-|---|---|
-| Standard | Dice, Flip, Diamonds, PrimeDice, Blue Samurai, Keno, Packs, Rock Paper Scissors, Limbo, Drill, Roulette |
-| Cards | Baccarat, Blackjack, Hilo, Video Poker |
-| Slots | Scarab Spins, Tome Of Life |
-| Multiplayer | Crash, Slide |
+| Category    | Games                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| Standard    | Dice, Flip, Diamonds, PrimeDice, Blue Samurai, Keno, Packs, Rock Paper Scissors, Limbo, Drill, Roulette |
+| Cards       | Baccarat, Blackjack, Hilo, Video Poker                                                                  |
+| Slots       | Scarab Spins, Tome Of Life                                                                              |
+| Multiplayer | Crash, Slide                                                                                            |
 
 ---
 
@@ -51,30 +51,30 @@ PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm 
 
 #### Mock bet IDs
 
-| Bet ID | Game | Type | Notes |
-|---|---|---|---|
-| `house:1000000001` | Dice | CasinoBet | |
-| `house:1000000002` | Limbo | CasinoBet | |
-| `house:1000000003` | Roulette | CasinoBet | |
-| `house:2000000001` | Blackjack | CasinoBet | |
-| `house:2000000002` | Baccarat | CasinoBet | |
-| `house:3000000001` | Scarab Spins (slots) | CasinoBet | |
-| `house:3000000002` | Tome Of Life (slotsTomeOfLife) | CasinoBet | |
-| `house:4000000001` | Crash | MultiplayerCrashBet | |
-| `house:4000000002` | Slide | MultiplayerSlideBet | |
-| `house:9000000001` | Mines | CasinoBet | Unsupported game |
-| `house:9000000002` | — | — | 422 seed not yet revealed |
-| `house:9000000003` | — | — | 503 service unavailable |
-| any other `house:\d+` | — | — | 404 not found |
+| Bet ID                | Game                           | Type                | Notes                     |
+| --------------------- | ------------------------------ | ------------------- | ------------------------- |
+| `house:1000000001`    | Dice                           | CasinoBet           |                           |
+| `house:1000000002`    | Limbo                          | CasinoBet           |                           |
+| `house:1000000003`    | Roulette                       | CasinoBet           |                           |
+| `house:2000000001`    | Blackjack                      | CasinoBet           |                           |
+| `house:2000000002`    | Baccarat                       | CasinoBet           |                           |
+| `house:3000000001`    | Scarab Spins (slots)           | CasinoBet           |                           |
+| `house:3000000002`    | Tome Of Life (slotsTomeOfLife) | CasinoBet           |                           |
+| `house:4000000001`    | Crash                          | MultiplayerCrashBet |                           |
+| `house:4000000002`    | Slide                          | MultiplayerSlideBet |                           |
+| `house:9000000001`    | Mines                          | CasinoBet           | Unsupported game          |
+| `house:9000000002`    | —                              | —                   | 422 seed not yet revealed |
+| `house:9000000003`    | —                              | —                   | 503 service unavailable   |
+| any other `house:\d+` | —                              | —                   | 404 not found             |
 
 ---
 
 ## Build-time configuration
 
-| Variable | Purpose |
-|---|---|
-| `PUBLIC_BET_LOOKUP_ENABLED` | Set to `true` to show the Bet Lookup bar |
-| `PUBLIC_BET_LOOKUP_URL` | Base URL of the bet-lookup API as seen from the browser |
+| Variable                    | Purpose                                                 |
+| --------------------------- | ------------------------------------------------------- |
+| `PUBLIC_BET_LOOKUP_ENABLED` | Set to `true` to show the Bet Lookup bar                |
+| `PUBLIC_BET_LOOKUP_URL`     | Base URL of the bet-lookup API as seen from the browser |
 
 See `.env.example` for reference.
 
