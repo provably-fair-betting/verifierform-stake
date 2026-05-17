@@ -21,8 +21,6 @@
     {#if moles.isCalculating || !moles.rounds}
       <Loader />
     {:else}
-      {@const items = moles.rounds[explanation.selectedRound]}
-
       <ContentBlock
         className="mb-7 p-5 text-center text-base text-gray-900 dark:text-white border-l-4 border-blue-500 dark:border-blue-400"
       >

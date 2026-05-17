@@ -42,11 +42,11 @@
           items={floatItems.map((item) => ({ chosen: item.label }))}
           bind:resultIndex
           tabWidthClass="w-20"
-          tabClassModifier={(n) =>
+          tabClassModifier={(_) =>
             'rounded border-2 border-gray-300 bg-gray-100 p-1.5 text-gray-500 opacity-70 ' +
             'hover:border-blue-300 hover:opacity-80 ring-2 ring-transparent ' +
             'dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 !outline-none'}
-          tabSelectedClassModifier={(n) =>
+          tabSelectedClassModifier={(_) =>
             'rounded border-2 border-blue-500 bg-blue-100 font-bold text-blue-700 opacity-100 ' +
             'shadow-lg ring-2 ring-blue-400 z-10 ' +
             'dark:border-blue-400 dark:bg-blue-900/30 dark:text-blue-400 dark:ring-blue-400 !outline-none'}
