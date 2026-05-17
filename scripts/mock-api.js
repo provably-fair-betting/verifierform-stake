@@ -171,6 +171,177 @@ const FIXTURES = {
     },
   },
 
+  // ── Supported: remaining casino games ────────────────────────────────────
+  'house:6000000001': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'flip',
+        inputs: {
+          clientSeed: '247e90a65d07b3c4d629ada402918f03',
+          serverSeed: '8b9c7cf18c001dfb7ea6f6fe52f3df95',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000002': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'diamonds',
+        inputs: {
+          clientSeed: '7dbf887dbe97259c5e48b76afa459c06',
+          serverSeed: '5f6de4c2f18ecbbfc1919851cd0770b7',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000003': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'primediceX',
+        inputs: {
+          clientSeed: '6bf42afdf7e5f6ca64c16736c750b24b',
+          serverSeed: 'f9aa75c7fb39ea34fb6bd43b99357479',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000004': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'slotsSamurai',
+        inputs: {
+          clientSeed: '65193b8bb617054979cf9b17454374c4',
+          serverSeed: '4bbede70d653a4854d567da6bdd5cbb8',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000005': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'keno',
+        inputs: {
+          clientSeed: '971f4d5c49eb1111385e9309d105227f',
+          serverSeed: 'ae1581dc89398cb8fdb84f0a2c64e816',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000006': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'packs',
+        inputs: {
+          clientSeed: '5de0bfa2035f29d4d12042e5118cdb42',
+          serverSeed: '323d470df849d31038224972f224893c',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000007': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'rockPaperScissors',
+        inputs: {
+          clientSeed: 'ae8378fe6eadaa711af43746ea6766e0',
+          serverSeed: 'b3f276eca635f24d58e8f3822ba1d15c',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000008': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'drill',
+        inputs: {
+          clientSeed: 'af34766105e5036cdc101741e5172420',
+          serverSeed: 'e9d7e56f67bf5ba273a85efea28ade0a',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000009': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'hilo',
+        inputs: {
+          clientSeed: '54560a34f054ad0c19edac66cf6b8e45',
+          serverSeed: '412780c6e08859f955318b5c7c75e288',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
+  'house:6000000010': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'videoPoker',
+        inputs: {
+          clientSeed: '6ec29c0c4180fd3f802534e6c98810ff',
+          serverSeed: '51b5258b38fef00c9887b7ad6c728035',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
   // ── Unsupported game (has additional inputs) ──────────────────────────────
   'house:9000000001': {
     status: 200,
@@ -308,7 +479,17 @@ server.listen(PORT, () => {
   console.log('  house:3000000002  →  tomeoflife / slotsTomeOfLife (CasinoBet)');
   console.log('  house:4000000001  →  crash (MultiplayerCrashBet)');
   console.log('  house:4000000002  →  slide (MultiplayerSlideBet)');
-  console.log('  house:5000000001  →  dice (3s delay — test dismiss-while-in-flight)');
+  console.log('  house:6000000001  →  flip (CasinoBet)');
+  console.log('  house:6000000002  →  diamonds (CasinoBet)');
+  console.log('  house:6000000003  →  primedice (CasinoBet)');
+  console.log('  house:6000000004  →  bluesamurai / slotsSamurai (CasinoBet)');
+  console.log('  house:6000000005  →  keno (CasinoBet)');
+  console.log('  house:6000000006  →  packs (CasinoBet)');
+  console.log('  house:6000000007  →  rockpaperscissors (CasinoBet)');
+  console.log('  house:6000000008  →  drill (CasinoBet)');
+  console.log('  house:6000000009  →  hilo (CasinoBet)');
+  console.log('  house:6000000010  →  videopoker (CasinoBet)');
+  console.log('  house:5000000001  →  dice (3s delay — test in-flight lock)');
   console.log('  house:9000000001  →  mines — unsupported game');
   console.log('  house:9000000002  →  422 seed not yet revealed');
   console.log('  house:9000000003  →  503 service unavailable');

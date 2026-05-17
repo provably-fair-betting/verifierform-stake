@@ -51,21 +51,32 @@ PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm 
 
 #### Mock bet IDs
 
-| Bet ID                | Game                           | Type                | Notes                     |
-| --------------------- | ------------------------------ | ------------------- | ------------------------- |
-| `house:1000000001`    | Dice                           | CasinoBet           |                           |
-| `house:1000000002`    | Limbo                          | CasinoBet           |                           |
-| `house:1000000003`    | Roulette                       | CasinoBet           |                           |
-| `house:2000000001`    | Blackjack                      | CasinoBet           |                           |
-| `house:2000000002`    | Baccarat                       | CasinoBet           |                           |
-| `house:3000000001`    | Scarab Spins (slots)           | CasinoBet           |                           |
-| `house:3000000002`    | Tome Of Life (slotsTomeOfLife) | CasinoBet           |                           |
-| `house:4000000001`    | Crash                          | MultiplayerCrashBet |                           |
-| `house:4000000002`    | Slide                          | MultiplayerSlideBet |                           |
-| `house:9000000001`    | Mines                          | CasinoBet           | Unsupported game          |
-| `house:9000000002`    | —                              | —                   | 422 seed not yet revealed |
-| `house:9000000003`    | —                              | —                   | 503 service unavailable   |
-| any other `house:\d+` | —                              | —                   | 404 not found             |
+| Bet ID                | Game                | Type                | Notes                          |
+| --------------------- | ------------------- | ------------------- | ------------------------------ |
+| `house:1000000001`    | Dice                | CasinoBet           |                                |
+| `house:1000000002`    | Limbo               | CasinoBet           |                                |
+| `house:1000000003`    | Roulette            | CasinoBet           |                                |
+| `house:2000000001`    | Blackjack           | CasinoBet           |                                |
+| `house:2000000002`    | Baccarat            | CasinoBet           |                                |
+| `house:3000000001`    | Scarab Spins        | CasinoBet           |                                |
+| `house:3000000002`    | Tome Of Life        | CasinoBet           |                                |
+| `house:4000000001`    | Crash               | MultiplayerCrashBet |                                |
+| `house:4000000002`    | Slide               | MultiplayerSlideBet |                                |
+| `house:5000000001`    | Dice                | CasinoBet           | 3s delay — test in-flight lock |
+| `house:6000000001`    | Flip                | CasinoBet           |                                |
+| `house:6000000002`    | Diamonds            | CasinoBet           |                                |
+| `house:6000000003`    | PrimeDice           | CasinoBet           |                                |
+| `house:6000000004`    | Blue Samurai        | CasinoBet           |                                |
+| `house:6000000005`    | Keno                | CasinoBet           |                                |
+| `house:6000000006`    | Packs               | CasinoBet           |                                |
+| `house:6000000007`    | Rock Paper Scissors | CasinoBet           |                                |
+| `house:6000000008`    | Drill               | CasinoBet           |                                |
+| `house:6000000009`    | Hilo                | CasinoBet           |                                |
+| `house:6000000010`    | Video Poker         | CasinoBet           |                                |
+| `house:9000000001`    | Mines               | CasinoBet           | Unsupported game               |
+| `house:9000000002`    | —                   | —                   | 422 seed not yet revealed      |
+| `house:9000000003`    | —                   | —                   | 503 service unavailable        |
+| any other `house:\d+` | —                   | —                   | 404 not found                  |
 
 ---
 
