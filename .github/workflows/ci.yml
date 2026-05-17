@@ -24,6 +24,9 @@ jobs:
           node-version: '20'
           cache: 'pnpm'
 
+      - name: Configure git for GitHub package dependencies
+        run: git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "git@github.com:"
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -46,6 +49,9 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
+
+      - name: Configure git for GitHub package dependencies
+        run: git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "git@github.com:"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
