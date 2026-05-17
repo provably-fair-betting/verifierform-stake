@@ -29,6 +29,7 @@
     loading = false;
 
     if (result.ok) {
+      // eslint-disable-next-line svelte/no-navigation-without-resolve
       goto(`?${result.data.params}`);
       successGame = result.data.gameName;
       setTimeout(dismiss, 1500);
