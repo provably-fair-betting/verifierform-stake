@@ -24,6 +24,18 @@ const CASINO_GAMES: Record<string, GameEntry> = {
   videoPoker: { formId: 'videopoker', name: 'Video Poker' },
   slots: { formId: 'scarabspins', name: 'Scarab Spins' },
   slotsTomeOfLife: { formId: 'tomeoflife', name: 'Tome Of Life' },
+  bars: { formId: 'bars', name: 'Bars' },
+  cases: { formId: 'cases', name: 'Cases' },
+  chicken: { formId: 'chicken', name: 'Chicken' },
+  darts: { formId: 'darts', name: 'Darts' },
+  dragonTower: { formId: 'dragontower', name: 'Dragon Tower' },
+  mines: { formId: 'mines', name: 'Mines' },
+  moles: { formId: 'moles', name: 'Moles' },
+  plinko: { formId: 'plinko', name: 'Plinko' },
+  pump: { formId: 'pump', name: 'Pump' },
+  snakes: { formId: 'snakes', name: 'Snakes' },
+  tarot: { formId: 'tarot', name: 'Tarot' },
+  wheel: { formId: 'wheel', name: 'Wheel' },
 };
 
 // Multiplayer games are resolved by betType, not by slug.
@@ -103,14 +115,19 @@ function buildParams(bet: NormalizedBet, gameId: string): URLSearchParams {
   const entries: Record<string, string> = { game: gameId };
 
   if (bet.betType === 'CasinoBet') {
-    const { clientSeed, serverSeed, nonce } = bet.inputs as {
-      clientSeed: string;
-      serverSeed: string;
-      nonce: number;
-    };
-    entries.clientseed = clientSeed ?? '';
-    entries.serverseed = serverSeed ?? '';
-    entries.nonce = String(nonce ?? 0);
+    const inputs = bet.inputs as Record<string, unknown>;
+    entries.clientseed = String(inputs.clientSeed ?? '');
+    entries.serverseed = String(inputs.serverSeed ?? '');
+    entries.nonce = String(inputs.nonce ?? 0);
+
+    // Game-specific state fields
+    if (inputs.difficulty != null) entries.difficulty = String(inputs.difficulty);
+    if (inputs.tiles != null) entries.barcount = String(inputs.tiles);
+    if (inputs.minesCount != null) entries.mines = String(inputs.minesCount);
+    if (inputs.molesCount != null) entries.molescount = String(inputs.molesCount);
+    if (inputs.risk != null) entries.risk = String(inputs.risk);
+    if (inputs.rows != null) entries.rows = String(inputs.rows);
+    if (inputs.segments != null) entries.segments = String(inputs.segments);
   } else if (bet.betType === 'MultiplayerCrashBet') {
     const { gameHash, serverSeed } = bet.inputs as { gameHash: string; serverSeed: string };
     entries.gamehash = gameHash ?? '';
