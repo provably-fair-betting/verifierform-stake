@@ -1,6 +1,6 @@
 <script>
   import ContentBlock from '../layout/ContentBlock.svelte';
-  import cards from '$lib/games/packs/packs-payline.json';
+  import cards from '$lib/paylines/packs-paylines.json';
   import PacksCard from './PacksCard.svelte';
 </script>
 

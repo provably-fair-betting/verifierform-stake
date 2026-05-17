@@ -4,7 +4,7 @@
   import HighlightLink from '../layout/HighlightLink.svelte';
   import PacksCard from './PacksCard.svelte';
   import type { PacksCard as PacksCardT } from './types';
-  import cards from '$lib/games/packs/packs-payline.json';
+  import cards from '$lib/paylines/packs-paylines.json';
   import { useTableScrollReset } from '$lib/composables/core';
 
   const { float, card }: { float: number; card: PacksCardT } = $props();

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import paylines from '$lib/games/cases/cases-paylines.json';
+  import paylines from '$lib/paylines/cases-paylines.json';
   import type { CasesSeed } from './types';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
