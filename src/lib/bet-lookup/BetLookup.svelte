@@ -45,14 +45,10 @@
 
   function errorMessage(e: BetLookupError): string {
     switch (e.type) {
-      case 'not_found':
-        return 'Bet not found. Check the ID and try again.';
-      case 'seed_not_revealed':
-        return 'Server seed not yet revealed — reveal it on Stake first.';
       case 'unsupported_game':
         return `"${e.game}" results can't be auto-verified (game has additional inputs not supported by lookup).`;
-      case 'service_unavailable':
-        return 'Lookup service is temporarily unavailable. Try again shortly.';
+      case 'api_error':
+        return e.message;
       case 'network_error':
         return 'Could not reach the lookup service. Check your connection.';
     }

@@ -33,10 +33,8 @@ const MULTIPLAYER_GAMES: Record<string, GameEntry> = {
 };
 
 export type BetLookupError =
-  | { type: 'not_found' }
-  | { type: 'seed_not_revealed' }
   | { type: 'unsupported_game'; game: string }
-  | { type: 'service_unavailable' }
+  | { type: 'api_error'; message: string }
   | { type: 'network_error' };
 
 export type BetLookupSuccess = {
@@ -70,12 +68,13 @@ export async function lookupBet(betId: string): Promise<BetLookupResult> {
   }
 
   if (!response.ok) {
-    if (response.status === 404) return { ok: false, error: { type: 'not_found' } };
-    if (response.status === 422) return { ok: false, error: { type: 'seed_not_revealed' } };
-    return { ok: false, error: { type: 'service_unavailable' } };
+    return {
+      ok: false,
+      error: { type: 'api_error', message: body.error ?? 'An unexpected error occurred. Please try again later.' },
+    };
   }
 
-  if (!body.data) return { ok: false, error: { type: 'service_unavailable' } };
+  if (!body.data) return { ok: false, error: { type: 'api_error', message: 'An unexpected error occurred. Please try again later.' } };
   return buildResult(body.data);
 }
 
