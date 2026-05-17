@@ -6,7 +6,7 @@
     $props();
 </script>
 
-<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+<!-- eslint-disable svelte/no-navigation-without-resolve -->
 <a
   class={twMerge('text-purple-500 dark:text-purple-400', 'hover:underline', className)}
   target="_blank"
@@ -14,3 +14,4 @@
 >
   {@render children()}
 </a>
+<!-- eslint-enable svelte/no-navigation-without-resolve -->

@@ -106,7 +106,7 @@
             </span>
           </p>
           <p class="mb-2 leading-relaxed">
-            turnsInOppositeDirection = count of{' '}
+            turnsInOppositeDirection = count of
             <span class="font-bold text-blue-600 dark:text-blue-400">
               {firstDirection.chosen === 'L' ? 'R' : 'L'}
             </span>
