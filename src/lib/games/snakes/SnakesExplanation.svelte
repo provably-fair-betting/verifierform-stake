@@ -53,7 +53,7 @@
       <!-- Step 1 sub-steps -->
       <ScrollableContainer className="mb-7" innerClassName="p-1.5 pb-0">
         <div class="flex gap-4 pb-5" style="min-width: max-content;">
-          {#each turnGroups as turnRolls, turnIndex}
+          {#each turnGroups as turnRolls, turnIndex (turnIndex)}
             <div class="flex flex-col gap-1">
               <span
                 class="mb-1 text-center font-sans text-xs font-semibold text-gray-500 dark:text-gray-400"
@@ -61,7 +61,7 @@
                 Turn {turnIndex + 1}
               </span>
               <div class="flex gap-1.5">
-                {#each turnRolls as roll, dieIndex}
+                {#each turnRolls as roll, dieIndex (dieIndex)}
                   {@const rollIndex = turnIndex * 2 + dieIndex}
                   <button
                     type="button"

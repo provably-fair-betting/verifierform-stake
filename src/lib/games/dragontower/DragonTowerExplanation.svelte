@@ -59,7 +59,7 @@
       <!-- Grouped tab strip by level -->
       <ScrollableContainer className="mb-7" innerClassName="p-1.5 pb-0">
         <div class="flex gap-4 pb-5" style="min-width: max-content;">
-          {#each levelGroups as levelItems, levelIndex}
+          {#each levelGroups as levelItems, levelIndex (levelIndex)}
             <div class="flex flex-col gap-1">
               <span
                 class="mb-1 text-center font-sans text-xs font-semibold text-gray-500 dark:text-gray-400"
@@ -67,7 +67,7 @@
                 Level {levelIndex + 1}
               </span>
               <div class="flex gap-1.5">
-                {#each levelItems as item, eggIndex}
+                {#each levelItems as item, eggIndex (eggIndex)}
                   {@const fi = levelIndex * dragonTower.config.count + eggIndex}
                   <button
                     type="button"

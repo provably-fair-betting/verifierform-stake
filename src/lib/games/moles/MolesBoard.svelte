@@ -20,9 +20,9 @@
 </script>
 
 <div class="flex flex-col items-center gap-2 md:gap-2.5">
-  {#each rows as row}
+  {#each rows as row, i (i)}
     <div class="flex gap-2 md:gap-2.5">
-      {#each row as hole}
+      {#each row as hole (hole)}
         <div
           class={[
             'flex flex-col items-center justify-center rounded p-2 transition-all',

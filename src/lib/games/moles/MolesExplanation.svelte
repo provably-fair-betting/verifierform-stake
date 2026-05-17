@@ -38,7 +38,7 @@
       <!-- Flat grouped tab strip -->
       <ScrollableContainer className="mb-7" innerClassName="p-1.5 pb-0">
         <div class="flex gap-4 pb-5" style="min-width: max-content;">
-          {#each moles.rounds as roundItems, roundIndex}
+          {#each moles.rounds as roundItems, roundIndex (roundIndex)}
             <div class="flex flex-col gap-1">
               <span
                 class="mb-1 text-center font-sans text-xs font-semibold text-gray-500 dark:text-gray-400"
@@ -46,7 +46,7 @@
                 R{roundIndex + 1}
               </span>
               <div class="flex gap-1.5">
-                {#each roundItems as item, moleIndex}
+                {#each roundItems as item, moleIndex (moleIndex)}
                   {@const fi = roundIndex * molesSeed.molesCount + moleIndex}
                   <button
                     type="button"

@@ -20,7 +20,7 @@
             >
               Card
             </th>
-            {#each cards as card}
+            {#each cards as card, i (i)}
               <td class="p-2">
                 <div class="w-32 bg-gray-300 dark:bg-gray-700">
                   <PacksCard cardId={card.cardId} />

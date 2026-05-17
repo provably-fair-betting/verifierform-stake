@@ -185,7 +185,7 @@
                 scope="col"
                 class="px-4 py-3 font-semibold whitespace-nowrap text-gray-900 sm:px-6 dark:text-white"
               ></th>
-              {#each hexes! as _, i}
+              {#each hexes! as _, i (i)}
                 <th
                   scope="col"
                   class="px-4 py-3 text-center font-semibold text-gray-900 sm:px-6 dark:text-white"
@@ -205,7 +205,7 @@
               >
                 Hex
               </th>
-              {#each hexes! as hex}
+              {#each hexes! as hex, i (i)}
                 <td
                   class="px-4 py-4 text-center font-mono font-bold text-blue-600 sm:px-6 dark:text-blue-400"
                 >
@@ -220,7 +220,7 @@
               >
                 Byte
               </th>
-              {#each bytes! as byte}
+              {#each bytes! as byte, i (i)}
                 <td
                   class="px-4 py-4 text-center font-mono font-bold text-green-600 sm:px-6 dark:text-green-400"
                 >
@@ -241,7 +241,7 @@
       <ContentBlock>
         <table class="w-full text-left font-mono text-sm">
           <tbody>
-            {#each bytes! as byte, i}
+            {#each bytes! as byte, i (i)}
               <tr class="border-b border-gray-300 dark:border-gray-700">
                 <td class="w-8 px-4 py-3 text-center">{i === 0 ? '' : '+'}</td>
                 <td class="px-4 py-3 font-bold text-purple-600 dark:text-purple-400">

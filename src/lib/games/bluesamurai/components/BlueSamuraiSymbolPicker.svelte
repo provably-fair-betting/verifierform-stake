@@ -19,9 +19,9 @@
 </script>
 
 <div class="grid grid-cols-5 gap-1">
-  {#each boardColumns as col, colIdx}
+  {#each boardColumns as col, colIdx (colIdx)}
     <div class={['flex flex-col gap-1', colIdx === 0 || colIdx === 4 ? 'justify-center' : '']}>
-      {#each col as cell}
+      {#each col as cell, i (i)}
         {#if cell.hasFloat}
           {@const isSelected = cell.symbolIndex === selectedSymbolIndex}
           <button
@@ -67,7 +67,7 @@
 </div>
 
 <div class="mt-1 grid grid-cols-5 gap-1 text-center">
-  {#each REEL_LABELS as label}
+  {#each REEL_LABELS as label, i (i)}
     <span class="text-[11px] text-gray-400">{label}</span>
   {/each}
 </div>
