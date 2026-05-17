@@ -117,6 +117,8 @@
 </script>
 
 {#if betLookupEnabled}
-  <BetLookup />
+  <div class="pt-4">
+    <BetLookup />
+  </div>
 {/if}
 <VerifierForm {games} />
