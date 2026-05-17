@@ -54,7 +54,7 @@
   function errorMessage(e: BetLookupError): string {
     switch (e.type) {
       case 'unsupported_game':
-        return `"${e.game}" results can't be auto-verified (game has additional inputs not supported by lookup).`;
+        return `"${e.game}" is not a supported game for lookup.`;
       case 'api_error':
         return e.message;
       case 'network_error':
