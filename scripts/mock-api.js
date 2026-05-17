@@ -342,19 +342,221 @@ const FIXTURES = {
     },
   },
 
-  // ── Unsupported game (has additional inputs) ──────────────────────────────
-  'house:9000000001': {
+  // ── Supported: games with extra state inputs ─────────────────────────────
+  'house:7000000001': {
     status: 200,
     body: {
       success: true,
       data: {
         betType: 'CasinoBet',
-        game: 'mines', // not supported by lookup
+        game: 'mines',
         inputs: {
           clientSeed: '86ff027f15c48241af7f54a726690ee7',
           serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
           serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
           nonce: 0,
+          minesCount: 5,
+        },
+      },
+    },
+  },
+
+  'house:7000000002': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'moles',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 1,
+          molesCount: 3,
+        },
+      },
+    },
+  },
+
+  'house:7000000003': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'plinko',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 2,
+          risk: 'low',
+          rows: 16,
+        },
+      },
+    },
+  },
+
+  'house:7000000004': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'wheel',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 3,
+          risk: 'medium',
+          segments: 30,
+        },
+      },
+    },
+  },
+
+  'house:7000000005': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'bars',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 4,
+          difficulty: 'hard',
+          tiles: 3,
+        },
+      },
+    },
+  },
+
+  'house:7000000006': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'cases',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 5,
+          difficulty: 'medium',
+        },
+      },
+    },
+  },
+
+  'house:7000000007': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'chicken',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 6,
+          difficulty: 'easy',
+        },
+      },
+    },
+  },
+
+  'house:7000000008': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'darts',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 7,
+          difficulty: 'hard',
+        },
+      },
+    },
+  },
+
+  'house:7000000009': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'dragonTower',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 8,
+          difficulty: 'expert',
+        },
+      },
+    },
+  },
+
+  'house:7000000010': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'pump',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 9,
+          difficulty: 'easy',
+        },
+      },
+    },
+  },
+
+  'house:7000000011': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'snakes',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 10,
+          difficulty: 'master',
+        },
+      },
+    },
+  },
+
+  'house:7000000012': {
+    status: 200,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'tarot',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 11,
+          difficulty: 'medium',
         },
       },
     },
@@ -489,8 +691,19 @@ server.listen(PORT, () => {
   console.log('  house:6000000008  →  drill (CasinoBet)');
   console.log('  house:6000000009  →  hilo (CasinoBet)');
   console.log('  house:6000000010  →  videopoker (CasinoBet)');
+  console.log('  house:7000000001  →  mines (minesCount: 5)');
+  console.log('  house:7000000002  →  moles (molesCount: 3)');
+  console.log('  house:7000000003  →  plinko (risk: low, rows: 16)');
+  console.log('  house:7000000004  →  wheel (risk: medium, segments: 30)');
+  console.log('  house:7000000005  →  bars (difficulty: hard, tiles: 3)');
+  console.log('  house:7000000006  →  cases (difficulty: medium)');
+  console.log('  house:7000000007  →  chicken (difficulty: easy)');
+  console.log('  house:7000000008  →  darts (difficulty: hard)');
+  console.log('  house:7000000009  →  dragonTower (difficulty: expert)');
+  console.log('  house:7000000010  →  pump (difficulty: easy)');
+  console.log('  house:7000000011  →  snakes (difficulty: master)');
+  console.log('  house:7000000012  →  tarot (difficulty: medium)');
   console.log('  house:5000000001  →  dice (3s delay — test in-flight lock)');
-  console.log('  house:9000000001  →  mines — unsupported game');
   console.log('  house:9000000002  →  422 seed not yet revealed');
   console.log('  house:9000000003  →  503 service unavailable');
   console.log('  any other valid house:\\d+  →  404 not found');
