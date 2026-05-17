@@ -1,4 +1,4 @@
-# 🧪 Provably Fair VerifierForm Stake
+# verifierform-stake
 
 [![CI](https://github.com/provably-fair-betting/verifierform-stake/actions/workflows/ci.yml/badge.svg)](https://github.com/provably-fair-betting/verifierform-stake/actions/workflows/ci.yml) [![Version](https://img.shields.io/github/v/release/provably-fair-betting/verifierform-stake)](https://github.com/provably-fair-betting/verifierform-stake/releases/latest) [![Coverage](https://codecov.io/gh/provably-fair-betting/verifierform-stake/graph/badge.svg)](https://codecov.io/gh/provably-fair-betting/verifierform-stake)
 
@@ -14,14 +14,15 @@ Bet Lookup requires the [stake-bet-lookup](https://github.com/provably-fair-bett
 
 ### Supported games
 
-Lookup works for games whose outcome depends only on the seed pair — games requiring additional inputs (Mines count, Plinko rows, etc.) are not supported.
+| Category          | Games                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------- |
+| Standard          | Dice, Flip, Diamonds, PrimeDice, Blue Samurai, Keno, Packs, Rock Paper Scissors, Limbo, Drill, Roulette |
+| Cards             | Baccarat, Blackjack, Hilo, Video Poker                                                                  |
+| Slots             | Scarab Spins, Tome Of Life                                                                              |
+| With extra inputs | Mines, Moles, Plinko, Wheel, Bars, Cases, Chicken, Darts, Dragon Tower, Pump, Snakes, Tarot             |
+| Multiplayer       | Crash, Slide                                                                                            |
 
-| Category    | Games                                                                                                   |
-| ----------- | ------------------------------------------------------------------------------------------------------- |
-| Standard    | Dice, Flip, Diamonds, PrimeDice, Blue Samurai, Keno, Packs, Rock Paper Scissors, Limbo, Drill, Roulette |
-| Cards       | Baccarat, Blackjack, Hilo, Video Poker                                                                  |
-| Slots       | Scarab Spins, Tome Of Life                                                                              |
-| Multiplayer | Crash, Slide                                                                                            |
+Games with extra inputs (e.g. mine count, risk level) have their state fetched automatically from the bet and pre-filled alongside the seeds.
 
 ---
 
@@ -73,7 +74,18 @@ PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm 
 | `house:6000000008`    | Drill               | CasinoBet           |                                |
 | `house:6000000009`    | Hilo                | CasinoBet           |                                |
 | `house:6000000010`    | Video Poker         | CasinoBet           |                                |
-| `house:9000000001`    | Mines               | CasinoBet           | Unsupported game               |
+| `house:7000000001`    | Mines               | CasinoBet           | minesCount: 5                  |
+| `house:7000000002`    | Moles               | CasinoBet           | molesCount: 3                  |
+| `house:7000000003`    | Plinko              | CasinoBet           | risk: low, rows: 16            |
+| `house:7000000004`    | Wheel               | CasinoBet           | risk: medium, segments: 30     |
+| `house:7000000005`    | Bars                | CasinoBet           | difficulty: hard, tiles: 3     |
+| `house:7000000006`    | Cases               | CasinoBet           | difficulty: medium             |
+| `house:7000000007`    | Chicken             | CasinoBet           | difficulty: easy               |
+| `house:7000000008`    | Darts               | CasinoBet           | difficulty: hard               |
+| `house:7000000009`    | Dragon Tower        | CasinoBet           | difficulty: expert             |
+| `house:7000000010`    | Pump                | CasinoBet           | difficulty: easy               |
+| `house:7000000011`    | Snakes              | CasinoBet           | difficulty: master             |
+| `house:7000000012`    | Tarot               | CasinoBet           | difficulty: medium             |
 | `house:9000000002`    | —                   | —                   | 422 seed not yet revealed      |
 | `house:9000000003`    | —                   | —                   | 503 service unavailable        |
 | any other `house:\d+` | —                   | —                   | 404 not found                  |
