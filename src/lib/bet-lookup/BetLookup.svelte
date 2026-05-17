@@ -159,7 +159,7 @@
       </div>
 
       {#if error}
-        <p class="mt-2 text-xs text-red-600 dark:text-red-400">{errorMessage(error)}</p>
+        <p role="alert" class="mt-2 text-xs text-red-600 dark:text-red-400">{errorMessage(error)}</p>
       {/if}
     </div>
   {:else}
