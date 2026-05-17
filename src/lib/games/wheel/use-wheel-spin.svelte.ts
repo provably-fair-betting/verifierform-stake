@@ -1,3 +1,4 @@
+import { SvelteSet } from 'svelte/reactivity';
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import type { WheelSeed } from './types';
@@ -31,7 +32,7 @@ export function useWheelSpin(getFormValues: () => Record<string, unknown>) {
   const payline = $derived(paylines[seed.segments as unknown as keyof typeof paylines][seed.risk]);
 
   const distinctPayline = $derived(
-    [...new Set(payline.slice(0))].sort((a, b) => (a as number) - (b as number))
+    [...new SvelteSet(payline.slice(0))].sort((a, b) => (a as number) - (b as number))
   );
 
   const result = $derived.by(

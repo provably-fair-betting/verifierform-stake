@@ -1,3 +1,4 @@
+import { SvelteSet } from 'svelte/reactivity';
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import type { PlinkoSeed, Direction } from './types';
@@ -30,7 +31,7 @@ export function usePlinkoPayout(getFormValues: () => Record<string, unknown>) {
   });
 
   const payline = $derived([
-    ...new Set(paylines[seed.rows as unknown as keyof typeof paylines][seed.risk]),
+    ...new SvelteSet(paylines[seed.rows as unknown as keyof typeof paylines][seed.risk]),
   ]);
 
   const result = $derived.by(
