@@ -22,6 +22,7 @@
 
     loading = true;
     error = null;
+    successGame = null;
 
     const result = await lookupBet(id);
 
