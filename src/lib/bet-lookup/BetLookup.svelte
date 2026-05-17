@@ -8,10 +8,13 @@
   let loading = $state(false);
   let error = $state<BetLookupError | null>(null);
   let successGame = $state<string | null>(null);
+  let requestSeq = 0;
 
   function dismiss() {
+    requestSeq++;
     open = false;
     betId = '';
+    loading = false;
     error = null;
     successGame = null;
   }
@@ -20,11 +23,14 @@
     const id = betId.trim();
     if (!id) return;
 
+    const seq = ++requestSeq;
     loading = true;
     error = null;
     successGame = null;
 
     const result = await lookupBet(id);
+
+    if (seq !== requestSeq) return;
 
     loading = false;
 
@@ -42,7 +48,7 @@
 
   function handleKeydown(e: KeyboardEvent) {
     if (e.key === 'Enter') handleLookup();
-    if (e.key === 'Escape') dismiss();
+    if (e.key === 'Escape' && !loading) dismiss();
   }
 
   function errorMessage(e: BetLookupError): string {
@@ -73,7 +79,11 @@
   </svg>
 {/snippet}
 
-<div class="relative mx-auto mb-4 max-w-xl">
+{#if loading}
+  <div class="fixed inset-0 z-10 cursor-wait" aria-hidden="true"></div>
+{/if}
+
+<div class="relative z-20 mx-auto mb-4 max-w-xl">
   {#if open}
     <div
       transition:slide={{ duration: 200 }}
@@ -85,23 +95,25 @@
         <span class="text-sm text-gray-500 dark:text-gray-400">
           — paste a bet ID to auto-fill the verifier
         </span>
-        <button
-          onclick={dismiss}
-          class="ml-auto rounded p-0.5 text-gray-400 hover:bg-gray-200 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-          aria-label="Dismiss"
-        >
-          <svg
-            class="h-3.5 w-3.5"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
+        {#if !loading}
+          <button
+            onclick={dismiss}
+            class="ml-auto rounded p-0.5 text-gray-400 hover:bg-gray-200 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+            aria-label="Dismiss"
           >
-            <path
-              d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"
-            />
-          </svg>
-        </button>
+            <svg
+              class="h-3.5 w-3.5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"
+              />
+            </svg>
+          </button>
+        {/if}
       </div>
 
       <div class="flex gap-2">

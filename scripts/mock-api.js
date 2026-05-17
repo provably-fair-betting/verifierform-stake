@@ -189,6 +189,25 @@ const FIXTURES = {
     },
   },
 
+  // ── Slow response — use to test dismiss-while-in-flight behaviour ─────────
+  'house:5000000001': {
+    status: 200,
+    delayMs: 3000,
+    body: {
+      success: true,
+      data: {
+        betType: 'CasinoBet',
+        game: 'dice',
+        inputs: {
+          clientSeed: '86ff027f15c48241af7f54a726690ee7',
+          serverSeed: 'f2ac89b608eeb01312d115bce6741b32',
+          serverSeedHash: 'a2c4e6f8b0d2e4f6a8c0e2f4b6d8e0f2a4c6e8b0d2e4f6a8c0e2f4b6d8e0f2',
+          nonce: 0,
+        },
+      },
+    },
+  },
+
   // ── Error cases ───────────────────────────────────────────────────────────
   'house:9000000002': {
     status: 422,
@@ -269,8 +288,9 @@ const server = createServer((req, res) => {
       return;
     }
 
-    console.log(`  ${req.method} /api/bet-lookup  betId=${betId}  →  ${fixture.status}`);
-    send(res, fixture.status, fixture.body);
+    const delay = fixture.delayMs ?? 0;
+    console.log(`  ${req.method} /api/bet-lookup  betId=${betId}  →  ${fixture.status}${delay ? `  (delayed ${delay}ms)` : ''}`);
+    setTimeout(() => send(res, fixture.status, fixture.body), delay);
   });
 });
 
@@ -286,6 +306,7 @@ server.listen(PORT, () => {
   console.log('  house:3000000002  →  tomeoflife / slotsTomeOfLife (CasinoBet)');
   console.log('  house:4000000001  →  crash (MultiplayerCrashBet)');
   console.log('  house:4000000002  →  slide (MultiplayerSlideBet)');
+  console.log('  house:5000000001  →  dice (3s delay — test dismiss-while-in-flight)');
   console.log('  house:9000000001  →  mines — unsupported game');
   console.log('  house:9000000002  →  422 seed not yet revealed');
   console.log('  house:9000000003  →  503 service unavailable');
