@@ -17,7 +17,7 @@
     "sync:paylines": "node scripts/sync-paylines.js",
     "sync:testdata": "node scripts/sync-testdata.js",
     "mock:api": "node scripts/mock-api.js",
-    "dev:lookup": "node scripts/mock-api.js & PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 vite dev"
+    "dev:lookup": "concurrently --kill-others-on-fail \"node scripts/mock-api.js\" \"PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 vite dev\""
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
@@ -34,6 +34,7 @@
     "@types/node": "^24.3.0",
     "@vitest/coverage-v8": "^3.2.4",
     "@vitest/ui": "^3.2.4",
+    "concurrently": "^9.2.1",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-svelte": "^3.11.0",
