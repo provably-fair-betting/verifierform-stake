@@ -9,8 +9,22 @@
   let error = $state<BetLookupError | null>(null);
   let successGame = $state<string | null>(null);
   let requestSeq = 0;
+  let activeController: AbortController | null = null;
+  let containerEl: HTMLElement | null = $state(null);
+
+  $effect(() => {
+    const sibling = containerEl?.parentElement?.nextElementSibling;
+    if (sibling instanceof HTMLElement) {
+      sibling.inert = loading;
+      return () => {
+        sibling.inert = false;
+      };
+    }
+  });
 
   function dismiss() {
+    activeController?.abort();
+    activeController = null;
     requestSeq++;
     open = false;
     betId = '';
@@ -23,15 +37,19 @@
     const id = betId.trim();
     if (!id) return;
 
+    activeController?.abort();
+    activeController = new AbortController();
+
     const seq = ++requestSeq;
     loading = true;
     error = null;
     successGame = null;
 
-    const result = await lookupBet(id);
+    const result = await lookupBet(id, activeController.signal);
 
-    if (seq !== requestSeq) return;
+    if (result === null || seq !== requestSeq) return;
 
+    activeController = null;
     loading = false;
 
     if (result.ok) {
@@ -48,7 +66,7 @@
 
   function handleKeydown(e: KeyboardEvent) {
     if (e.key === 'Enter') handleLookup();
-    if (e.key === 'Escape' && !loading) dismiss();
+    if (e.key === 'Escape') dismiss();
   }
 
   function errorMessage(e: BetLookupError): string {
@@ -83,7 +101,7 @@
   <div class="fixed inset-0 z-10 cursor-wait" aria-hidden="true"></div>
 {/if}
 
-<div class="relative z-20 mx-auto mb-4 max-w-xl">
+<div class="relative z-20 mx-auto mb-4 max-w-xl" bind:this={containerEl}>
   {#if open}
     <div
       transition:slide={{ duration: 200 }}
@@ -95,7 +113,6 @@
         <span class="text-sm text-gray-500 dark:text-gray-400">
           — paste a bet ID to auto-fill the verifier
         </span>
-        {#if !loading}
           <button
             onclick={dismiss}
             class="ml-auto rounded p-0.5 text-gray-400 hover:bg-gray-200 hover:text-gray-600 dark:hover:bg-gray-700 dark:hover:text-gray-300"
@@ -113,7 +130,6 @@
               />
             </svg>
           </button>
-        {/if}
       </div>
 
       <div class="flex gap-2">

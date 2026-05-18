@@ -64,7 +64,10 @@ type NormalizedBet = {
   inputs: Record<string, unknown>;
 };
 
-export async function lookupBet(betId: string): Promise<BetLookupResult> {
+export async function lookupBet(
+  betId: string,
+  signal?: AbortSignal,
+): Promise<BetLookupResult | null> {
   let response: Response;
   let body: { success: boolean; data?: NormalizedBet; error?: string };
 
@@ -73,9 +76,11 @@ export async function lookupBet(betId: string): Promise<BetLookupResult> {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ betId }),
+      signal,
     });
     body = await response.json();
   } catch {
+    if (signal?.aborted) return null;
     return { ok: false, error: { type: 'network_error' } };
   }
 
