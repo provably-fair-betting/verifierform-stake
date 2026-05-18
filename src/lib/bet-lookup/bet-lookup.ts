@@ -66,7 +66,7 @@ type NormalizedBet = {
 
 export async function lookupBet(
   betId: string,
-  signal?: AbortSignal,
+  signal?: AbortSignal
 ): Promise<BetLookupResult | null> {
   let response: Response;
   let body: { success: boolean; data?: NormalizedBet; error?: string };

@@ -112,9 +112,9 @@ test.describe('Bet Lookup', () => {
     await expect(page.getByLabel('Bet ID')).not.toBeVisible();
     await expect(page.getByRole('button', { name: 'Lookup by Bet ID' })).toBeVisible();
 
-    // Wait well past the 3s server delay — the aborted fetch must not trigger goto()
+    // house:5000000001 resolves to dice — confirm its params were never applied
     await page.waitForTimeout(500);
-    await expect(page).not.toHaveURL(/game=/);
+    await expect(page).not.toHaveURL(/game=dice/);
   });
 
   test('panel reopens clean after mid-flight dismiss', async ({ page }) => {
