@@ -117,7 +117,7 @@ test.describe('Bet Lookup', () => {
     await expect(page).not.toHaveURL(/game=dice/);
   });
 
-  test('panel reopens clean after mid-flight dismiss', async ({ page }) => {
+  test('panel reopens clean after mid-flight dismiss and lookup still works', async ({ page }) => {
     await page.getByRole('button', { name: 'Lookup by Bet ID' }).click();
     await page.getByLabel('Bet ID').fill('house:5000000001');
     await page.getByRole('button', { name: 'Look Up' }).click();
@@ -130,8 +130,13 @@ test.describe('Bet Lookup', () => {
     await expect(page.getByLabel('Bet ID')).toHaveValue('');
     await expect(page.getByRole('button', { name: 'Look Up' })).toBeDisabled();
 
+    // Complete a full successful lookup to confirm abort left state intact
     await page.getByLabel('Bet ID').fill('house:1000000001');
     await expect(page.getByRole('button', { name: 'Look Up' })).toBeEnabled();
+    await page.getByRole('button', { name: 'Look Up' }).click();
+    await expect(page.getByRole('status')).toContainText('Dice — seeds loaded');
+    await expect(page).toHaveURL(/game=dice/);
+    await expect(page).toHaveURL(/clientseed=86ff027f15c48241af7f54a726690ee7/);
   });
 
   test('verifier form has inert attribute while lookup is loading', async ({ page }) => {
