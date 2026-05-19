@@ -1,5 +1,59 @@
 # Changelog
 
+## [1.2.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.1.0...v1.2.0) (2026-05-19)
+
+
+### Features
+
+* add bet lookup feature ([4ee7ace](https://github.com/provably-fair-betting/verifierform-stake/commit/4ee7ace3260fa4d3158583e2d47d5322a8c6ef84))
+* add bet lookup feature ([245b91e](https://github.com/provably-fair-betting/verifierform-stake/commit/245b91e7247e8c8c68cb87d9383b1d2afe4264c2))
+* **bet-lookup:** animate panel open and lighten background ([409b78f](https://github.com/provably-fair-betting/verifierform-stake/commit/409b78ffdca01c2affa988063a7b8007938db9d9))
+* **bet-lookup:** improve light mode affordance and success notification UX ([008a6fd](https://github.com/provably-fair-betting/verifierform-stake/commit/008a6fd294a7506a454016ccf5c03fcab06fac13))
+* **mock-api:** add fixtures for all supported lookup games ([339de5e](https://github.com/provably-fair-betting/verifierform-stake/commit/339de5e794142f08f4456f8ddb83348dd3fa8c42))
+
+
+### Bug Fixes
+
+* **a11y:** add role=alert to bet lookup error message ([85c2012](https://github.com/provably-fair-betting/verifierform-stake/commit/85c201288c8352ad611e27b09291b5200124d5ca))
+* **bet-lookup:** abort stalled requests, lock keyboard, fix dev:lookup lifecycle ([abbaea8](https://github.com/provably-fair-betting/verifierform-stake/commit/abbaea8485dd81e89bcbcc2547633024e806e590))
+* **bet-lookup:** gate UI on non-empty URL and restore fetch stub after tests ([6b71afb](https://github.com/provably-fair-betting/verifierform-stake/commit/6b71afbbd67cdd0e1a244f690f7523b3c2443c60))
+* **bet-lookup:** lock all interaction while lookup is in flight ([7a62c76](https://github.com/provably-fair-betting/verifierform-stake/commit/7a62c76cdfdb40f1cef46cb0b42cb1b361493139))
+* **bet-lookup:** normalise base URL to handle trailing slash ([4058215](https://github.com/provably-fair-betting/verifierform-stake/commit/4058215600b1886454846c8291311b0ef532ffe3))
+* **bet-lookup:** prettier formatting and narrow dismiss-mid-flight URL assertion ([7e9d3f0](https://github.com/provably-fair-betting/verifierform-stake/commit/7e9d3f081ce1d9a6bbe54c716aed5d273efa4113))
+* **bet-lookup:** restore inert state, clear timeout on dismiss, URL guard, noopener ([669eca3](https://github.com/provably-fair-betting/verifierform-stake/commit/669eca380d2cd5afa16a30602d2cce17cd4f4a46))
+* **bet-lookup:** update unsupported_game error message to be game-agnostic ([61c6340](https://github.com/provably-fair-betting/verifierform-stake/commit/61c634042ebed7ae8c4d8f28ccdc3c662329b780))
+* clear stale successGame when a new bet lookup is submitted ([2c92bcf](https://github.com/provably-fair-betting/verifierform-stake/commit/2c92bcf0a20968e888bdad9e03aa3fa8a0de2935))
+* **coverage:** add bet-lookup to coverage include and plug two missin… ([53dac30](https://github.com/provably-fair-betting/verifierform-stake/commit/53dac30c7485e3432fc83857058a193668527ec6))
+* **coverage:** add bet-lookup to coverage include and plug two missing branches ([0bc01ca](https://github.com/provably-fair-betting/verifierform-stake/commit/0bc01ca01dcbb87fc27b22452eec60afca02d1fb))
+* **env:** commit default public env so static imports resolve without setup ([9473279](https://github.com/provably-fair-betting/verifierform-stake/commit/9473279fffc2c70fab637f30a8fc540a069b66c9))
+* **eslint:** add keys to each blocks (svelte/require-each-key) ([5e50983](https://github.com/provably-fair-betting/verifierform-stake/commit/5e509837493efdbb6ab8594d07aa2f8feb737cb8))
+* **eslint:** replace Set with SvelteSet in reactive contexts (svelte/prefer-svelte-reactivity) ([6f23c0a](https://github.com/provably-fair-betting/verifierform-stake/commit/6f23c0aa648c87b38a0d122cce6758bbd6c2d17c))
+* **eslint:** resolve remaining rule violations ([4d6e82a](https://github.com/provably-fair-betting/verifierform-stake/commit/4d6e82a79c77e1156d03bab98f928a0ebaa32c47))
+* **eslint:** resolve unused variable errors (@typescript-eslint/no-unused-vars) ([25bd841](https://github.com/provably-fair-betting/verifierform-stake/commit/25bd84105d854ec26f4837628cd42cee8b9cdfa6))
+* **eslint:** suppress false-positive no-navigation-without-resolve warnings ([9695dda](https://github.com/provably-fair-betting/verifierform-stake/commit/9695dda2192e52348097284f5b3b9616b88980e9))
+* update stale payline imports to canonical src/lib/paylines path ([ed388e8](https://github.com/provably-fair-betting/verifierform-stake/commit/ed388e889713065717448b08295836c13588dd4e))
+
+
+### Code Refactoring
+
+* **bet-lookup:** align error contract with backend response body ([7979353](https://github.com/provably-fair-betting/verifierform-stake/commit/797935308efa08018eb7f36b4406f3b0206d3c8b))
+* **bet-lookup:** improve cleanliness and UI polish ([3da0996](https://github.com/provably-fair-betting/verifierform-stake/commit/3da0996df90af17dda2e64f819faa3cc65db4df5))
+
+
+### Tests
+
+* **bet-lookup:** add unit tests for slug mapping, params, and error cases ([c83ed1b](https://github.com/provably-fair-betting/verifierform-stake/commit/c83ed1b9881024d62694ec3d5eeaef499b799d8b))
+* **e2e:** add playwright tests for abort controller, inert, and clean reopen ([00e8f47](https://github.com/provably-fair-betting/verifierform-stake/commit/00e8f47cfcee2216560ac260a047ce3b34d8e949))
+* **e2e:** complete a full lookup after mid-flight dismiss to verify state recovery ([94b89bf](https://github.com/provably-fair-betting/verifierform-stake/commit/94b89bf51dc52596b35e0a99ded7aa52b1bf3f40))
+
+
+### Miscellaneous Chores
+
+* **dev:lookup:** use concurrently to tie mock API lifecycle to Vite ([59c5980](https://github.com/provably-fair-betting/verifierform-stake/commit/59c598061d71c183d84488e8774b7310afedaa30))
+* **env:** fix misleading comment in .env defaults ([6f42a9f](https://github.com/provably-fair-betting/verifierform-stake/commit/6f42a9febee75f41e833033367c145818408bad5))
+* remove ci from release-please changelog sections ([a9c7acc](https://github.com/provably-fair-betting/verifierform-stake/commit/a9c7acc2288e679cd595d13eb7b64eb968f2f444))
+* update badges [skip ci] ([c99fb2d](https://github.com/provably-fair-betting/verifierform-stake/commit/c99fb2dcc6955726d5b1c0d347adc922124ffccf))
+
 ## [1.1.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.0.2...v1.1.0) (2026-05-11)
 
 ### Features
