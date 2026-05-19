@@ -10,6 +10,7 @@
 <a
   class={twMerge('text-purple-500 dark:text-purple-400', 'hover:underline', className)}
   target="_blank"
+  rel="noopener noreferrer"
   {href}
 >
   {@render children()}

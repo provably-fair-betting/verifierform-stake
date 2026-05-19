@@ -1,5 +1,6 @@
 <script lang="ts">
   import { slide, fade } from 'svelte/transition';
+  import { onDestroy } from 'svelte';
   import { goto } from '$app/navigation';
   import { lookupBet, type BetLookupError } from './bet-lookup.js';
 
@@ -11,18 +12,24 @@
   let requestSeq = 0;
   let activeController: AbortController | null = null;
   let containerEl: HTMLElement | null = $state(null);
+  let successTimeout: ReturnType<typeof setTimeout> | undefined;
+
+  onDestroy(() => clearTimeout(successTimeout));
 
   $effect(() => {
     const sibling = containerEl?.parentElement?.nextElementSibling;
     if (sibling instanceof HTMLElement) {
+      const prevInert = sibling.inert;
       sibling.inert = loading;
       return () => {
-        sibling.inert = false;
+        sibling.inert = prevInert;
       };
     }
   });
 
   function dismiss() {
+    clearTimeout(successTimeout);
+    successTimeout = undefined;
     activeController?.abort();
     activeController = null;
     requestSeq++;
@@ -58,7 +65,8 @@
       const game = result.data.gameName;
       dismiss();
       successGame = game;
-      setTimeout(() => (successGame = null), 1500);
+      clearTimeout(successTimeout);
+      successTimeout = setTimeout(() => (successGame = null), 1500);
     } else {
       error = result.error;
     }

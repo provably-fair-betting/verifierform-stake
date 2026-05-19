@@ -68,6 +68,10 @@ export async function lookupBet(
   betId: string,
   signal?: AbortSignal
 ): Promise<BetLookupResult | null> {
+  if (!PUBLIC_BET_LOOKUP_URL) {
+    return { ok: false, error: { type: 'network_error' } };
+  }
+
   let response: Response;
   let body: { success: boolean; data?: NormalizedBet; error?: string };
 
