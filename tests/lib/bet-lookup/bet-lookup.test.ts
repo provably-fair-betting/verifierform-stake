@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterAll } from 'vitest';
 
 vi.mock('$env/static/public', () => ({
   PUBLIC_BET_LOOKUP_ENABLED: 'true',
@@ -29,6 +29,10 @@ const CASINO_INPUTS = {
 describe('lookupBet', () => {
   beforeEach(() => {
     mockFetch.mockReset();
+  });
+
+  afterAll(() => {
+    vi.unstubAllGlobals();
   });
 
   // ── CasinoBet slug → formId mapping ────────────────────────────────────────

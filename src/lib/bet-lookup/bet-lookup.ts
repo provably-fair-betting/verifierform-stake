@@ -1,6 +1,6 @@
 import { PUBLIC_BET_LOOKUP_ENABLED, PUBLIC_BET_LOOKUP_URL } from '$env/static/public';
 
-export const betLookupEnabled = PUBLIC_BET_LOOKUP_ENABLED === 'true';
+export const betLookupEnabled = PUBLIC_BET_LOOKUP_ENABLED === 'true' && !!PUBLIC_BET_LOOKUP_URL;
 
 type GameEntry = { formId: string; name: string };
 
