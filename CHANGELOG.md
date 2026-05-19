@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.2](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.1...v1.2.2) (2026-05-19)
+
+
+### Bug Fixes
+
+* **bet-lookup:** add overloads so no-signal call returns non-nullable BetLookupResult ([3d8ee83](https://github.com/provably-fair-betting/verifierform-stake/commit/3d8ee83e62ea36971948383110611d250315d5f6))
+* **bet-lookup:** add overloads so no-signal call returns non-nullable BetLookupResult ([6b68527](https://github.com/provably-fair-betting/verifierform-stake/commit/6b68527264fa6069c4523948590064b9fcdbe8ae))
+
 ## [1.2.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.0...v1.2.1) (2026-05-19)
 
 
