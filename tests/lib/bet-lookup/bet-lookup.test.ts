@@ -35,6 +35,23 @@ describe('lookupBet', () => {
     vi.unstubAllGlobals();
   });
 
+  describe('when PUBLIC_BET_LOOKUP_URL is not configured', () => {
+    it('returns network_error without fetching', async () => {
+      vi.resetModules();
+      vi.doMock('$env/static/public', () => ({
+        PUBLIC_BET_LOOKUP_ENABLED: 'true',
+        PUBLIC_BET_LOOKUP_URL: '',
+      }));
+      const { lookupBet: lookupBetNoUrl } = await import('$lib/bet-lookup/bet-lookup');
+
+      const result = await lookupBetNoUrl('house:123');
+
+      expect(result).toEqual({ ok: false, error: { type: 'network_error' } });
+      expect(mockFetch).not.toHaveBeenCalled();
+      vi.resetModules();
+    });
+  });
+
   // ── CasinoBet slug → formId mapping ────────────────────────────────────────
 
   describe('CasinoBet slug mapping', () => {
@@ -317,6 +334,20 @@ describe('lookupBet', () => {
       expect(result.ok).toBe(false);
       if (result.ok) return;
       expect(result.error).toEqual({ type: 'network_error' });
+    });
+
+    it('200 response with no body.data → api_error', async () => {
+      mockFetch.mockReturnValue(mockResponse(200, { success: true }));
+
+      const result = await lookupBet('house:123');
+
+      expect(result).toEqual({
+        ok: false,
+        error: {
+          type: 'api_error',
+          message: 'An unexpected error occurred. Please try again later.',
+        },
+      });
     });
 
     it('unsupported game slug → unsupported_game with slug', async () => {

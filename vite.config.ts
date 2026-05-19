@@ -61,7 +61,11 @@ export default defineConfig({
       enabled: true,
       all: true,
       reporter: ['html', 'json-summary', 'lcov'],
-      include: ['src/lib/domain/**', 'src/lib/games/**/*Result.svelte'],
+      include: [
+        'src/lib/domain/**',
+        'src/lib/games/**/*Result.svelte',
+        'src/lib/bet-lookup/bet-lookup.ts',
+      ],
       exclude: ['src/lib/domain/index.ts'],
     },
   },
