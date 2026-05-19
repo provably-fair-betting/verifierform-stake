@@ -64,6 +64,11 @@ type NormalizedBet = {
   inputs: Record<string, unknown>;
 };
 
+export async function lookupBet(betId: string): Promise<BetLookupResult>;
+export async function lookupBet(
+  betId: string,
+  signal: AbortSignal
+): Promise<BetLookupResult | null>;
 export async function lookupBet(
   betId: string,
   signal?: AbortSignal
