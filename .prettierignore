@@ -5,5 +5,8 @@ yarn.lock
 bun.lock
 bun.lockb
 
+# Managed by release-please — formatting is not our concern
+CHANGELOG.md
+
 # Lib submodule has its own prettier config and ignore rules
 provably-fair-verifierform-lib/tailwindplay
