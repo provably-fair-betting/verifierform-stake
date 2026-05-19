@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.0...v1.2.1) (2026-05-19)
+
+
+### Bug Fixes
+
+* **lint:** exclude CHANGELOG.md from prettier ([af8ae8b](https://github.com/provably-fair-betting/verifierform-stake/commit/af8ae8b803c6a9bde1ed8622e1d49febf3c4718b))
+* **lint:** exclude CHANGELOG.md from prettier ([7054eed](https://github.com/provably-fair-betting/verifierform-stake/commit/7054eed3ad17d94372325f12639b89d4aec32591))
+
 ## [1.2.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.1.0...v1.2.0) (2026-05-19)
 
 
