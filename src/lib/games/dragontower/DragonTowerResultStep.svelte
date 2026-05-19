@@ -28,7 +28,6 @@
   const eggsMinusPreviousIndexes = $derived(display.remainingItems);
 
   const currentLevel = $derived(Math.floor(resultIndex / config.count) + 1);
-  const eggNumber = $derived((resultIndex % config.count) + 1);
 </script>
 
 <div class="mt-7 text-center">

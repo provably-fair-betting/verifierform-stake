@@ -45,7 +45,7 @@
       <!-- Custom tab strip with drill colors -->
       <div class="mb-7 overflow-x-auto overflow-y-visible" style="padding: 4px 6px 0 4px;">
         <div class="flex justify-center gap-2 pb-5" style="min-width: max-content;">
-          {#each results as result, i}
+          {#each results as result, i (i)}
             <button
               type="button"
               class={i === resultIndex

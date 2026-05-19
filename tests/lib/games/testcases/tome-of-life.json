@@ -9,13 +9,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          15,
-          22,
-          6,
-          4,
-          30
-        ],
+        "centerIndices": [15, 22, 6, 4, 30],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -84,13 +78,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          28,
-          5,
-          23,
-          28,
-          12
-        ],
+        "centerIndices": [28, 5, 23, 28, 12],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -159,13 +147,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          15,
-          0,
-          13,
-          13,
-          6
-        ],
+        "centerIndices": [15, 0, 13, 13, 6],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -234,13 +216,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          11,
-          25,
-          10,
-          28,
-          22
-        ],
+        "centerIndices": [11, 25, 10, 28, 22],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -309,13 +285,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          0,
-          9,
-          0,
-          21,
-          31
-        ],
+        "centerIndices": [0, 9, 0, 21, 31],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -384,13 +354,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          22,
-          20,
-          10,
-          4,
-          7
-        ],
+        "centerIndices": [22, 20, 10, 4, 7],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -459,13 +423,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          28,
-          4,
-          17,
-          11,
-          1
-        ],
+        "centerIndices": [28, 4, 17, 11, 1],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -534,13 +492,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          16,
-          27,
-          15,
-          14,
-          39
-        ],
+        "centerIndices": [16, 27, 15, 14, 39],
         "visibleSymbolsByReel": [
           {
             "above": "wild",
@@ -609,13 +561,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          12,
-          0,
-          0,
-          20,
-          14
-        ],
+        "centerIndices": [12, 0, 0, 20, 14],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -674,13 +620,7 @@
       },
       {
         "round": 1,
-        "centerIndices": [
-          5,
-          27,
-          9,
-          10,
-          10
-        ],
+        "centerIndices": [5, 27, 9, 10, 10],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -739,13 +679,7 @@
       },
       {
         "round": 2,
-        "centerIndices": [
-          22,
-          6,
-          26,
-          28,
-          25
-        ],
+        "centerIndices": [22, 6, 26, 28, 25],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -804,13 +738,7 @@
       },
       {
         "round": 3,
-        "centerIndices": [
-          18,
-          5,
-          20,
-          1,
-          7
-        ],
+        "centerIndices": [18, 5, 20, 1, 7],
         "visibleSymbolsByReel": [
           {
             "above": "ace",
@@ -869,13 +797,7 @@
       },
       {
         "round": 4,
-        "centerIndices": [
-          28,
-          29,
-          20,
-          4,
-          35
-        ],
+        "centerIndices": [28, 29, 20, 4, 35],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -934,13 +856,7 @@
       },
       {
         "round": 5,
-        "centerIndices": [
-          19,
-          18,
-          29,
-          2,
-          39
-        ],
+        "centerIndices": [19, 18, 29, 2, 39],
         "visibleSymbolsByReel": [
           {
             "above": "two",
@@ -999,13 +915,7 @@
       },
       {
         "round": 6,
-        "centerIndices": [
-          12,
-          18,
-          19,
-          17,
-          11
-        ],
+        "centerIndices": [12, 18, 19, 17, 11],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -1064,13 +974,7 @@
       },
       {
         "round": 7,
-        "centerIndices": [
-          21,
-          3,
-          23,
-          13,
-          5
-        ],
+        "centerIndices": [21, 3, 23, 13, 5],
         "visibleSymbolsByReel": [
           {
             "above": "one",
@@ -1129,13 +1033,7 @@
       },
       {
         "round": 8,
-        "centerIndices": [
-          7,
-          18,
-          27,
-          18,
-          19
-        ],
+        "centerIndices": [7, 18, 27, 18, 19],
         "visibleSymbolsByReel": [
           {
             "above": "four",
@@ -1194,13 +1092,7 @@
       },
       {
         "round": 9,
-        "centerIndices": [
-          19,
-          24,
-          0,
-          2,
-          33
-        ],
+        "centerIndices": [19, 24, 0, 2, 33],
         "visibleSymbolsByReel": [
           {
             "above": "two",
@@ -1259,13 +1151,7 @@
       },
       {
         "round": 10,
-        "centerIndices": [
-          7,
-          28,
-          7,
-          17,
-          25
-        ],
+        "centerIndices": [7, 28, 7, 17, 25],
         "visibleSymbolsByReel": [
           {
             "above": "four",
@@ -1324,13 +1210,7 @@
       },
       {
         "round": 11,
-        "centerIndices": [
-          22,
-          7,
-          14,
-          2,
-          2
-        ],
+        "centerIndices": [22, 7, 14, 2, 2],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -1389,13 +1269,7 @@
       },
       {
         "round": 12,
-        "centerIndices": [
-          22,
-          16,
-          28,
-          4,
-          12
-        ],
+        "centerIndices": [22, 16, 28, 4, 12],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -1454,13 +1328,7 @@
       },
       {
         "round": 13,
-        "centerIndices": [
-          25,
-          6,
-          2,
-          26,
-          13
-        ],
+        "centerIndices": [25, 6, 2, 26, 13],
         "visibleSymbolsByReel": [
           {
             "above": "four",
@@ -1519,13 +1387,7 @@
       },
       {
         "round": 14,
-        "centerIndices": [
-          28,
-          8,
-          11,
-          6,
-          27
-        ],
+        "centerIndices": [28, 8, 11, 6, 27],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -1584,13 +1446,7 @@
       },
       {
         "round": 15,
-        "centerIndices": [
-          15,
-          17,
-          12,
-          23,
-          22
-        ],
+        "centerIndices": [15, 17, 12, 23, 22],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -1649,13 +1505,7 @@
       },
       {
         "round": 16,
-        "centerIndices": [
-          15,
-          11,
-          25,
-          1,
-          24
-        ],
+        "centerIndices": [15, 11, 25, 1, 24],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -1714,13 +1564,7 @@
       },
       {
         "round": 17,
-        "centerIndices": [
-          6,
-          4,
-          7,
-          1,
-          21
-        ],
+        "centerIndices": [6, 4, 7, 1, 21],
         "visibleSymbolsByReel": [
           {
             "above": "ace",
@@ -1779,13 +1623,7 @@
       },
       {
         "round": 18,
-        "centerIndices": [
-          6,
-          0,
-          2,
-          20,
-          4
-        ],
+        "centerIndices": [6, 0, 2, 20, 4],
         "visibleSymbolsByReel": [
           {
             "above": "ace",
@@ -1844,13 +1682,7 @@
       },
       {
         "round": 19,
-        "centerIndices": [
-          3,
-          18,
-          21,
-          28,
-          38
-        ],
+        "centerIndices": [3, 18, 21, 28, 38],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -1909,13 +1741,7 @@
       },
       {
         "round": 20,
-        "centerIndices": [
-          4,
-          25,
-          8,
-          3,
-          38
-        ],
+        "centerIndices": [4, 25, 8, 3, 38],
         "visibleSymbolsByReel": [
           {
             "above": "three",
@@ -1974,13 +1800,7 @@
       },
       {
         "round": 21,
-        "centerIndices": [
-          3,
-          17,
-          29,
-          12,
-          2
-        ],
+        "centerIndices": [3, 17, 29, 12, 2],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2039,13 +1859,7 @@
       },
       {
         "round": 22,
-        "centerIndices": [
-          9,
-          13,
-          10,
-          16,
-          23
-        ],
+        "centerIndices": [9, 13, 10, 16, 23],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -2104,13 +1918,7 @@
       },
       {
         "round": 23,
-        "centerIndices": [
-          10,
-          10,
-          12,
-          5,
-          9
-        ],
+        "centerIndices": [10, 10, 12, 5, 9],
         "visibleSymbolsByReel": [
           {
             "above": "two",
@@ -2169,13 +1977,7 @@
       },
       {
         "round": 24,
-        "centerIndices": [
-          25,
-          29,
-          21,
-          3,
-          17
-        ],
+        "centerIndices": [25, 29, 21, 3, 17],
         "visibleSymbolsByReel": [
           {
             "above": "four",
@@ -2234,13 +2036,7 @@
       },
       {
         "round": 25,
-        "centerIndices": [
-          24,
-          19,
-          2,
-          19,
-          13
-        ],
+        "centerIndices": [24, 19, 2, 19, 13],
         "visibleSymbolsByReel": [
           {
             "above": "king",
@@ -2299,13 +2095,7 @@
       },
       {
         "round": 26,
-        "centerIndices": [
-          10,
-          12,
-          6,
-          14,
-          14
-        ],
+        "centerIndices": [10, 12, 6, 14, 14],
         "visibleSymbolsByReel": [
           {
             "above": "two",
@@ -2364,13 +2154,7 @@
       },
       {
         "round": 27,
-        "centerIndices": [
-          26,
-          22,
-          5,
-          5,
-          23
-        ],
+        "centerIndices": [26, 22, 5, 5, 23],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2429,13 +2213,7 @@
       },
       {
         "round": 28,
-        "centerIndices": [
-          3,
-          1,
-          6,
-          17,
-          6
-        ],
+        "centerIndices": [3, 1, 6, 17, 6],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2494,13 +2272,7 @@
       },
       {
         "round": 29,
-        "centerIndices": [
-          18,
-          28,
-          20,
-          20,
-          2
-        ],
+        "centerIndices": [18, 28, 20, 20, 2],
         "visibleSymbolsByReel": [
           {
             "above": "ace",
@@ -2559,13 +2331,7 @@
       },
       {
         "round": 30,
-        "centerIndices": [
-          8,
-          1,
-          0,
-          27,
-          9
-        ],
+        "centerIndices": [8, 1, 0, 27, 9],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2624,13 +2390,7 @@
       },
       {
         "round": 31,
-        "centerIndices": [
-          5,
-          25,
-          16,
-          11,
-          24
-        ],
+        "centerIndices": [5, 25, 16, 11, 24],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -2689,13 +2449,7 @@
       },
       {
         "round": 32,
-        "centerIndices": [
-          15,
-          8,
-          13,
-          3,
-          13
-        ],
+        "centerIndices": [15, 8, 13, 3, 13],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -2754,13 +2508,7 @@
       },
       {
         "round": 33,
-        "centerIndices": [
-          8,
-          8,
-          19,
-          16,
-          0
-        ],
+        "centerIndices": [8, 8, 19, 16, 0],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2819,13 +2567,7 @@
       },
       {
         "round": 34,
-        "centerIndices": [
-          26,
-          3,
-          5,
-          6,
-          2
-        ],
+        "centerIndices": [26, 3, 5, 6, 2],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -2884,13 +2626,7 @@
       },
       {
         "round": 35,
-        "centerIndices": [
-          18,
-          23,
-          11,
-          17,
-          14
-        ],
+        "centerIndices": [18, 23, 11, 17, 14],
         "visibleSymbolsByReel": [
           {
             "above": "ace",
@@ -2949,13 +2685,7 @@
       },
       {
         "round": 36,
-        "centerIndices": [
-          5,
-          6,
-          3,
-          14,
-          5
-        ],
+        "centerIndices": [5, 6, 3, 14, 5],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -3014,13 +2744,7 @@
       },
       {
         "round": 37,
-        "centerIndices": [
-          29,
-          10,
-          20,
-          15,
-          38
-        ],
+        "centerIndices": [29, 10, 20, 15, 38],
         "visibleSymbolsByReel": [
           {
             "above": "three",
@@ -3079,13 +2803,7 @@
       },
       {
         "round": 38,
-        "centerIndices": [
-          17,
-          4,
-          16,
-          18,
-          37
-        ],
+        "centerIndices": [17, 4, 16, 18, 37],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -3144,13 +2862,7 @@
       },
       {
         "round": 39,
-        "centerIndices": [
-          5,
-          21,
-          19,
-          12,
-          32
-        ],
+        "centerIndices": [5, 21, 19, 12, 32],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -3209,13 +2921,7 @@
       },
       {
         "round": 40,
-        "centerIndices": [
-          13,
-          3,
-          6,
-          13,
-          21
-        ],
+        "centerIndices": [13, 3, 6, 13, 21],
         "visibleSymbolsByReel": [
           {
             "above": "scatter",
@@ -3274,13 +2980,7 @@
       },
       {
         "round": 41,
-        "centerIndices": [
-          29,
-          4,
-          28,
-          25,
-          33
-        ],
+        "centerIndices": [29, 4, 28, 25, 33],
         "visibleSymbolsByReel": [
           {
             "above": "three",
@@ -3339,13 +3039,7 @@
       },
       {
         "round": 42,
-        "centerIndices": [
-          12,
-          19,
-          13,
-          11,
-          20
-        ],
+        "centerIndices": [12, 19, 13, 11, 20],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -3404,13 +3098,7 @@
       },
       {
         "round": 43,
-        "centerIndices": [
-          27,
-          6,
-          12,
-          6,
-          24
-        ],
+        "centerIndices": [27, 6, 12, 6, 24],
         "visibleSymbolsByReel": [
           {
             "above": "one",
@@ -3469,13 +3157,7 @@
       },
       {
         "round": 44,
-        "centerIndices": [
-          26,
-          20,
-          20,
-          8,
-          29
-        ],
+        "centerIndices": [26, 20, 20, 8, 29],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -3534,13 +3216,7 @@
       },
       {
         "round": 45,
-        "centerIndices": [
-          0,
-          28,
-          26,
-          23,
-          12
-        ],
+        "centerIndices": [0, 28, 26, 23, 12],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -3609,13 +3285,7 @@
     "rounds": [
       {
         "round": 0,
-        "centerIndices": [
-          13,
-          12,
-          0,
-          17,
-          7
-        ],
+        "centerIndices": [13, 12, 0, 17, 7],
         "visibleSymbolsByReel": [
           {
             "above": "scatter",
@@ -3674,13 +3344,7 @@
       },
       {
         "round": 1,
-        "centerIndices": [
-          2,
-          22,
-          29,
-          5,
-          36
-        ],
+        "centerIndices": [2, 22, 29, 5, 36],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -3739,13 +3403,7 @@
       },
       {
         "round": 2,
-        "centerIndices": [
-          27,
-          27,
-          28,
-          10,
-          37
-        ],
+        "centerIndices": [27, 27, 28, 10, 37],
         "visibleSymbolsByReel": [
           {
             "above": "one",
@@ -3804,13 +3462,7 @@
       },
       {
         "round": 3,
-        "centerIndices": [
-          11,
-          24,
-          18,
-          28,
-          35
-        ],
+        "centerIndices": [11, 24, 18, 28, 35],
         "visibleSymbolsByReel": [
           {
             "above": "nine",
@@ -3869,13 +3521,7 @@
       },
       {
         "round": 4,
-        "centerIndices": [
-          12,
-          26,
-          28,
-          23,
-          9
-        ],
+        "centerIndices": [12, 26, 28, 23, 9],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -3934,13 +3580,7 @@
       },
       {
         "round": 5,
-        "centerIndices": [
-          16,
-          7,
-          29,
-          5,
-          6
-        ],
+        "centerIndices": [16, 7, 29, 5, 6],
         "visibleSymbolsByReel": [
           {
             "above": "wild",
@@ -3999,13 +3639,7 @@
       },
       {
         "round": 6,
-        "centerIndices": [
-          15,
-          11,
-          28,
-          6,
-          9
-        ],
+        "centerIndices": [15, 11, 28, 6, 9],
         "visibleSymbolsByReel": [
           {
             "above": "jack",
@@ -4064,13 +3698,7 @@
       },
       {
         "round": 7,
-        "centerIndices": [
-          0,
-          11,
-          19,
-          19,
-          37
-        ],
+        "centerIndices": [0, 11, 19, 19, 37],
         "visibleSymbolsByReel": [
           {
             "above": "ten",
@@ -4129,13 +3757,7 @@
       },
       {
         "round": 8,
-        "centerIndices": [
-          19,
-          9,
-          28,
-          14,
-          8
-        ],
+        "centerIndices": [19, 9, 28, 14, 8],
         "visibleSymbolsByReel": [
           {
             "above": "two",
@@ -4194,13 +3816,7 @@
       },
       {
         "round": 9,
-        "centerIndices": [
-          2,
-          17,
-          23,
-          29,
-          13
-        ],
+        "centerIndices": [2, 17, 23, 29, 13],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -4259,13 +3875,7 @@
       },
       {
         "round": 10,
-        "centerIndices": [
-          23,
-          21,
-          24,
-          0,
-          21
-        ],
+        "centerIndices": [23, 21, 24, 0, 21],
         "visibleSymbolsByReel": [
           {
             "above": "five",
@@ -4324,13 +3934,7 @@
       },
       {
         "round": 11,
-        "centerIndices": [
-          13,
-          1,
-          11,
-          22,
-          28
-        ],
+        "centerIndices": [13, 1, 11, 22, 28],
         "visibleSymbolsByReel": [
           {
             "above": "scatter",
@@ -4389,13 +3993,7 @@
       },
       {
         "round": 12,
-        "centerIndices": [
-          27,
-          17,
-          19,
-          11,
-          35
-        ],
+        "centerIndices": [27, 17, 19, 11, 35],
         "visibleSymbolsByReel": [
           {
             "above": "one",
@@ -4454,13 +4052,7 @@
       },
       {
         "round": 13,
-        "centerIndices": [
-          24,
-          13,
-          22,
-          27,
-          33
-        ],
+        "centerIndices": [24, 13, 22, 27, 33],
         "visibleSymbolsByReel": [
           {
             "above": "king",
@@ -4519,13 +4111,7 @@
       },
       {
         "round": 14,
-        "centerIndices": [
-          17,
-          1,
-          15,
-          27,
-          4
-        ],
+        "centerIndices": [17, 1, 15, 27, 4],
         "visibleSymbolsByReel": [
           {
             "above": "queen",
@@ -4584,13 +4170,7 @@
       },
       {
         "round": 15,
-        "centerIndices": [
-          11,
-          2,
-          29,
-          20,
-          8
-        ],
+        "centerIndices": [11, 2, 29, 20, 8],
         "visibleSymbolsByReel": [
           {
             "above": "nine",

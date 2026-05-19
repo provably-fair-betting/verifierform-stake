@@ -1,5 +1,5 @@
 <script lang="ts">
-  import paylines from '$lib/games/bars/bars-paylines.json';
+  import paylines from '$lib/paylines/bars-paylines.json';
   import type { BarsSeed } from './types';
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';

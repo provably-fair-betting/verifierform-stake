@@ -1,3 +1,4 @@
+import { SvelteSet } from 'svelte/reactivity';
 import { FloatGenerator } from '$lib/domain/crypto/float-generator';
 import { debouncer } from '$lib/composables/core/debounce.svelte';
 import type { BarsSeed, BarsDifficulty } from './types';
@@ -38,7 +39,7 @@ export function useBarsPayout(getFormValues: () => Record<string, unknown>) {
               .map((s: string) => parseInt(s.trim(), 10))
               .filter((n: number) => !isNaN(n) && n >= 0 && n < 30)
           : [];
-        const selectedBarsSet = new Set(parsedBars);
+        const selectedBarsSet = new SvelteSet(parsedBars);
 
         for (let i = 0; i < 30; i++) {
           const float = floatGenerator.next().value;

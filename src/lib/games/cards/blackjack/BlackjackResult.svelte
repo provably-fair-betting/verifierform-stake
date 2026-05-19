@@ -22,9 +22,7 @@
       .join(',')}
   </p>
   <p data-testid="blackjack-remaining-result" class="hidden text-center text-base">
-    {blackjack
-      .result!.remaining.map(({ chosen: { value, suit } }) => `${value}-${suit}`)
-      .join(',')}
+    {blackjack.result!.remaining.map(({ chosen: { value, suit } }) => `${value}-${suit}`).join(',')}
   </p>
 
   <div class="mt-5 mb-6">

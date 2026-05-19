@@ -1,6 +1,6 @@
 <script>
   import ContentBlock from '../layout/ContentBlock.svelte';
-  import cards from '$lib/games/packs/packs-payline.json';
+  import cards from '$lib/paylines/packs-paylines.json';
   import PacksCard from './PacksCard.svelte';
 </script>
 
@@ -20,7 +20,7 @@
             >
               Card
             </th>
-            {#each cards as card}
+            {#each cards as card, i (i)}
               <td class="p-2">
                 <div class="w-32 bg-gray-300 dark:bg-gray-700">
                   <PacksCard cardId={card.cardId} />

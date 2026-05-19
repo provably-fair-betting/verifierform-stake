@@ -5,11 +5,7 @@
     "nonce": 0,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      2.94,
-      1.77,
-      6.1
-    ]
+    "multipliers": [2.94, 1.77, 6.1]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -17,11 +13,7 @@
     "nonce": 1,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      14.75,
-      3.22,
-      1.11
-    ]
+    "multipliers": [14.75, 3.22, 1.11]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -29,11 +21,7 @@
     "nonce": 2,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      1.03,
-      5.22,
-      1.75
-    ]
+    "multipliers": [1.03, 5.22, 1.75]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -41,11 +29,7 @@
     "nonce": 3,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      12.36,
-      1.22,
-      1
-    ]
+    "multipliers": [12.36, 1.22, 1]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -53,11 +37,7 @@
     "nonce": 4,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      1.38,
-      1.76,
-      9.06
-    ]
+    "multipliers": [1.38, 1.76, 9.06]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -65,11 +45,7 @@
     "nonce": 5,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      2.65,
-      3.07,
-      1.27
-    ]
+    "multipliers": [2.65, 3.07, 1.27]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -77,11 +53,7 @@
     "nonce": 6,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      1.29,
-      4.04,
-      2.44
-    ]
+    "multipliers": [1.29, 4.04, 2.44]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -89,11 +61,7 @@
     "nonce": 7,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      1.81,
-      1.99,
-      9.54
-    ]
+    "multipliers": [1.81, 1.99, 9.54]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -101,11 +69,7 @@
     "nonce": 8,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      3.59,
-      4.67,
-      2.03
-    ]
+    "multipliers": [3.59, 4.67, 2.03]
   },
   {
     "clientSeed": "af34766105e5036cdc101741e5172420",
@@ -113,10 +77,6 @@
     "nonce": 9,
     "inputs": {},
     "selects": {},
-    "multipliers": [
-      2.2,
-      1.2,
-      5.29
-    ]
+    "multipliers": [2.2, 1.2, 5.29]
   }
 ]

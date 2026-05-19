@@ -14,6 +14,7 @@ const suppressFullReloadInVitest: Plugin = {
   configureServer(server) {
     if (!process.env.VITEST) return;
     const originalSend = server.hot.send.bind(server.hot);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     server.hot.send = (payload: any, ...args: any[]) => {
       if ((payload as { type?: string })?.type === 'full-reload') return;
       return originalSend(payload, ...args);
@@ -60,13 +61,8 @@ export default defineConfig({
       enabled: true,
       all: true,
       reporter: ['html', 'json-summary', 'lcov'],
-      include: [
-        'src/lib/domain/**',
-        'src/lib/games/**/*Result.svelte',
-      ],
-      exclude: [
-        'src/lib/domain/index.ts',
-      ],
+      include: ['src/lib/domain/**', 'src/lib/games/**/*Result.svelte'],
+      exclude: ['src/lib/domain/index.ts'],
     },
   },
 });

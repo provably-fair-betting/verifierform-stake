@@ -85,7 +85,7 @@
     <!-- Grouped tab strip: one column per spin, 5 reel tabs inside each -->
     <ScrollableContainer className="mb-2" innerClassName="p-1.5 pb-0">
       <div class="flex gap-7 pb-5" style="min-width: max-content;">
-        {#each { length: Math.ceil(floats.length / 5) } as _, spinIndex}
+        {#each { length: Math.ceil(floats.length / 5) } as _, spinIndex (spinIndex)}
           <div class="flex flex-col gap-1">
             <span
               class="mb-1 text-center font-sans text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400"
@@ -93,7 +93,7 @@
               Spin {spinIndex + 1}
             </span>
             <div class="flex gap-1.5">
-              {#each { length: 5 } as _, reelIndex}
+              {#each { length: 5 } as _, reelIndex (reelIndex)}
                 {@const fi = spinIndex * 5 + reelIndex}
                 {@const position = Math.floor(floats[fi] * (reelIndex === 4 ? 41 : 30))}
                 <button

@@ -1,4 +1,4 @@
-import cards from '$lib/games/packs/packs-payline.json';
+import cards from '$lib/paylines/packs-paylines.json';
 import type { PacksCard } from './types';
 
 export function findCard(value: number): PacksCard | null {

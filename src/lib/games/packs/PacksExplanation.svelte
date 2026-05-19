@@ -35,7 +35,7 @@
 
       <ScrollableContainer className="mb-7" innerClassName="pb-3">
         <div class="flex min-w-max gap-2 p-1">
-          {#each packs.items as item, index}
+          {#each packs.items as item, index (index)}
             {@const cardId = item.card.cardId}
             {@const rarityLabel = getPacksRarityLabel(cardId)}
             <button

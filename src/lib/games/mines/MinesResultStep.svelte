@@ -4,7 +4,6 @@
   import ContentBlock from '../layout/ContentBlock.svelte';
   import HighlightLink from '../layout/HighlightLink.svelte';
   import HighlightText from '../layout/HighlightText.svelte';
-  import MinesBoard from '$lib/games/mines/MinesBoard.svelte';
 
   const {
     stepNumber,

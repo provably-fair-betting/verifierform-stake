@@ -32,7 +32,7 @@
 
       <!-- Round navigation — wrapping strip -->
       <div class="mt-3 flex flex-wrap justify-center gap-2">
-        {#each moles.rounds! as _, roundIndex}
+        {#each moles.rounds! as _, roundIndex (roundIndex)}
           <button
             type="button"
             class={[
