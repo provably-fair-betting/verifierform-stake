@@ -5,7 +5,7 @@ import {
 import { z } from 'zod';
 import WheelResult from '$lib/games/wheel/WheelResult.svelte';
 import WheelExplanation from '$lib/games/wheel/WheelExplanation.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Wheel',

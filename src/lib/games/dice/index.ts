@@ -4,7 +4,7 @@ import {
   CLIENT_SEED_SERVER_SEED_NONCE_CONTROLS,
   CLIENT_SEED_SERVER_SEED_NONCE_SCHEMA,
 } from '$lib/control-setup';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Dice',

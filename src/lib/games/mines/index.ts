@@ -5,7 +5,7 @@ import {
 import MinesExplanation from '$lib/games/mines/MinesExplanation.svelte';
 import MinesResult from '$lib/games/mines/MinesResult.svelte';
 import { z } from 'zod';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Mines',

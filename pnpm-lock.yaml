@@ -29,9 +29,9 @@ importers:
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.5.0
-      verifierform-lib:
-        specifier: github:provably-fair-betting/verifierform-lib#v1.0.0
-        version: git+https://git@github.com:provably-fair-betting/verifierform-lib.git#af765c388d9d2b08aba39a3bf9c4e7511b1ca41c(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76)
+      verifierform-core:
+        specifier: github:provably-fair-betting/verifierform-core#v1.1.0
+        version: verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76)
     devDependencies:
       '@anthropic-ai/sdk':
         specifier: ^0.80.0
@@ -129,12 +129,12 @@ importers:
       typescript-eslint:
         specifier: ^8.38.0
         version: 8.59.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
-      verifierform-stake-paylines:
-        specifier: github:provably-fair-betting/verifierform-stake-paylines#v1.1.2
-        version: git+https://git@github.com:provably-fair-betting/verifierform-stake-paylines.git#f7f09808bb99fc503534f62d03bfce2955d36b87(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
-      verifierform-stake-testdata:
-        specifier: github:provably-fair-betting/verifierform-stake-testdata#v1.0.0
-        version: git+https://git@github.com:provably-fair-betting/verifierform-stake-testdata.git#2d474bb3f0663147a3269576153212fdc033f900(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
+      verifierform-stake-payline-extractor:
+        specifier: github:provably-fair-betting/verifierform-stake-payline-extractor#v2.0.0
+        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
+      verifierform-stake-test-data-extractor:
+        specifier: github:provably-fair-betting/verifierform-stake-test-data-extractor#v2.0.0
+        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
       vite:
         specifier: ^6.3.5
         version: 6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)
@@ -2772,9 +2772,9 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  verifierform-lib@git+https://git@github.com:provably-fair-betting/verifierform-lib.git#af765c388d9d2b08aba39a3bf9c4e7511b1ca41c:
-    resolution: {commit: af765c388d9d2b08aba39a3bf9c4e7511b1ca41c, repo: git@github.com:provably-fair-betting/verifierform-lib.git, type: git}
-    version: 1.0.0
+  verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2}
+    version: 1.1.0
     peerDependencies:
       '@sveltejs/kit': ^2.16.0
       '@tailwindcss/forms': ^0.5.9
@@ -2782,9 +2782,9 @@ packages:
       svelte: ^5.0.0
       zod: ^3.24.4
 
-  verifierform-stake-paylines@git+https://git@github.com:provably-fair-betting/verifierform-stake-paylines.git#f7f09808bb99fc503534f62d03bfce2955d36b87:
-    resolution: {commit: f7f09808bb99fc503534f62d03bfce2955d36b87, repo: git@github.com:provably-fair-betting/verifierform-stake-paylines.git, type: git}
-    version: 1.1.2
+  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd}
+    version: 2.0.0
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -2792,9 +2792,9 @@ packages:
       rebrowser-puppeteer-core: '>=23.0.0'
       tsx: '>=4.0.0'
 
-  verifierform-stake-testdata@git+https://git@github.com:provably-fair-betting/verifierform-stake-testdata.git#2d474bb3f0663147a3269576153212fdc033f900:
-    resolution: {commit: 2d474bb3f0663147a3269576153212fdc033f900, repo: git@github.com:provably-fair-betting/verifierform-stake-testdata.git, type: git}
-    version: 1.0.0
+  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065}
+    version: 2.0.0
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -5505,7 +5505,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  verifierform-lib@git+https://git@github.com:provably-fair-betting/verifierform-lib.git#af765c388d9d2b08aba39a3bf9c4e7511b1ca41c(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76):
+  verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76):
     dependencies:
       '@sveltejs/kit': 2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
       '@tailwindcss/forms': 0.5.11(tailwindcss@4.2.4)
@@ -5513,13 +5513,13 @@ snapshots:
       svelte: 5.55.5(@typescript-eslint/types@8.59.1)
       zod: 3.25.76
 
-  verifierform-stake-paylines@git+https://git@github.com:provably-fair-betting/verifierform-stake-paylines.git#f7f09808bb99fc503534f62d03bfce2955d36b87(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
+  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
     dependencies:
       puppeteer-real-browser: 1.4.4
       rebrowser-puppeteer-core: 23.10.3
       tsx: 4.21.0
 
-  verifierform-stake-testdata@git+https://git@github.com:provably-fair-betting/verifierform-stake-testdata.git#2d474bb3f0663147a3269576153212fdc033f900(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
+  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
     dependencies:
       puppeteer-real-browser: 1.4.4
       rebrowser-puppeteer-core: 23.10.3

@@ -1,5 +1,5 @@
 /**
- * Mock stake-bet-lookup API server for local development.
+ * Mock verifierform-stake-bet-lookup API server for local development.
  * Mimics POST /api/bet-lookup with realistic fixtures from the test suite.
  *
  * Usage (convenience — starts this server and vite dev together):

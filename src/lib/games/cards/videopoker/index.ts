@@ -4,7 +4,7 @@ import {
 } from '$lib/control-setup';
 import VideoPokerExplanation from '$lib/games/cards/videopoker/VideoPokerExplanation.svelte';
 import VideoPokerResult from '$lib/games/cards/videopoker/VideoPokerResult.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Video Poker',

@@ -1,4 +1,4 @@
-import type { Control } from 'verifierform-lib';
+import type { Control } from 'verifierform-core';
 import { z } from 'zod';
 
 export const CLIENT_SEED_SERVER_SEED_NONCE_SCHEMA = z.object({

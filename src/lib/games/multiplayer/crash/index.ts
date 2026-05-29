@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import CrashExplanation from '$lib/games/multiplayer/crash/CrashExplanation.svelte';
 import CrashResult from '$lib/games/multiplayer/crash/CrashResult.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Crash',

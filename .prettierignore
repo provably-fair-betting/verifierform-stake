@@ -9,4 +9,4 @@ bun.lockb
 CHANGELOG.md
 
 # Lib submodule has its own prettier config and ignore rules
-provably-fair-verifierform-lib/tailwindplay
+verifierform-core/tailwindplay

@@ -4,7 +4,7 @@ import {
 } from '$lib/control-setup';
 import LimboExplanation from '$lib/games/limbo/LimboExplanation.svelte';
 import LimboResult from '$lib/games/limbo/LimboResult.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Limbo',

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import SlideExplanation from '$lib/games/multiplayer/slide/SlideExplanation.svelte';
 import SlideResult from '$lib/games/multiplayer/slide/SlideResult.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Slide',

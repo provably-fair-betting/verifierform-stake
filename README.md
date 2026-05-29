@@ -10,7 +10,7 @@ A provably fair game verifier for Stake.games. Paste your seeds and nonce to ind
 
 The verifier includes an optional **Bet Lookup** feature: enter a bet ID and the form navigates to the correct game with all seeding fields pre-filled.
 
-Bet Lookup requires the [stake-bet-lookup](https://github.com/provably-fair-betting/stake-bet-lookup) backend service.
+Bet Lookup requires the [verifierform-stake-bet-lookup](https://github.com/provably-fair-betting/verifierform-stake-bet-lookup) backend service.
 
 ### Supported games
 
