@@ -1,7 +1,9 @@
 <script lang="ts">
   import { VerifierForm, type GameEntry } from 'verifierform-core';
   import BetLookup from '$lib/bet-lookup/BetLookup.svelte';
-  import { betLookupEnabled } from '$lib/bet-lookup/bet-lookup.js';
+  import { getContext } from 'svelte';
+
+  const config = getContext<{ betLookupUrl?: string }>('config');
 
   const games: Record<string, GameEntry> = {
     baccarat: {
@@ -116,9 +118,9 @@
   };
 </script>
 
-{#if betLookupEnabled}
+{#if config.betLookupUrl}
   <div class="pt-4">
-    <BetLookup />
+    <BetLookup betLookupUrl={config.betLookupUrl!} />
   </div>
 {/if}
 <VerifierForm {games} />

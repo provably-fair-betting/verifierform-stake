@@ -1,0 +1,11 @@
+node_modules
+.git
+build
+coverage
+playwright-report
+.env
+.env.local
+e2e
+tests
+planning
+static/config.json

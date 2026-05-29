@@ -25,7 +25,7 @@ const suppressFullReloadInVitest: Plugin = {
 export default defineConfig({
   plugins: [tailwindcss(), sveltekit(), devtoolsJson(), suppressFullReloadInVitest],
   build: {
-    sourcemap: true,
+    sourcemap: process.env.SOURCEMAP !== 'false',
   },
   server: {
     fs: {

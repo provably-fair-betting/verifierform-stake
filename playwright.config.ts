@@ -19,8 +19,7 @@ export default defineConfig({
       reuseExistingServer: !process.env.CI,
     },
     {
-      command:
-        'PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm run build && pnpm run preview',
+      command: 'node scripts/write-config-json.js && pnpm run build && pnpm run preview',
       port: 4173,
       reuseExistingServer: !process.env.CI,
     },

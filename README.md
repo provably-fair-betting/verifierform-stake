@@ -47,7 +47,7 @@ pnpm mock:api   # starts mock bet-lookup API on http://localhost:8080
 ```
 
 ```sh
-PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm dev
+node scripts/write-config-json.js && pnpm dev
 ```
 
 #### Mock bet IDs
@@ -92,24 +92,65 @@ PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 pnpm 
 
 ---
 
-## Build-time configuration
+## Runtime configuration
 
-| Variable                    | Purpose                                                 |
-| --------------------------- | ------------------------------------------------------- |
-| `PUBLIC_BET_LOOKUP_ENABLED` | Set to `true` to show the Bet Lookup bar                |
-| `PUBLIC_BET_LOOKUP_URL`     | Base URL of the bet-lookup API as seen from the browser |
+The Docker image reads `BET_LOOKUP_URL` at container startup and writes it into `/config.json`, which the app fetches on first load. Bet Lookup is enabled only when the URL is present.
 
-See `.env.example` for reference.
+| Variable         | Purpose                                                 |
+| ---------------- | ------------------------------------------------------- |
+| `BET_LOOKUP_URL` | Base URL of the bet-lookup API as seen from the browser |
+
+---
+
+## Docker image
+
+A pre-built image is published to GitHub Container Registry on every release:
+
+```
+ghcr.io/provably-fair-betting/verifierform-stake:<version>
+```
+
+| Tag pattern | Resolves to                   | Updates on                        |
+| ----------- | ----------------------------- | --------------------------------- |
+| `1.2.3`     | `1.2.3`                       | that release only                 |
+| `1.2`       | latest `1.2.x` (e.g. `1.2.4`) | patch releases within `1.2`       |
+| `1`         | latest `1.x.y` (e.g. `1.3.0`) | minor + patch releases within `1` |
+
+See the [integration environment](https://github.com/provably-fair-betting/verifierform-stake-env) for a ready-made Docker Compose setup that wires this image together with the bet-lookup backend.
+
+### Testing the image locally
+
+```sh
+docker build -t verifierform-stake:local .
+
+# Without bet lookup
+docker run --rm -p 3000:80 verifierform-stake:local
+
+# With bet lookup
+docker run --rm -p 3000:80 -e BET_LOOKUP_URL=http://your-bet-lookup-host verifierform-stake:local
+
+# open http://localhost:3000
+```
 
 ---
 
 ## Using as a package
 
-Install from GitHub and build with your own env vars:
+Install from GitHub and build with your own tooling:
 
 ```sh
 pnpm add github:provably-fair-betting/verifierform-stake
-PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=https://api.example.com pnpm build
+pnpm build
 ```
 
-If the API is on a separate origin, that host must emit appropriate CORS headers.
+To serve at a subpath, set `BASE_PATH` at build time (e.g. `BASE_PATH=/verifier pnpm build`).
+
+### Enabling Bet Lookup
+
+Serve a `config.json` at `<basepath>/config.json` with the following shape:
+
+```json
+{ "betLookupUrl": "https://your-bet-lookup-host" }
+```
+
+The app fetches this file on load and enables Bet Lookup only when `betLookupUrl` is present. If the API is on a separate origin, that host must emit appropriate CORS headers. Omit the file (or serve `{}`) to run the verifier without Bet Lookup.
