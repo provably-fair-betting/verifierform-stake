@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.3.0...v1.3.1) (2026-05-29)
+
+
+### Miscellaneous Chores
+
+* bump verifierform-stake-payline-extractor to v2.0.0 ([d2bb64f](https://github.com/provably-fair-betting/verifierform-stake/commit/d2bb64f54a6bc7ed9a429f54a0812c3c4c0e9ee2))
+* update dependencies to renamed packages ([8b2bd74](https://github.com/provably-fair-betting/verifierform-stake/commit/8b2bd7493ee142d244ff89545cad62a62adb02d1))
+* update dependencies to renamed packages ([e0166b0](https://github.com/provably-fair-betting/verifierform-stake/commit/e0166b00767f95b7af8d313428dcc99cee9e3806))
+* update pnpm lockfile for renamed dependencies ([c77d21d](https://github.com/provably-fair-betting/verifierform-stake/commit/c77d21d0f8a8b617db8d81fbb3f9183b5c311597))
+
 ## [1.3.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.2...v1.3.0) (2026-05-29)
 
 
