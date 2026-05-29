@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.2...v1.3.0) (2026-05-29)
+
+
+### Features
+
+* add Docker image build and ghcr.io publish workflow ([813a403](https://github.com/provably-fair-betting/verifierform-stake/commit/813a4037f2c6c7a6021f2fd0e7f304b698224f01))
+* add Docker image publish pipeline and runtime bet-lookup config ([64b1b08](https://github.com/provably-fair-betting/verifierform-stake/commit/64b1b08545923fe34c97776259b639ce16d84016))
+
 ## [1.2.2](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.2.1...v1.2.2) (2026-05-19)
 
 
