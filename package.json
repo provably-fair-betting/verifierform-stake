@@ -18,7 +18,7 @@
     "sync:paylines": "node scripts/sync-paylines.js",
     "sync:testdata": "node scripts/sync-testdata.js",
     "mock:api": "node scripts/mock-api.js",
-    "dev:lookup": "concurrently --kill-others \"node scripts/mock-api.js\" \"PUBLIC_BET_LOOKUP_ENABLED=true PUBLIC_BET_LOOKUP_URL=http://localhost:8080 vite dev\""
+    "dev:lookup": "concurrently --kill-others \"node scripts/mock-api.js\" \"node scripts/write-config-json.js && vite dev\""
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

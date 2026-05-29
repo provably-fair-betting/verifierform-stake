@@ -6,6 +6,7 @@ node_modules
 /planning
 
 # Output
+/static/config.json
 .output
 .vercel
 .netlify
