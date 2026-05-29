@@ -1,7 +1,3 @@
-import { PUBLIC_BET_LOOKUP_ENABLED, PUBLIC_BET_LOOKUP_URL } from '$env/static/public';
-
-export const betLookupEnabled = PUBLIC_BET_LOOKUP_ENABLED === 'true' && !!PUBLIC_BET_LOOKUP_URL;
-
 type GameEntry = { formId: string; name: string };
 
 // Stake slug → verifier form ID + display name.
@@ -64,16 +60,18 @@ type NormalizedBet = {
   inputs: Record<string, unknown>;
 };
 
-export async function lookupBet(betId: string): Promise<BetLookupResult>;
+export async function lookupBet(betLookupUrl: string, betId: string): Promise<BetLookupResult>;
 export async function lookupBet(
+  betLookupUrl: string,
   betId: string,
   signal: AbortSignal
 ): Promise<BetLookupResult | null>;
 export async function lookupBet(
+  betLookupUrl: string,
   betId: string,
   signal?: AbortSignal
 ): Promise<BetLookupResult | null> {
-  if (!PUBLIC_BET_LOOKUP_URL) {
+  if (!betLookupUrl) {
     return { ok: false, error: { type: 'network_error' } };
   }
 
@@ -81,7 +79,7 @@ export async function lookupBet(
   let body: { success: boolean; data?: NormalizedBet; error?: string };
 
   try {
-    response = await fetch(new URL('/api/bet-lookup', PUBLIC_BET_LOOKUP_URL).href, {
+    response = await fetch(new URL('/api/bet-lookup', betLookupUrl).href, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ betId }),

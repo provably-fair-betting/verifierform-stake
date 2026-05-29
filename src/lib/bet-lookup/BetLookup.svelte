@@ -4,6 +4,8 @@
   import { goto } from '$app/navigation';
   import { lookupBet, type BetLookupError } from './bet-lookup.js';
 
+  let { betLookupUrl }: { betLookupUrl: string } = $props();
+
   let open = $state(false);
   let betId = $state('');
   let loading = $state(false);
@@ -52,7 +54,7 @@
     error = null;
     successGame = null;
 
-    const result = await lookupBet(id, activeController.signal);
+    const result = await lookupBet(betLookupUrl, id, activeController.signal);
 
     if (result === null || seq !== requestSeq) return;
 

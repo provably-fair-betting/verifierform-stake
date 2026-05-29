@@ -1,15 +1,11 @@
 import { describe, it, expect, vi, beforeEach, afterAll } from 'vitest';
 
-vi.mock('$env/static/public', () => ({
-  PUBLIC_BET_LOOKUP_ENABLED: 'true',
-  PUBLIC_BET_LOOKUP_URL: 'http://test',
-}));
-
 const mockFetch = vi.fn();
 vi.stubGlobal('fetch', mockFetch);
 
-// Import after mocks are in place
 const { lookupBet } = await import('$lib/bet-lookup/bet-lookup');
+
+const TEST_URL = 'http://test';
 
 function mockResponse(status: number, body: object) {
   return Promise.resolve({
@@ -35,20 +31,12 @@ describe('lookupBet', () => {
     vi.unstubAllGlobals();
   });
 
-  describe('when PUBLIC_BET_LOOKUP_URL is not configured', () => {
+  describe('when betLookupUrl is empty', () => {
     it('returns network_error without fetching', async () => {
-      vi.resetModules();
-      vi.doMock('$env/static/public', () => ({
-        PUBLIC_BET_LOOKUP_ENABLED: 'true',
-        PUBLIC_BET_LOOKUP_URL: '',
-      }));
-      const { lookupBet: lookupBetNoUrl } = await import('$lib/bet-lookup/bet-lookup');
-
-      const result = await lookupBetNoUrl('house:123');
+      const result = await lookupBet('', 'house:123');
 
       expect(result).toEqual({ ok: false, error: { type: 'network_error' } });
       expect(mockFetch).not.toHaveBeenCalled();
-      vi.resetModules();
     });
   });
 
@@ -93,7 +81,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -121,7 +109,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -142,7 +130,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -162,7 +150,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -183,7 +171,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -204,7 +192,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -227,7 +215,7 @@ describe('lookupBet', () => {
           })
         );
 
-        const result = await lookupBet('house:123');
+        const result = await lookupBet(TEST_URL, 'house:123');
 
         expect(result.ok).toBe(true);
         if (!result.ok) return;
@@ -244,7 +232,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -270,7 +258,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -294,7 +282,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(true);
       if (!result.ok) return;
@@ -319,7 +307,7 @@ describe('lookupBet', () => {
     ])('HTTP %s → api_error with backend message', async (status, message) => {
       mockFetch.mockReturnValue(mockResponse(status, { success: false, error: message }));
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(false);
       if (result.ok) return;
@@ -329,7 +317,7 @@ describe('lookupBet', () => {
     it('network failure → network_error', async () => {
       mockFetch.mockRejectedValue(new Error('Network failure'));
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(false);
       if (result.ok) return;
@@ -339,7 +327,7 @@ describe('lookupBet', () => {
     it('200 response with no body.data → api_error', async () => {
       mockFetch.mockReturnValue(mockResponse(200, { success: true }));
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result).toEqual({
         ok: false,
@@ -358,7 +346,7 @@ describe('lookupBet', () => {
         })
       );
 
-      const result = await lookupBet('house:123');
+      const result = await lookupBet(TEST_URL, 'house:123');
 
       expect(result.ok).toBe(false);
       if (result.ok) return;
