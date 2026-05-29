@@ -1,3 +1,3 @@
 @import 'tailwindcss';
-@source '../node_modules/verifierform-lib/dist';
+@source '../node_modules/verifierform-core/dist';
 @plugin '@tailwindcss/forms';
