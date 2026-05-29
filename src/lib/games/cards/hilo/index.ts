@@ -4,7 +4,7 @@ import {
 } from '$lib/control-setup';
 import HiloExplanation from '$lib/games/cards/hilo/HiloExplanation.svelte';
 import HiloResult from '$lib/games/cards/hilo/HiloResult.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Hilo',

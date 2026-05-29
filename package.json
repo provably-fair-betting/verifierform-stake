@@ -53,8 +53,8 @@
     "tsx": "^4.19.2",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.38.0",
-    "verifierform-stake-paylines": "github:provably-fair-betting/verifierform-stake-paylines#v1.1.2",
-    "verifierform-stake-testdata": "github:provably-fair-betting/verifierform-stake-testdata#v1.0.0",
+    "verifierform-stake-payline-extractor": "github:provably-fair-betting/verifierform-stake-payline-extractor#v1.1.3",
+    "verifierform-stake-test-data-extractor": "github:provably-fair-betting/verifierform-stake-test-data-extractor#v2.0.0",
     "vite": "^6.3.5",
     "vite-plugin-devtools-json": "^0.3.0",
     "vitest": "^3.2.4",
@@ -76,7 +76,7 @@
     "immutable": "^5.1.3",
     "js-big-decimal": "^2.2.0",
     "tailwind-merge": "^3.3.1",
-    "verifierform-lib": "github:provably-fair-betting/verifierform-lib#v1.0.0"
+    "verifierform-core": "github:provably-fair-betting/verifierform-core#v1.1.0"
   },
   "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
 }

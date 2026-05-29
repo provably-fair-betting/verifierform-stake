@@ -2,7 +2,7 @@ import {
   CLIENT_SEED_SERVER_SEED_NONCE_CONTROLS,
   CLIENT_SEED_SERVER_SEED_NONCE_SCHEMA,
 } from '$lib/control-setup';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 import { z } from 'zod';
 import SnakesResult from '$lib/games/snakes/SnakesResult.svelte';
 import SnakesExplanation from '$lib/games/snakes/SnakesExplanation.svelte';

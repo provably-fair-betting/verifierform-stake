@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { VerifierForm, type GameEntry } from 'verifierform-lib';
+  import { VerifierForm, type GameEntry } from 'verifierform-core';
   import BetLookup from '$lib/bet-lookup/BetLookup.svelte';
   import { betLookupEnabled } from '$lib/bet-lookup/bet-lookup.js';
 

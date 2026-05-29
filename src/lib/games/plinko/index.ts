@@ -5,7 +5,7 @@ import {
 import { z } from 'zod';
 import PlinkoResult from '$lib/games/plinko/PlinkoResult.svelte';
 import PlinkoExplanation from '$lib/games/plinko/PlinkoExplanation.svelte';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 
 export const gameDefinition: GameDefinition = {
   name: 'Plinko',

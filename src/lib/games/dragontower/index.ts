@@ -4,7 +4,7 @@ import {
 } from '$lib/control-setup';
 import DragonTowerResult from '$lib/games/dragontower/DragonTowerResult.svelte';
 import { z } from 'zod';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 import DragonTowerExplanation from '$lib/games/dragontower/DragonTowerExplanation.svelte';
 
 export const gameDefinition: GameDefinition = {

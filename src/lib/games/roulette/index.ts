@@ -2,7 +2,7 @@ import {
   CLIENT_SEED_SERVER_SEED_NONCE_CONTROLS,
   CLIENT_SEED_SERVER_SEED_NONCE_SCHEMA,
 } from '$lib/control-setup';
-import type { GameDefinition } from 'verifierform-lib';
+import type { GameDefinition } from 'verifierform-core';
 import RouletteExplanation from '$lib/games/roulette/RouletteExplanation.svelte';
 import RouletteResult from '$lib/games/roulette/RouletteResult.svelte';
 
