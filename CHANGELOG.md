@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.3.1...v1.4.0) (2026-05-30)
+
+
+### Features
+
+* add game picker with thumbnails ([8199ead](https://github.com/provably-fair-betting/verifierform-stake/commit/8199eadaf958e1ab967dd209a0111b06846fbd97))
+* add game picker with thumbnails ([9b92cac](https://github.com/provably-fair-betting/verifierform-stake/commit/9b92cacf434355f3d248a4ade762c351af4e8520))
+
+
+### Bug Fixes
+
+* update Tailwind source path to verifierform-core ([7afb1f2](https://github.com/provably-fair-betting/verifierform-stake/commit/7afb1f2dbd5cba07a35c7971e5d2abe0f03499b3))
+
 ## [1.3.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.3.0...v1.3.1) (2026-05-29)
 
 
