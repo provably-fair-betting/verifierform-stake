@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.4.0...v1.4.1) (2026-05-30)
+
+
+### Miscellaneous Chores
+
+* bump verifierform-core to v2.1.0 ([31f6bf0](https://github.com/provably-fair-betting/verifierform-stake/commit/31f6bf076bf69156f737ec56986d38f93a4f86d1))
+* bump verifierform-core to v2.1.0 ([c443190](https://github.com/provably-fair-betting/verifierform-stake/commit/c443190375ddd9f6f1882027b98bebd4baff7b3b))
+
 ## [1.4.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.3.1...v1.4.0) (2026-05-30)
 
 
