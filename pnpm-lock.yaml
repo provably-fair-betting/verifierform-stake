@@ -30,8 +30,8 @@ importers:
         specifier: ^3.3.1
         version: 3.5.0
       verifierform-core:
-        specifier: github:provably-fair-betting/verifierform-core#v1.1.0
-        version: verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76)
+        specifier: github:provably-fair-betting/verifierform-core#v2.1.0
+        version: https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/ca7b686bf6e0817f3f193980c448b8dc787d1e22(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76)
     devDependencies:
       '@anthropic-ai/sdk':
         specifier: ^0.80.0
@@ -2772,9 +2772,9 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2:
-    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2}
-    version: 1.1.0
+  verifierform-core@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/ca7b686bf6e0817f3f193980c448b8dc787d1e22:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/ca7b686bf6e0817f3f193980c448b8dc787d1e22}
+    version: 2.1.0
     peerDependencies:
       '@sveltejs/kit': ^2.16.0
       '@tailwindcss/forms': ^0.5.9
@@ -5505,7 +5505,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  verifierform-lib@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/a0963abdc4f088e27bd4314a86d45b39634096c2(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76):
+  verifierform-core@https://codeload.github.com/provably-fair-betting/verifierform-core/tar.gz/ca7b686bf6e0817f3f193980c448b8dc787d1e22(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(@tailwindcss/forms@0.5.11(tailwindcss@4.2.4))(@tailwindcss/vite@4.2.4(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(zod@3.25.76):
     dependencies:
       '@sveltejs/kit': 2.58.0(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.59.1))(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)))(svelte@5.55.5(@typescript-eslint/types@8.59.1))(typescript@5.9.3)(vite@6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
       '@tailwindcss/forms': 0.5.11(tailwindcss@4.2.4)
