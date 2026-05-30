@@ -12,18 +12,6 @@ The verifier includes an optional **Bet Lookup** feature: enter a bet ID and the
 
 Bet Lookup requires the [verifierform-stake-bet-lookup](https://github.com/provably-fair-betting/verifierform-stake-bet-lookup) backend service.
 
-### Supported games
-
-| Category          | Games                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------- |
-| Standard          | Dice, Flip, Diamonds, PrimeDice, Blue Samurai, Keno, Packs, Rock Paper Scissors, Limbo, Drill, Roulette |
-| Cards             | Baccarat, Blackjack, Hilo, Video Poker                                                                  |
-| Slots             | Scarab Spins, Tome Of Life                                                                              |
-| With extra inputs | Mines, Moles, Plinko, Wheel, Bars, Cases, Chicken, Darts, Dragon Tower, Pump, Snakes, Tarot             |
-| Multiplayer       | Crash, Slide                                                                                            |
-
-Games with extra inputs (e.g. mine count, risk level) have their state fetched automatically from the bet and pre-filled alongside the seeds.
-
 ---
 
 ## Local development
@@ -38,16 +26,6 @@ pnpm dev
 
 ```sh
 pnpm dev:lookup   # starts mock API on :8080 and vite dev together
-```
-
-Or manually in two terminals:
-
-```sh
-pnpm mock:api   # starts mock bet-lookup API on http://localhost:8080
-```
-
-```sh
-node scripts/write-config-json.js && pnpm dev
 ```
 
 #### Mock bet IDs
