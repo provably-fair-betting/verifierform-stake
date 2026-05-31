@@ -1,0 +1,122 @@
+[
+  {
+    "inputs": {
+      "hash": "8c6ccd93221a2e055e669f1950128dd92ff088683ecf116d7d8276820d45b052",
+      "seed": "1d947e6516c7f0fc10cd17931c69daa9"
+    },
+    "selects": {},
+    "animals": [
+      "crocodile",
+      "rhino",
+      "penguin"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "70eeb22b60c4488307985d91d02f49c7ba442bade4a4167e406a22b1ca7d4860",
+      "seed": "5e4997666aafee0e44721afd18ef42c1"
+    },
+    "selects": {},
+    "animals": [
+      "elephant",
+      "penguin",
+      "penguin"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "251ef385059461be4b38f81c6253de7280e7fe8062ceb81dfc81562003492386",
+      "seed": "d34bbf506df3bd90e3015c201090a471"
+    },
+    "selects": {},
+    "animals": [
+      "rhino",
+      "penguin",
+      "crocodile"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "01a8e18b7781d4fbe889627ec383b9afd783d4c58f6ea6ff60def15dc24cdc84",
+      "seed": "72182d5368e3165f8ab84efe586e21c8"
+    },
+    "selects": {},
+    "animals": [
+      "elephant",
+      "crocodile",
+      "penguin"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "598c16d41e18fae8cf1f3837eb4a422af05071463db1ef6fa9e6eda6ddd4c8e8",
+      "seed": "056c48ecbbb842d3b0115da7093a6ad9"
+    },
+    "selects": {},
+    "animals": [
+      "rhino",
+      "penguin",
+      "rhino"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "7fdf4ef5b93cd0ae5136c4cb213e7477140db8d88c95ef50273ab48a478a154a",
+      "seed": "614a57a31779ac7827d92616b0f58293"
+    },
+    "selects": {},
+    "animals": [
+      "penguin",
+      "rhino",
+      "penguin"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "36e965e1bbc932207c24e649d1c4e9ce53f8ede30e5cb66378275525b7792b1c",
+      "seed": "1f7c193c23233b7082d1e78c37fbac7b"
+    },
+    "selects": {},
+    "animals": [
+      "crocodile",
+      "penguin",
+      "elephant"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "e718330791078b39e7dfcf93357d65bc8b564303bbd37ea2b5372073f63aa6f9",
+      "seed": "8cf6e52bbfcab7c7a02c6ccccaf1cd8c"
+    },
+    "selects": {},
+    "animals": [
+      "lion",
+      "penguin",
+      "crocodile"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "de0854cff8ad97683a1daf4d025e3b676afbfb33c3217160940ef6aae557fb47",
+      "seed": "bd66d64ededb6cacd4d24f45551d8e11"
+    },
+    "selects": {},
+    "animals": [
+      "rhino",
+      "crocodile",
+      "penguin"
+    ]
+  },
+  {
+    "inputs": {
+      "hash": "1e5e2a38e118ede9a99a7f725eaae7b994adc977e96ff7a85f9437e95f83675c",
+      "seed": "7203e91705906e858892268f6ae86a15"
+    },
+    "selects": {},
+    "animals": [
+      "penguin",
+      "elephant",
+      "rhino"
+    ]
+  }
+]

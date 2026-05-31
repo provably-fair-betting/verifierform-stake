@@ -4,8 +4,10 @@ import { createInterface } from 'node:readline';
 import { spawnSync } from 'node:child_process';
 
 const outputDir = './tests/lib/games/testcases';
+const extraArgs = process.argv.slice(2);
+const isGameSpecific = extraArgs.some((a) => a === '--game' || a.startsWith('--game='));
 
-if (existsSync(outputDir)) {
+if (!isGameSpecific && existsSync(outputDir)) {
   console.warn(`\nWarning: ${outputDir} already exists and testcases have already been generated.`);
   console.warn('These files will be overwritten by the sync.');
 
@@ -20,7 +22,7 @@ if (existsSync(outputDir)) {
   console.log('');
 }
 
-const result = spawnSync('stake-testdata', ['--output-dir', outputDir], {
+const result = spawnSync('stake-testdata', ['--output-dir', outputDir, ...extraArgs], {
   stdio: 'inherit',
   shell: true,
 });
