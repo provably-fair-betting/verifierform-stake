@@ -1,6 +1,7 @@
 <script lang="ts">
   import ContentBlock from '$lib/games/layout/ContentBlock.svelte';
   import HighlightText from '$lib/games/layout/HighlightText.svelte';
+  import ZooAnimalIcon from './ZooAnimalIcon.svelte';
   import { getZooAnimals, ANIMAL_SLOTS } from './zoo';
 
   const { stepNumber, hmac }: { stepNumber: number; hmac: string } = $props();
@@ -26,7 +27,10 @@
 
     {#each animals as result, i}
       <div class="mb-6 {i < animals.length - 1 ? 'border-b border-gray-300 pb-4 dark:border-gray-600' : ''}">
-        <p class="mb-2 font-sans text-xs text-gray-500 uppercase dark:text-gray-400">Animal {i + 1} — window {i + 1}</p>
+        <div class="mb-2 flex items-center gap-3">
+          <ZooAnimalIcon animal={result.animal} class="h-10 w-10" />
+          <p class="font-sans text-xs text-gray-500 uppercase dark:text-gray-400">Animal {i + 1} — window {i + 1}</p>
+        </div>
         <p class="leading-relaxed">
           window = hmac[{i * 8}..{i * 8 + 7}] = <HighlightText>{result.window}</HighlightText>
         </p>
@@ -45,21 +49,25 @@
     {/each}
 
     <div class="mt-4 border-t border-gray-300 pt-4 dark:border-gray-600">
-      <p class="mb-2 font-sans text-xs text-gray-500 uppercase dark:text-gray-400">Reference — animal slots out of 20</p>
+      <p class="mb-3 font-sans text-xs text-gray-500 uppercase dark:text-gray-400">Reference — animal slots out of 20</p>
       <table class="w-full text-left text-xs">
         <thead>
           <tr class="text-gray-500 dark:text-gray-400">
-            <th class="pb-1 pr-4">Slot(s)</th>
-            <th class="pb-1 pr-4">Animal</th>
-            <th class="pb-1">Chance</th>
+            <th class="pb-2 pr-3">Icon</th>
+            <th class="pb-2 pr-3">Slot(s)</th>
+            <th class="pb-2 pr-3">Animal</th>
+            <th class="pb-2">Chance</th>
           </tr>
         </thead>
         <tbody>
           {#each ANIMAL_SLOTS as row}
             <tr>
-              <td class="pr-4 py-0.5"><code>{row.slots}</code></td>
-              <td class="pr-4 py-0.5 capitalize"><code>{row.animal}</code></td>
-              <td class="py-0.5"><code>{row.chance}</code></td>
+              <td class="pr-3 py-1">
+                <ZooAnimalIcon animal={row.animal} class="h-6 w-6" />
+              </td>
+              <td class="pr-3 py-1"><code>{row.slots}</code></td>
+              <td class="pr-3 py-1 capitalize"><code>{row.animal}</code></td>
+              <td class="py-1"><code>{row.chance}</code></td>
             </tr>
           {/each}
         </tbody>
