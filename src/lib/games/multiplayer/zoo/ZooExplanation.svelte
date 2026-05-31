@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { ZooSeed } from './types';
-  import ZooIntGenerationStep from '$lib/games/multiplayer/zoo/ZooIntGenerationStep.svelte';
+  import ZooHmacStep from '$lib/games/multiplayer/zoo/ZooHmacStep.svelte';
   import ZooResultStep from '$lib/games/multiplayer/zoo/ZooResultStep.svelte';
   import Loader from '$lib/games/Loader.svelte';
   import { useZooAnimals } from './use-zoo-animals.svelte';
@@ -14,7 +14,7 @@
     {#if zoo.isCalculating || !zoo.hmac}
       <Loader />
     {:else}
-      <ZooIntGenerationStep stepNumber={1} seed={zoo.seed! as ZooSeed} hmac={zoo.hmac} />
+      <ZooHmacStep stepNumber={1} seed={zoo.seed! as ZooSeed} hmac={zoo.hmac} />
       <ZooResultStep stepNumber={2} hmac={zoo.hmac} />
     {/if}
   </div>
