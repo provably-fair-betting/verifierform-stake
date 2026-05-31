@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.4.1...v1.5.0) (2026-05-31)
+
+
+### Features
+
+* add Zoo multiplayer game ([#25](https://github.com/provably-fair-betting/verifierform-stake/issues/25)) ([734f54e](https://github.com/provably-fair-betting/verifierform-stake/commit/734f54eb5cf74a777a68b5d814433c65101acdeb))
+
 ## [1.4.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.4.0...v1.4.1) (2026-05-30)
 
 
