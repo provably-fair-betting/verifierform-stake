@@ -130,11 +130,11 @@ importers:
         specifier: ^8.38.0
         version: 8.59.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       verifierform-stake-payline-extractor:
-        specifier: github:provably-fair-betting/verifierform-stake-payline-extractor#v2.0.0
-        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
+        specifier: github:provably-fair-betting/verifierform-stake-payline-extractor#v2.0.1
+        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/79e5ee093bd25ebe00e29b78753f654114475971(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
       verifierform-stake-test-data-extractor:
-        specifier: github:provably-fair-betting/verifierform-stake-test-data-extractor#v2.0.0
-        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
+        specifier: github:provably-fair-betting/verifierform-stake-test-data-extractor#v2.1.0
+        version: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/70e1e9cccc288405935cf6ac451005508ab88c9c(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0)
       vite:
         specifier: ^6.3.5
         version: 6.4.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3)
@@ -2782,9 +2782,9 @@ packages:
       svelte: ^5.0.0
       zod: ^3.24.4
 
-  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd:
-    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd}
-    version: 2.0.0
+  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/79e5ee093bd25ebe00e29b78753f654114475971:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/79e5ee093bd25ebe00e29b78753f654114475971}
+    version: 2.0.1
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -2792,9 +2792,9 @@ packages:
       rebrowser-puppeteer-core: '>=23.0.0'
       tsx: '>=4.0.0'
 
-  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065:
-    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065}
-    version: 2.0.0
+  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/70e1e9cccc288405935cf6ac451005508ab88c9c:
+    resolution: {tarball: https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/70e1e9cccc288405935cf6ac451005508ab88c9c}
+    version: 2.1.0
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -5513,13 +5513,13 @@ snapshots:
       svelte: 5.55.5(@typescript-eslint/types@8.59.1)
       zod: 3.25.76
 
-  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/1e03a2c9d41ab308f66e31deac0634712657c0fd(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
+  verifierform-stake-payline-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-payline-extractor/tar.gz/79e5ee093bd25ebe00e29b78753f654114475971(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
     dependencies:
       puppeteer-real-browser: 1.4.4
       rebrowser-puppeteer-core: 23.10.3
       tsx: 4.21.0
 
-  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/e1231428ab38e66e6986f4b34a77917f3df0e065(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
+  verifierform-stake-test-data-extractor@https://codeload.github.com/provably-fair-betting/verifierform-stake-test-data-extractor/tar.gz/70e1e9cccc288405935cf6ac451005508ab88c9c(puppeteer-real-browser@1.4.4)(rebrowser-puppeteer-core@23.10.3)(tsx@4.21.0):
     dependencies:
       puppeteer-real-browser: 1.4.4
       rebrowser-puppeteer-core: 23.10.3

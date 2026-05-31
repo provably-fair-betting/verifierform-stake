@@ -161,6 +161,11 @@
       image: '/games/wheel.webp',
       loader: () => import('$lib/games/wheel').then((m) => m.gameDefinition),
     },
+    zoo: {
+      name: 'Zoo',
+      image: '/games/zoo.webp',
+      loader: () => import('$lib/games/multiplayer/zoo').then((m) => m.gameDefinition),
+    },
   };
 </script>
 
