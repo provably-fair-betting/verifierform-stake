@@ -26,7 +26,7 @@
       <p class="leading-relaxed">For each window: animal = lookup(parseInt(window, 16) % 20)</p>
     </div>
 
-    {#each animals as result, i}
+    {#each animals as result, i (result.window)}
       <div
         class="mb-6 {i < animals.length - 1
           ? 'border-b border-gray-300 pb-4 dark:border-gray-600'
@@ -71,7 +71,7 @@
           </tr>
         </thead>
         <tbody>
-          {#each ANIMAL_SLOTS as row}
+          {#each ANIMAL_SLOTS as row (row.animal)}
             <tr>
               <td class="py-1 pr-3">
                 <ZooAnimalIcon animal={row.animal} class="h-6 w-6" />

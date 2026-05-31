@@ -13,7 +13,7 @@
   <div data-testid="zoo-result" class="text-center text-base">
     <p class="mb-3 text-sm text-gray-500 dark:text-gray-400">Animals</p>
     <div class="inline-flex items-center justify-center gap-4">
-      {#each zoo.animals! as result}
+      {#each zoo.animals! as result (result.window)}
         <div class="flex flex-col items-center gap-2">
           <ZooAnimalIcon animal={result.animal} class="h-16 w-16" />
           <span class="text-sm font-semibold text-gray-800 capitalize dark:text-gray-100">
