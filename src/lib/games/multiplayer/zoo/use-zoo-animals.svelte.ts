@@ -16,9 +16,7 @@ export function useZooAnimals(getFormValues: () => Record<string, unknown>) {
     debouncer(
       () => seed,
       (seed) => {
-        const hmac = toHex(
-          createHmac(SHA256, toUInt8Array(seed.hash), toUInt8Array(seed.seed))
-        );
+        const hmac = toHex(createHmac(SHA256, toUInt8Array(seed.hash), toUInt8Array(seed.seed)));
         const animals = getZooAnimals(hmac);
         return { hmac, animals };
       },

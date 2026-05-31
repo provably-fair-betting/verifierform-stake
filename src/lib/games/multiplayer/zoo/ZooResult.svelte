@@ -16,7 +16,7 @@
       {#each zoo.animals! as result}
         <div class="flex flex-col items-center gap-2">
           <ZooAnimalIcon animal={result.animal} class="h-16 w-16" />
-          <span class="text-sm font-semibold capitalize text-gray-800 dark:text-gray-100">
+          <span class="text-sm font-semibold text-gray-800 capitalize dark:text-gray-100">
             {result.animal}
           </span>
         </div>

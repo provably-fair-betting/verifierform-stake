@@ -1,7 +1,8 @@
 <script lang="ts">
   import type { ZooAnimal } from './types';
 
-  const { animal, class: className = 'h-10 w-10' }: { animal: ZooAnimal; class?: string } = $props();
+  const { animal, class: className = 'h-10 w-10' }: { animal: ZooAnimal; class?: string } =
+    $props();
 
   const all = import.meta.glob('$lib/games/multiplayer/zoo/animals/*.svg', {
     eager: true,
