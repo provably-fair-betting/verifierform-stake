@@ -21,7 +21,7 @@
         <span class="font-bold text-blue-600 dark:text-blue-400">3</span>
         windows of
         <span class="font-bold text-blue-600 dark:text-blue-400">8</span>
-         chars.
+        chars.
       </p>
       <p class="leading-relaxed">For each window: animal = lookup(parseInt(window, 16) % 20)</p>
     </div>

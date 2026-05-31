@@ -5,11 +5,7 @@
       "seed": "1d947e6516c7f0fc10cd17931c69daa9"
     },
     "selects": {},
-    "animals": [
-      "crocodile",
-      "rhino",
-      "penguin"
-    ]
+    "animals": ["crocodile", "rhino", "penguin"]
   },
   {
     "inputs": {
@@ -17,11 +13,7 @@
       "seed": "5e4997666aafee0e44721afd18ef42c1"
     },
     "selects": {},
-    "animals": [
-      "elephant",
-      "penguin",
-      "penguin"
-    ]
+    "animals": ["elephant", "penguin", "penguin"]
   },
   {
     "inputs": {
@@ -29,11 +21,7 @@
       "seed": "d34bbf506df3bd90e3015c201090a471"
     },
     "selects": {},
-    "animals": [
-      "rhino",
-      "penguin",
-      "crocodile"
-    ]
+    "animals": ["rhino", "penguin", "crocodile"]
   },
   {
     "inputs": {
@@ -41,11 +29,7 @@
       "seed": "72182d5368e3165f8ab84efe586e21c8"
     },
     "selects": {},
-    "animals": [
-      "elephant",
-      "crocodile",
-      "penguin"
-    ]
+    "animals": ["elephant", "crocodile", "penguin"]
   },
   {
     "inputs": {
@@ -53,11 +37,7 @@
       "seed": "056c48ecbbb842d3b0115da7093a6ad9"
     },
     "selects": {},
-    "animals": [
-      "rhino",
-      "penguin",
-      "rhino"
-    ]
+    "animals": ["rhino", "penguin", "rhino"]
   },
   {
     "inputs": {
@@ -65,11 +45,7 @@
       "seed": "614a57a31779ac7827d92616b0f58293"
     },
     "selects": {},
-    "animals": [
-      "penguin",
-      "rhino",
-      "penguin"
-    ]
+    "animals": ["penguin", "rhino", "penguin"]
   },
   {
     "inputs": {
@@ -77,11 +53,7 @@
       "seed": "1f7c193c23233b7082d1e78c37fbac7b"
     },
     "selects": {},
-    "animals": [
-      "crocodile",
-      "penguin",
-      "elephant"
-    ]
+    "animals": ["crocodile", "penguin", "elephant"]
   },
   {
     "inputs": {
@@ -89,11 +61,7 @@
       "seed": "8cf6e52bbfcab7c7a02c6ccccaf1cd8c"
     },
     "selects": {},
-    "animals": [
-      "lion",
-      "penguin",
-      "crocodile"
-    ]
+    "animals": ["lion", "penguin", "crocodile"]
   },
   {
     "inputs": {
@@ -101,11 +69,7 @@
       "seed": "bd66d64ededb6cacd4d24f45551d8e11"
     },
     "selects": {},
-    "animals": [
-      "rhino",
-      "crocodile",
-      "penguin"
-    ]
+    "animals": ["rhino", "crocodile", "penguin"]
   },
   {
     "inputs": {
@@ -113,10 +77,6 @@
       "seed": "7203e91705906e858892268f6ae86a15"
     },
     "selects": {},
-    "animals": [
-      "penguin",
-      "elephant",
-      "rhino"
-    ]
+    "animals": ["penguin", "elephant", "rhino"]
   }
 ]

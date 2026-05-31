@@ -44,7 +44,7 @@
         <span class="font-bold text-blue-600 dark:text-blue-400">3</span>
         windows of
         <span class="font-bold text-blue-600 dark:text-blue-400">8</span>
-         chars each — one per animal.
+        chars each — one per animal.
       </p>
     </div>
   </ContentBlock>
