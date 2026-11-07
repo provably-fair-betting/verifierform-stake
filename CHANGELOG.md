@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.5.0...v1.5.1) (2026-11-07)
+
+
+### Miscellaneous Chores
+
+* add MIT license and upgrade Playwright to 1.64.1 ([#27](https://github.com/provably-fair-betting/verifierform-stake/issues/27)) ([e287c02](https://github.com/provably-fair-betting/verifierform-stake/commit/e287c027cfb2a0cacd37bf229a3d2ef356531a4f))
+
 ## [1.5.0](https://github.com/provably-fair-betting/verifierform-stake/compare/v1.4.1...v1.5.0) (2026-05-31)
 
 
